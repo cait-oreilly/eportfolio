@@ -2,39 +2,22 @@
 title: "Project 3"
 ---
 
-## Project 3: Confidence Intervals/Sampling Distribution 
-
-*Add your project title above and fill in the sections below.*
+## Project Title
 
 ### Overview
+Describe what this project is about.
 
-This analysis was divided into two parts. Part A focused on the construction and interpretation of confidence intervals using the House Price dataset, while Part B examined sampling distributions using an external dataset on accident costs. 
-
-In Part A, confidence interval estimation was used to quantify uncertainty around key population parameters. First, three confidence intervals (90%, 95%, and 99%) were calculated for the average house price in the dataset. These intervals were compared to demonstrate how increasing the confidence level affects the width of the interval and the precision of the estimate. 
-
-Next, a 95% confidence interval was calculated for the average size of a house sold in Cork, providing an estimate of the likely range of the true mean house size for that city. 
-
-A 95% confidence interval was then constructed for the proportion of houses sold in Ireland that are detached. This allowed for estimation of a population proportion rather than a mean, using appropriate statistical methods. 
-
-Finally, the required sample size needed to reduce the sampling error for the proportion estimate to 0.02 was calculated. The calculation was shown and explained, illustrating how sample size influences the precision of confidence interval estimates. 
-
-In Part B, an Excel dataset titled Cost of Accidents was analysed to compare the distribution of individual accident costs across 1,000 companies with the distribution of average accident costs from 200 samples of 100 companies. Appropriate graphical techniques were used to visualise both distributions. The shapes, spread, and central tendencies of the distributions were examined and compared. The differences between the two distributions were explained with reference to sampling theory, highlighting the effect of averaging and the Central Limit Theorem in reducing variability in sample means. 
 ### Tools & Technologies Used
-
 - Tool 1
 - Tool 2
-- Tool 3
 
 ### Process
-
-Explain the steps you took to complete this project.
+Explain the steps you took.
 
 ### Results & Key Findings
-
 Share what you found or achieved.
 
 ### Reflection
+What did you learn?
 
-What did you learn from this project?
-
-[← Back to Projects](projects.qmd)
+[? Back to Projects](projects.html)
