@@ -1,9 +1,9 @@
 ---
 title: "About Me"
-image: "images/IMG_1407.jpg"   # relative path in your repo
+image: "Image\IMG_1407.jpg"   # MUST be relative path in repo
 about:
   template: jolla
-  links:                     # buttons under About Me
+  links:                     # social buttons
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/yourname/
