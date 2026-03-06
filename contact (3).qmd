@@ -1,0 +1,29 @@
+---
+title: "Contact"
+---
+
+You can reach me via:
+
+- **Email:** caito@example.com
+- **LinkedIn:** [linkedin.com/in/yourname](https://www.linkedin.com/in/yourname/){target="_blank"}
+- **GitHub:** [github.com/cait-oreilly](https://github.com/cait-oreilly){target="_blank"}
+
+Or fill out the contact form below:
+
+::: {style="max-width:500px;"}
+
+**Name:**
+
+<input type="text" name="name" style="width:100%; padding:8px; border:1px solid #003366; border-radius:6px; font-size:16px; margin-bottom:15px;">
+
+**Email:**
+
+<input type="email" name="email" style="width:100%; padding:8px; border:1px solid #003366; border-radius:6px; font-size:16px; margin-bottom:15px;">
+
+**Message:**
+
+<textarea name="message" rows="5" style="width:100%; padding:8px; border:1px solid #003366; border-radius:6px; font-size:16px; margin-bottom:15px;"></textarea>
+
+<button type="submit" style="padding:10px 24px; background-color:#003366; color:#fff; border:none; border-radius:6px; font-size:16px; cursor:pointer;">Send</button>
+
+:::
