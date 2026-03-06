@@ -1,0 +1,42 @@
+---
+title: "Projects"
+---
+
+:::: {.columns}
+
+::: {.column width="48%"}
+
+::: {.card style="background:#fff; padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
+![](images/project1.jpg){style="width:100%; border-radius:6px; margin-bottom:10px;"}
+### Project 1
+Short description of project 1.
+
+[View Project →](project1.qmd)
+:::
+
+::: {.card style="background:#fff; padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
+![](images/project3.jpg){style="width:100%; border-radius:6px; margin-bottom:10px;"}
+### Project 3
+Short description of project 3.
+
+[View Project →](project3.qmd)
+:::
+
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+
+::: {.card style="background:#fff; padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
+![](images/project2.jpg){style="width:100%; border-radius:6px; margin-bottom:10px;"}
+### Project 2
+Short description of project 2.
+
+[View Project →](project2.qmd)
+:::
+
+:::
+
+::::
