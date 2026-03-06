@@ -1,8 +1,8 @@
 ---
 title: "About Me"
-image: "Image/IMG_1407.jpg"   # MUST be relative path in repo
+image: "Image/IMG_1407.jpg"  
 about:
-  template: trestle
+  template: solana
   links:
     - icon: github
       text: GitHub
