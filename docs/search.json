@@ -4,7 +4,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Project 1\n    Short description of project 1.\n  \n  \n    \n    Project 2\n    Short description of project 2.\n  \n  \n    \n    Project 3\n    Short description of project 3.\n  \n  \n    \n    Project 4\n    Short description of project 4."
+    "text": "### Project 1 Short description of project 1.\n\n\n ### Project 3 Short description of project 3.\n\n\n\n\n\n ### Project 2 Short description of project 2.\n\n\n ### Project 4 Short description of project 4."
   },
   {
     "objectID": "contact.html",
@@ -21,17 +21,17 @@
     "text": "Student • Analytical • Creative\nI first developed an interest in Business Analytics through my long-standing passion for problem solving, mathematics, and working with computers. These interests naturally aligned when I began studying Business at Dublin City University (DCU), where I am specialising in Data Analytics. From early in my degree, I was drawn to the analytical side of business, enjoying the challenge of using data to understand patterns, improve decision-making, and solve real-world problems.\nDuring first year, my exposure to Business Analytics tools such as Excel, Jamovi, and Tableau further strengthened my interest in the field. The hands-on and practical nature of analytics modules stood out to me, allowing me to move beyond theory and actively work with data. These experiences confirmed my desire to pursue analytics as a career path and motivated me to continue developing my technical and analytical skill set.\nIn my third year, I completed an 11-month placement at PwC as a Risk Assurance Internal Auditor. This role provided valuable exposure to a professional services environment and allowed me to apply analytical thinking in a real-world business context. Throughout my placement, I worked with data to assess risk, evaluate controls, and support internal audit engagements, gaining a strong understanding of governance, risk, and assurance processes. The experience strengthened my attention to detail, problem-solving abilities, and professional communication skills.\nNow in my final year at DCU, I continue to build on my analytical foundation through my specialisation in Data Analytics, working with SQL, Python, CSS and HTML. I am particularly motivated by the opportunity to combine business knowledge with data-driven insights and technology. With a strong academic background, practical industry experience, and a genuine passion for analytics, I am eager to pursue a career where I can continue learning and delivering value through data.\nGitHub LinkedIn"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "E-portfolio",
-    "section": "",
-    "text": "This e-portfolio outlines the numerous analytics projects I completed individually, and as part of a group throughout my final year of university. During this time, I refined my skills in Python, SQL, Power BI, R, and Excel.\n\n\nSee the projects tab to see my in more detail."
-  },
-  {
     "objectID": "about.html#cáit-oreilly-ogrady",
     "href": "about.html#cáit-oreilly-ogrady",
     "title": "About Me",
     "section": "",
     "text": "Student • Analytical • Creative\nI first developed an interest in Business Analytics through my long-standing passion for problem solving, mathematics, and working with computers. These interests naturally aligned when I began studying Business at Dublin City University (DCU), where I am specialising in Data Analytics. From early in my degree, I was drawn to the analytical side of business, enjoying the challenge of using data to understand patterns, improve decision-making, and solve real-world problems.\nDuring first year, my exposure to Business Analytics tools such as Excel, Jamovi, and Tableau further strengthened my interest in the field. The hands-on and practical nature of analytics modules stood out to me, allowing me to move beyond theory and actively work with data. These experiences confirmed my desire to pursue analytics as a career path and motivated me to continue developing my technical and analytical skill set.\nIn my third year, I completed an 11-month placement at PwC as a Risk Assurance Internal Auditor. This role provided valuable exposure to a professional services environment and allowed me to apply analytical thinking in a real-world business context. Throughout my placement, I worked with data to assess risk, evaluate controls, and support internal audit engagements, gaining a strong understanding of governance, risk, and assurance processes. The experience strengthened my attention to detail, problem-solving abilities, and professional communication skills.\nNow in my final year at DCU, I continue to build on my analytical foundation through my specialisation in Data Analytics, working with SQL, Python, CSS and HTML. I am particularly motivated by the opportunity to combine business knowledge with data-driven insights and technology. With a strong academic background, practical industry experience, and a genuine passion for analytics, I am eager to pursue a career where I can continue learning and delivering value through data.\nGitHub LinkedIn"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "E-portfolio",
+    "section": "",
+    "text": "This e-portfolio outlines the numerous analytics projects I completed individually, and as part of a group throughout my final year of university. During this time, I refined my skills in Python, SQL, Power BI, R, and Excel.\n\n\nSee the projects tab to see my in more detail."
   }
 ]
