@@ -4,10 +4,9 @@ project:
 
 website:
   title: "My E-Portfolio"
-
-navbar:
-    background: dark       # navbar dark for sleek look
-    foreground: light      # text/icons light for contrast
+  navbar:
+    background: dark
+    foreground: light
     search: true
     left:
       - text: "Home"
@@ -18,7 +17,7 @@ navbar:
         href: projects.qmd
       - text: "Contact"
         href: contact.qmd
-page-footer:
+  page-footer:
     left: "2026 Cait OReilly"
     right:
       - icon: github
@@ -28,5 +27,5 @@ page-footer:
 
 format:
   html:
-    theme: trestle
+    theme: flatly
     css: styles.css

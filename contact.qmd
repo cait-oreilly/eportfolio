@@ -1,18 +1,46 @@
 ---
 title: "Contact"
 ---
+
 <style>
-body[data-page="contact"] {
-    background-color: #fdf6f0; /* soft cream */
-    color: #111;
-    padding: 40px 20px;
+.contact-wrapper {
+  padding: 40px 20px;
+  color: #111;
+}
+
+.contact-wrapper form input,
+.contact-wrapper form textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact-wrapper form button {
+  margin-top: 10px;
+  padding: 10px 24px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.contact-wrapper form button:hover {
+  background-color: #222;
 }
 </style>
 
+<div class="contact-wrapper">
+
 You can reach me via:
 
-- **Email:** caito@example.com  
-- **LinkedIn:** [linkedin.com/in/yourname](https://www.linkedin.com/in/yourname/)  
+- **Email:** cait.oreillyogrady242@mail.dcu.ie
+- **LinkedIn:** [linkedin.com/in/yourname](https://www.linkedin.com/in/yourname/)
 - **GitHub:** [github.com/cait-oreilly](https://github.com/cait-oreilly)
 
 Or fill out the contact form below:
@@ -26,4 +54,5 @@ Or fill out the contact form below:
   <textarea name="message" rows="5"></textarea><br><br>
   <button type="submit">Send</button>
 </form>
+
 </div>
