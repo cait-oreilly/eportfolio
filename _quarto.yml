@@ -1,9 +1,9 @@
 project:
   type: website
-  output-dir: .
+  output-dir: docs
 
 website:
-  title: "My Portfolio"
+  title: "My E-Portfolio"
 
   navbar:
     background: dark
