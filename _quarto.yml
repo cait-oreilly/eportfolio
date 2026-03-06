@@ -29,3 +29,6 @@ format:
   html:
     theme: flatly
     css: styles.css
+
+execute:
+  freeze: auto
