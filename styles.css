@@ -1,158 +1,106 @@
 /* ── Global ── */
 body {
-  background-color: #87CEEB; /* sky blue */
-  color: #111;
-  font-size: 16px;
-  font-family: Georgia, serif;
+  background-color: #87CEEB !important;
+  font-family: Georgia, serif !important;
+  font-size: 16px !important;
+}
+
+/* Quarto wraps content in these — all need sky blue */
+#quarto-content,
+.quarto-container,
+main.content,
+div.page-columns,
+div#quarto-margin-sidebar,
+.page-layout-article {
+  background-color: #87CEEB !important;
 }
 
 /* ── Navbar ── */
 .navbar {
-  background-color: #084c8f !important; /* dark blue */
+  background-color: #003366 !important;
 }
-
 .navbar .navbar-brand,
-.navbar .nav-link,
-.navbar .navbar-toggler-icon,
-.navbar-nav .nav-link {
-  color: #ffffff !important; /* white text */
+.navbar-nav .nav-link,
+.navbar .nav-link {
+  color: #ffffff !important;
+}
+.navbar .nav-link:hover {
+  color: #cce0ff !important;
+  opacity: 1 !important;
 }
 
-.navbar .nav-link:hover {
+/* ── Footer ── */
+.nav-footer {
+  background-color: #003366 !important;
+  color: #ffffff !important;
+}
+.nav-footer a {
   color: #cce0ff !important;
 }
 
-/* ── Main content area ── */
-#quarto-content,
-.quarto-container,
-main {
-  background-color: #87CEEB;
+/* ── Typography ── */
+p, li, td, th, label {
+  font-family: Georgia, serif !important;
+  font-size: 16px !important;
+  line-height: 1.7;
 }
 
-/* ── Page title ── */
-h1.title {
-  color: #ffffff;
-  font-size: 2rem;
+h1, h2, h3, h4 {
+  font-family: Georgia, serif !important;
+  color: #003366;
 }
 
 /* ── About page ── */
-.about-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 40px;
-  padding: 50px 20px;
-}
-
 .about-image {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
+  width: 100%;
   border-radius: 10px;
-  border: 4px solid #084c8f;
-}
-
-.about-text {
-  flex: 1;
-  min-width: 300px;
-  color: #111;
-  font-size: 16px;
-}
-
-.about-text h1 {
-  margin-top: 0;
-  color: #084c8f;
+  border: 4px solid #003366;
+  object-fit: cover;
 }
 
 .social-links a {
   margin-right: 15px;
   font-weight: bold;
-  color: #084c8f;
+  color: #003366;
   text-decoration: none;
 }
-
 .social-links a:hover {
   opacity: 0.7;
 }
 
-/* ── Projects page ── */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 25px;
-  padding: 40px 20px;
-}
-
-.project-card {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+/* ── Project cards ── */
+.card {
   transition: transform 0.2s;
-  font-size: 16px;
 }
-
-.project-card:hover {
+.card:hover {
   transform: translateY(-5px);
 }
 
-.project-card img {
-  width: 100%;
-  border-radius: 6px;
-  object-fit: cover;
-  margin-bottom: 15px;
-}
-
-.project-card h3 {
-  margin: 0 0 10px 0;
-  color: #003366;
-}
-
-.project-card p {
-  margin: 0;
-  color: #111;
-}
-
-/* ── Contact page ── */
-.contact-wrapper {
-  padding: 40px 20px;
-  color: #111;
-  font-size: 16px;
-}
-
-.contact-wrapper form input,
-.contact-wrapper form textarea {
+/* ── Contact form ── */
+form input,
+form textarea {
   width: 100%;
   max-width: 500px;
   padding: 8px;
   margin-top: 4px;
-  border: 1px solid #084c8f;
+  border: 1px solid #003366;
   border-radius: 6px;
   font-size: 16px;
+  font-family: Georgia, serif;
   background-color: #ffffff;
 }
 
-.contact-wrapper form button {
+form button {
   margin-top: 10px;
   padding: 10px 24px;
-  background-color: #084c8f;
+  background-color: #003366;
   color: #ffffff;
   border: none;
   border-radius: 6px;
   cursor: pointer;
   font-size: 16px;
+  font-family: Georgia, serif;
 }
-
-.contact-wrapper form button:hover {
-  background-color: #084c8f;
-}
-
-/* ── Footer ── */
-.nav-footer {
-  background-color: #084c8f !important;
-  color: #ffffff !important;
-}
-
-.nav-footer a {
-  color: #cce0ff !important;
+form button:hover {
+  background-color: #001f4d;
 }
