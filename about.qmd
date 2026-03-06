@@ -1,9 +1,9 @@
 ---
 title: "About Me"
-image: "Image\IMG_1407.jpg"   # MUST be relative path in repo
+image: "Image/IMG_1407.jpg"   # MUST be relative path in repo
 about:
   template: jolla
-  links:                     # social buttons
+  links:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/yourname/
@@ -11,7 +11,6 @@ about:
       text: GitHub
       href: https://github.com/cait-oreilly
 ---
-
 I’m a developer who loves building beautiful and functional experiences online. I work mainly with Quarto for documentation and portfolio sites, and I enjoy crafting modern, responsive designs with HTML, CSS, and JavaScript. When I’m not coding, you’ll find me exploring new tech, creating art, or sharing projects with the community.
 
 ### Skills
