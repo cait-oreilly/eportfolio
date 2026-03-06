@@ -1,15 +1,7 @@
 ---
 title: "About Me"
 image: "images/IMG_1407.jpg"
-about:
-  template: trestle
-  links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/cait-oreilly
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/yourname/
+
 ---
 <style>
 .about-wrapper {

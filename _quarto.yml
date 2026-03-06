@@ -25,3 +25,7 @@ page-footer:
         href: https://github.com/cait-oreilly
       - icon: linkedin
         href: https://www.linkedin.com/in/yourname/
+
+format:
+  html:
+    theme: trestle
