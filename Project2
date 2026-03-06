@@ -2,35 +2,22 @@
 title: "Project 2"
 ---
 
-## Project 2: Sales Dashboard analysis using PowerBi 
-
-*Add your project title above and fill in the sections below.*
+## Sales Dashboard Analysis using Power BI
 
 ### Overview
+This project involved the analysis and visualisation of a dataset using Power BI. The dataset was loaded, cleaned, and explored to develop an interactive dashboard. A range of visualisations were created to examine key variables, relationships, and distributions.
 
-This project involved the analysis and visualisation of a dataset provided through the group-specific Power BI file on LOOP. The dataset was first loaded into the analysis environment and prepared for exploration and analysis. Data cleaning and organisation were carried out where necessary to ensure accuracy and consistency in the results. 
+The analysis identified meaningful patterns and trends, which were used to develop evidence-based recommendations. Results were compiled into a written report including an executive summary and supporting visuals, alongside a presentation incorporating the Power BI dashboard.
 
-Power BI was then used to perform exploratory data analysis and to develop an interactive dashboard. A range of visualisations were created to examine key variables, relationships, and distributions within the dataset. Appropriate chart types were selected to clearly communicate insights, trends, and patterns in the data. 
+### Tools and Technologies Used
+- Power BI
+- Microsoft Word
+- Microsoft PowerPoint
 
-The analysis focused on identifying meaningful patterns, trends, and relationships across variables. These insights were interpreted in the context of the dataset and used to develop evidence-based recommendations. The dashboard was designed to support both analytical exploration and clear communication of findings. 
-
-The results of the analysis were compiled into a professionally structured written report, including an executive summary, detailed analytical sections, and supporting visuals. A presentation was also developed incorporating the Power BI dashboard to communicate key insights effectively. Both the written report and presentation were prepared in line with the required academic and professional standards, with attention given to clarity, structure, visual quality, and interpretative depth. 
-### Tools & Technologies Used
-
-- Tool 1
-- Tool 2
-- Tool 3
-
-### Process
-
-Explain the steps you took to complete this project.
-
-### Results & Key Findings
-
-Share what you found or achieved.
+### Results and Key Findings
+An interactive dashboard was developed that clearly communicated key insights, trends, and patterns across the dataset variables.
 
 ### Reflection
+This project developed my ability to create professional data visualisations and communicate analytical findings clearly to a business audience.
 
-What did you learn from this project?
-
-[← Back to Projects](projects.qmd)
+[Back to Projects](projects.html)

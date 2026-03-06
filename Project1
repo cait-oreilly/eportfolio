@@ -2,39 +2,21 @@
 title: "Project 1"
 ---
 
-## Project 1: Statistical Tests and Regression using Jamovi 
-
-*Add your project title above and fill in the sections below.*
+## Statistical Tests and Regression using Jamovi
 
 ### Overview
+This assignment involved the statistical analysis of a House Price dataset using Jamovi. The analysis was structured into three main sections: descriptive statistics and correlations, statistical hypothesis testing, and linear regression modelling.
 
-This assignment involved the statistical analysis of a House Price dataset using Jamovi. The analysis was structured into three main sections: descriptive statistics and correlations, statistical hypothesis testing, and linear regression modelling. 
+Descriptive statistics were used to summarise the House Price variable. Correlation analysis examined relationships between house price and other quantitative variables. Statistical tests investigated differences in house prices across cities and house types. Linear regression modelled house prices using size, bedrooms, bathrooms, and land area as predictors.
 
-First, descriptive statistics were used to summarise the House Price variable. Measures of central tendency and dispersion were calculated, and graphical techniques were applied to examine the distribution of house prices. These descriptive results were presented and interpreted to provide an overall understanding of the data. 
+### Tools and Technologies Used
+- Jamovi
+- Microsoft Word
 
-Next, correlation analysis was conducted to examine the relationships between house price and other quantitative variables in the dataset. Correlation coefficients were calculated and interpreted in terms of their strength, direction, and statistical significance. 
-
-A series of statistical tests were then performed to investigate differences in house prices and housing characteristics. These included tests comparing average house prices across cities, differences in average prices by house type, and differences in the distribution of house types across cities. In each case, the appropriate statistical test was selected, results were presented, and underlying assumptions were discussed. An additional statistical test was also carried out to further explore relationships within the data. 
-
-Finally, linear regression analysis was used to model house prices. An initial regression model was developed using house size, number of bedrooms, number of bathrooms, and land area as predictors. A second regression model was then constructed using statistically significant predictors from the first model along with other relevant variables. The results of both models were interpreted, and the assumptions and limitations of the regression analyses were discussed. 
-
-All analyses were conducted in Jamovi, with results and interpretations presented in Microsoft Word. 
-### Tools & Technologies Used
-
-- Tool 1
-- Tool 2
-- Tool 3
-
-### Process
-
-Explain the steps you took to complete this project.
-
-### Results & Key Findings
-
-Share what you found or achieved.
+### Results and Key Findings
+Two regression models were developed. The first used house size, number of bedrooms, bathrooms, and land area. The second used statistically significant predictors from the first model alongside additional relevant variables.
 
 ### Reflection
+This project strengthened my understanding of statistical testing, correlation analysis, and regression modelling in a real-world dataset context.
 
-What did you learn from this project?
-
-[← Back to Projects](projects.qmd)
+[Back to Projects](projects.html)
