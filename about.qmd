@@ -2,14 +2,14 @@
 title: "About Me"
 image: "Image/IMG_1407.jpg"   # MUST be relative path in repo
 about:
-  template: trestles
+  template: trestle
   links:
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/yourname/
     - icon: github
       text: GitHub
       href: https://github.com/cait-oreilly
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/yourname/
 ---
 I first developed an interest in Business Analytics through my long-standing passion for problem solving, mathematics, and working with computers. These interests naturally aligned when I began studying Business at Dublin City University (DCU), where I am specialising in Data Analytics. From early in my degree, I was drawn to the analytical side of business, enjoying the challenge of using data to understand patterns, improve decision-making, and solve real-world problems. 
 
