@@ -1,7 +1,15 @@
 ---
 title: "About Me"
 ---
-
+---
+image: "C:\Users\caito\Projects\Eportfolio\Image\IMG_1407.jpg"
+about:
+  template: jolla
+  links: # create buttons
+    - icon: linkedin 
+      text: LinkedIn
+      href: https://www.linkedin.com/in/yourname/
+---
 <style>
 .about-container {
   display: flex;
