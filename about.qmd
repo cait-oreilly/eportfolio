@@ -25,13 +25,13 @@ title: "About Me"
 .about-title {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #ffffff;
+  color: #000;  
   margin-bottom: 10px;
 }
 
 .about-subtitle {
   font-size: 1.2rem;
-  color: #ddd;
+  color: #000;  
   margin-bottom: 30px;
 }
 
@@ -39,9 +39,10 @@ title: "About Me"
   max-width: 700px;
   font-size: 1rem;
   line-height: 1.6;
-  color: #eee;
+  color: #000; 
   margin-bottom: 30px;
 }
+
 
 .skills-list {
   display: flex;
@@ -73,7 +74,7 @@ title: "About Me"
 <div class="about-container">
 
 <img class="about-photo"
-     src="images/bali.jpg"
+     src="images/IMG_1407.jpg"
      alt="Caito Oreilly Portrait">
 
 <div class="about-title">Hi, I’m Caito!</div>
