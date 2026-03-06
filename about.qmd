@@ -4,7 +4,7 @@ title: "About Me"
 
 ```{=html}
 <div class="about-wrapper">
-  <img class="about-image" src="C:\Users\caito\Projects\Eportfolio\Image\IMG_1407.jpg">
+  <img class="about-image" src="Image/IMG_1407.jpg">
   <div class="about-text">
     <h1>Hi, I'm Cáit!</h1>
     <p>Student • Analytical • Creative</p>

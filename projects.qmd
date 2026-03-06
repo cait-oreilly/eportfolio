@@ -11,7 +11,7 @@ title: "Projects"
   }
 
   .navbar, header.navbar {
-    background-color: #003366 !important;
+    background-color: #084c8f !important;
   }
   .navbar .navbar-brand,
   .navbar .nav-link,
@@ -46,7 +46,7 @@ title: "Projects"
   }
   .project-card h3 {
     margin: 0 0 10px 0;
-    color: #003366;
+    color: #084c8f;
     font-family: Georgia, serif !important;
   }
   .project-card p {
@@ -57,7 +57,7 @@ title: "Projects"
   }
 
   .nav-footer {
-    background-color: #003366 !important;
+    background-color: #084c8f !important;
     color: #ffffff !important;
   }
   .nav-footer a { color: #cce0ff !important; }

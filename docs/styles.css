@@ -8,7 +8,7 @@ body {
 
 /* ── Navbar ── */
 .navbar {
-  background-color: #003366 !important; /* dark blue */
+  background-color: #084c8f !important; /* dark blue */
 }
 
 .navbar .navbar-brand,
@@ -49,7 +49,7 @@ h1.title {
   height: 300px;
   object-fit: cover;
   border-radius: 10px;
-  border: 4px solid #003366;
+  border: 4px solid #084c8f;
 }
 
 .about-text {
@@ -61,13 +61,13 @@ h1.title {
 
 .about-text h1 {
   margin-top: 0;
-  color: #003366;
+  color: #084c8f;
 }
 
 .social-links a {
   margin-right: 15px;
   font-weight: bold;
-  color: #003366;
+  color: #084c8f;
   text-decoration: none;
 }
 
@@ -126,7 +126,7 @@ h1.title {
   max-width: 500px;
   padding: 8px;
   margin-top: 4px;
-  border: 1px solid #003366;
+  border: 1px solid #084c8f;
   border-radius: 6px;
   font-size: 16px;
   background-color: #ffffff;
@@ -135,7 +135,7 @@ h1.title {
 .contact-wrapper form button {
   margin-top: 10px;
   padding: 10px 24px;
-  background-color: #003366;
+  background-color: #084c8f;
   color: #ffffff;
   border: none;
   border-radius: 6px;
@@ -144,12 +144,12 @@ h1.title {
 }
 
 .contact-wrapper form button:hover {
-  background-color: #001f4d;
+  background-color: #084c8f;
 }
 
 /* ── Footer ── */
 .nav-footer {
-  background-color: #003366 !important;
+  background-color: #084c8f !important;
   color: #ffffff !important;
 }
 

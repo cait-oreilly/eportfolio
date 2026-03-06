@@ -2,6 +2,7 @@
 title: "Eportfolio"
 ---
 
-This is a Quarto website.
+<p>This portfolio outlines the numerous analytics projects I completed individually, and as part of a group throughout my
+final year of university. During this time, I refined my skills in Python, SQL, Power BI, R, and Excel.<p>
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+<p>**See the projects tab to see my in more detail.**<p>
