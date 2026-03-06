@@ -26,3 +26,4 @@ Or fill out the contact form below:
   <textarea name="message" rows="5"></textarea><br><br>
   <button type="submit">Send</button>
 </form>
+</div>

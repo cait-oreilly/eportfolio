@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-image: "images/IMG_1407.jpg"
+image: "image/IMG_1407.jpg"
 
 ---
 <style>
@@ -60,4 +60,3 @@ Now in my final year at DCU, I continue to build on my analytical foundation thr
       <a href="https://www.linkedin.com/in/yourname/" target="_blank">LinkedIn</a>
     </div>
   </div>
-</div>
