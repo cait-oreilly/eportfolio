@@ -24,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -39,13 +40,13 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1d4f84655f446305ac42a8f1abcf7405.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e3e5e569c9721ea1d15193396c3ecfc4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -72,11 +73,48 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="fullcontent quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">My E-Portfolio</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./about.html" aria-current="page"> 
+<span class="menu-text">About Me</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
@@ -105,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 <style>
 .about-wrapper {
   display: flex;
-  flex-wrap: wrap; /* responsive */
+  flex-wrap: wrap;
   align-items: flex-start;
   gap: 40px;
   padding: 50px 20px;
@@ -128,6 +166,7 @@ ul.task-list li input[type="checkbox"] {
 .about-text h1 {
   margin-top: 0;
 }
+
 .social-links a {
   margin-right: 15px;
   font-weight: bold;
@@ -142,23 +181,25 @@ ul.task-list li input[type="checkbox"] {
 <div class="about-wrapper">
 <img class="about-image" src="images/IMG_1407.jpg">
 <div class="about-text">
-<pre><code>&lt;h1&gt;Hi, I’m Cáit!&lt;/h1&gt;
+<pre><code>&lt;h1&gt;Hi, I'm Cáit!&lt;/h1&gt;
 &lt;p&gt;Student • Analytical • Creative&lt;/p&gt;
 
-&lt;p&gt;I first developed an interest in Business Analytics through my long-standing passion for problem solving, mathematics, and working with computers. These interests naturally aligned when I began studying Business at Dublin City University (DCU), where I am specialising in Data Analytics. From early in my degree, I was drawn to the analytical side of business, enjoying the challenge of using data to understand patterns, improve decision-making, and solve real-world problems. </code></pre>
-<p>During first year, my exposure to Business Analytics tools such as Excel, Jamovi, and Tableau further strengthened my interest in the field. The hands-on and practical nature of analytics modules stood out to me, allowing me to move beyond theory and actively work with data. These experiences confirmed my desire to pursue analytics as a career path and motivated me to continue developing my technical and analytical skill set.</p>
-<p>In my third year, I completed an 11-month placement at PwC as a Risk Assurance Internal Auditor. This role provided valuable exposure to a professional services environment and allowed me to apply analytical thinking in a real-world business context. Throughout my placement, I worked with data to assess risk, evaluate controls, and support internal audit engagements, gaining a strong understanding of governance, risk, and assurance processes. The experience strengthened my attention to detail, problem-solving abilities, and professional communication skills.</p>
-Now in my final year at DCU, I continue to build on my analytical foundation through my specialisation in Data Analytics, working with SQL, Python, CSS and HTML. I am particularly motivated by the opportunity to combine business knowledge with data-driven insights and technology. With a strong academic background, practical industry experience, and a genuine passion for analytics, I am eager to pursue a career where I can continue learning and delivering value through data.
-<p></p>
-<div class="social-links">
-<pre><code>  &lt;a href="https://github.com/cait-oreilly" target="_blank"&gt;GitHub&lt;/a&gt;
+&lt;p&gt;I first developed an interest in Business Analytics through my long-standing passion for problem solving, mathematics, and working with computers. These interests naturally aligned when I began studying Business at Dublin City University (DCU), where I am specialising in Data Analytics. From early in my degree, I was drawn to the analytical side of business, enjoying the challenge of using data to understand patterns, improve decision-making, and solve real-world problems.&lt;/p&gt;
+
+&lt;p&gt;During first year, my exposure to Business Analytics tools such as Excel, Jamovi, and Tableau further strengthened my interest in the field. The hands-on and practical nature of analytics modules stood out to me, allowing me to move beyond theory and actively work with data. These experiences confirmed my desire to pursue analytics as a career path and motivated me to continue developing my technical and analytical skill set.&lt;/p&gt;
+
+&lt;p&gt;In my third year, I completed an 11-month placement at PwC as a Risk Assurance Internal Auditor. This role provided valuable exposure to a professional services environment and allowed me to apply analytical thinking in a real-world business context. Throughout my placement, I worked with data to assess risk, evaluate controls, and support internal audit engagements, gaining a strong understanding of governance, risk, and assurance processes. The experience strengthened my attention to detail, problem-solving abilities, and professional communication skills.&lt;/p&gt;
+
+&lt;p&gt;Now in my final year at DCU, I continue to build on my analytical foundation through my specialisation in Data Analytics, working with SQL, Python, CSS and HTML. I am particularly motivated by the opportunity to combine business knowledge with data-driven insights and technology. With a strong academic background, practical industry experience, and a genuine passion for analytics, I am eager to pursue a career where I can continue learning and delivering value through data.&lt;/p&gt;
+
+&lt;div class="social-links"&gt;
+  &lt;a href="https://github.com/cait-oreilly" target="_blank"&gt;GitHub&lt;/a&gt;
   &lt;a href="https://www.linkedin.com/in/yourname/" target="_blank"&gt;LinkedIn&lt;/a&gt;
 &lt;/div&gt;</code></pre>
 </div>
 </div>
 
 
-</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -562,6 +603,32 @@ Now in my final year at DCU, I continue to build on my analytical foundation thr
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>2026 Cait OReilly</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/cait-oreilly">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/yourname/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 
