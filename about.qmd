@@ -18,3 +18,23 @@ During first year, my exposure to Business Analytics tools such as Excel, Jamovi
 In my third year, I completed an 11-month placement at PwC as a Risk Assurance Internal Auditor. This role provided valuable exposure to a professional services environment and allowed me to apply analytical thinking in a real-world business context. Throughout my placement, I worked with data to assess risk, evaluate controls, and support internal audit engagements, gaining a strong understanding of governance, risk, and assurance processes. The experience strengthened my attention to detail, problem-solving abilities, and professional communication skills. 
 
 Now in my final year at DCU, I continue to build on my analytical foundation through my specialisation in Data Analytics, working with SQL, Python, CSS and HTML. I am particularly motivated by the opportunity to combine business knowledge with data-driven insights and technology. With a strong academic background, practical industry experience, and a genuine passion for analytics, I am eager to pursue a career where I can continue learning and delivering value through data. 
+
+<style>
+/* About section background */
+body[data-page="about"] {
+    background-color: #f4f4f8; /* soft light grey */
+    color: #111; /* text darker for readability */
+}
+
+/* Social links styling */
+.social-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #111;
+}
+
+.social-links a:hover {
+    opacity: 0.7;
+}
+</style>

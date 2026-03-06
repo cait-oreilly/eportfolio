@@ -152,16 +152,29 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="contact-me" class="level1">
-<h1>Contact Me</h1>
+<style>
+body[data-page="contact"] {
+    background-color: #fdf6f0; /* soft cream */
+    color: #111;
+    padding: 40px 20px;
+}
+</style>
+<p>You can reach me via:</p>
 <ul>
-<li>Email: caito@example.com<br>
+<li><strong>Email:</strong> caito@example.com<br>
 </li>
-<li>GitHub: <a href="https://github.com/cait-oreilly">cait-oreilly</a></li>
+<li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yourname/">linkedin.com/in/yourname</a><br>
+</li>
+<li><strong>GitHub:</strong> <a href="https://github.com/cait-oreilly">github.com/cait-oreilly</a></li>
 </ul>
+<p>Or fill out the contact form below:</p>
+<form>
+<label>Name:</label><br> <input type="text" name="name"><br><br> <label>Email:</label><br> <input type="email" name="email"><br><br> <label>Message:</label><br>
+<textarea name="message" rows="5"></textarea>
+<br><br> <button type="submit">Send</button>
+</form>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

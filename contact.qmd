@@ -1,8 +1,28 @@
 ---
 title: "Contact"
 ---
+<style>
+body[data-page="contact"] {
+    background-color: #fdf6f0; /* soft cream */
+    color: #111;
+    padding: 40px 20px;
+}
+</style>
 
-# Contact Me
+You can reach me via:
 
-- Email: caito@example.com  
-- GitHub: [cait-oreilly](https://github.com/cait-oreilly)
+- **Email:** caito@example.com  
+- **LinkedIn:** [linkedin.com/in/yourname](https://www.linkedin.com/in/yourname/)  
+- **GitHub:** [github.com/cait-oreilly](https://github.com/cait-oreilly)
+
+Or fill out the contact form below:
+
+<form>
+  <label>Name:</label><br>
+  <input type="text" name="name"><br><br>
+  <label>Email:</label><br>
+  <input type="email" name="email"><br><br>
+  <label>Message:</label><br>
+  <textarea name="message" rows="5"></textarea><br><br>
+  <button type="submit">Send</button>
+</form>
