@@ -1,3 +1,7 @@
+---
+title: "Welcome to My E-Portfolio"
+---
+
 Welcome to my e-portfolio! I'm Cáit, a final year Business Analytics student at DCU.
 
 Use the navigation bar above to explore my work.
