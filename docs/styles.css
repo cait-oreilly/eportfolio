@@ -1,21 +1,19 @@
-/* ── Global ── */
+/* Global */
 body {
   background-color: #87CEEB !important;
   font-family: Georgia, serif !important;
   font-size: 16px !important;
 }
 
-/* Quarto wraps content in these — all need sky blue */
 #quarto-content,
 .quarto-container,
 main.content,
 div.page-columns,
-div#quarto-margin-sidebar,
 .page-layout-article {
   background-color: #87CEEB !important;
 }
 
-/* ── Navbar ── */
+/* Navbar */
 .navbar {
   background-color: #003366 !important;
 }
@@ -26,10 +24,9 @@ div#quarto-margin-sidebar,
 }
 .navbar .nav-link:hover {
   color: #cce0ff !important;
-  opacity: 1 !important;
 }
 
-/* ── Footer ── */
+/* Footer */
 .nav-footer {
   background-color: #003366 !important;
   color: #ffffff !important;
@@ -38,7 +35,7 @@ div#quarto-margin-sidebar,
   color: #cce0ff !important;
 }
 
-/* ── Typography ── */
+/* Typography */
 p, li, td, th, label {
   font-family: Georgia, serif !important;
   font-size: 16px !important;
@@ -50,59 +47,18 @@ h1, h2, h3, h4 {
   color: #003366;
 }
 
-/* ── About page ── */
-.about-image {
-  width: 100%;
-  border-radius: 10px;
-  border: 4px solid #003366;
-  object-fit: cover;
-}
-
-.social-links a {
-  margin-right: 15px;
-  font-weight: bold;
+/* Links */
+a {
   color: #003366;
-  text-decoration: none;
 }
-.social-links a:hover {
-  opacity: 0.7;
-}
-
-/* ── Project cards ── */
-.card {
-  transition: transform 0.2s;
-}
-.card:hover {
-  transform: translateY(-5px);
+a:hover {
+  color: #001f4d;
 }
 
-/* ── Contact form ── */
-form input,
-form textarea {
-  width: 100%;
-  max-width: 500px;
-  padding: 8px;
-  margin-top: 4px;
-  border: 1px solid #003366;
-  border-radius: 6px;
-  font-size: 16px;
-  font-family: Georgia, serif;
-  background-color: #ffffff;
+/* Form inputs */
+input, textarea {
+  font-family: Georgia, serif !important;
+  font-size: 16px !important;
+  display: block;
+  margin-bottom: 10px;
 }
-
-form button {
-  margin-top: 10px;
-  padding: 10px 24px;
-  background-color: #003366;
-  color: #ffffff;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 16px;
-  font-family: Georgia, serif;
-}
-form button:hover {
-  background-color: #001f4d;
-}
-
-
