@@ -18,13 +18,10 @@ navbar:
         href: projects.qmd
       - text: "Contact"
         href: contact.qmd
-  page-footer:
+page-footer:
     left: "2026 Cait OReilly"
     right:
       - icon: github
         href: https://github.com/cait-oreilly
       - icon: linkedin
         href: https://www.linkedin.com/in/yourname/
-
-
-

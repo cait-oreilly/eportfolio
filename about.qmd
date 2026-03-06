@@ -1,8 +1,8 @@
 ---
 title: "About Me"
-image: "Image/IMG_1407.jpg"  
+image: "images/IMG_1407.jpg"
 about:
-  template: solana
+  template: trestle
   links:
     - icon: github
       text: GitHub
@@ -11,30 +11,61 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/yourname/
 ---
-I first developed an interest in Business Analytics through my long-standing passion for problem solving, mathematics, and working with computers. These interests naturally aligned when I began studying Business at Dublin City University (DCU), where I am specialising in Data Analytics. From early in my degree, I was drawn to the analytical side of business, enjoying the challenge of using data to understand patterns, improve decision-making, and solve real-world problems. 
+<style>
+.about-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* responsive */
+  align-items: flex-start;
+  gap: 40px;
+  padding: 50px 20px;
+}
+
+.about-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 4px solid #444;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+  color: #111;
+}
+
+.about-text h1 {
+  margin-top: 0;
+}
+.social-links a {
+  margin-right: 15px;
+  font-weight: bold;
+  color: #111;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  opacity: 0.7;
+}
+</style>
+
+<div class="about-wrapper">
+  <img class="about-image" src="images/IMG_1407.jpg">
+  <div class="about-text">
+    <h1>Hi, I’m Cáit!</h1>
+    <p>Student • Analytical • Creative</p>
+
+    <p>I first developed an interest in Business Analytics through my long-standing passion for problem solving, mathematics, and working with computers. These interests naturally aligned when I began studying Business at Dublin City University (DCU), where I am specialising in Data Analytics. From early in my degree, I was drawn to the analytical side of business, enjoying the challenge of using data to understand patterns, improve decision-making, and solve real-world problems. 
 
 During first year, my exposure to Business Analytics tools such as Excel, Jamovi, and Tableau further strengthened my interest in the field. The hands-on and practical nature of analytics modules stood out to me, allowing me to move beyond theory and actively work with data. These experiences confirmed my desire to pursue analytics as a career path and motivated me to continue developing my technical and analytical skill set. 
 
 In my third year, I completed an 11-month placement at PwC as a Risk Assurance Internal Auditor. This role provided valuable exposure to a professional services environment and allowed me to apply analytical thinking in a real-world business context. Throughout my placement, I worked with data to assess risk, evaluate controls, and support internal audit engagements, gaining a strong understanding of governance, risk, and assurance processes. The experience strengthened my attention to detail, problem-solving abilities, and professional communication skills. 
 
-Now in my final year at DCU, I continue to build on my analytical foundation through my specialisation in Data Analytics, working with SQL, Python, CSS and HTML. I am particularly motivated by the opportunity to combine business knowledge with data-driven insights and technology. With a strong academic background, practical industry experience, and a genuine passion for analytics, I am eager to pursue a career where I can continue learning and delivering value through data. 
+Now in my final year at DCU, I continue to build on my analytical foundation through my specialisation in Data Analytics, working with SQL, Python, CSS and HTML. I am particularly motivated by the opportunity to combine business knowledge with data-driven insights and technology. With a strong academic background, practical industry experience, and a genuine passion for analytics, I am eager to pursue a career where I can continue learning and delivering value through data. </p>
 
-<style>
-/* About section background */
-body[data-page="about"] {
-    background-color: #f4f4f8; /* soft light grey */
-    color: #111; /* text darker for readability */
-}
-
-/* Social links styling */
-.social-links a {
-    margin-right: 15px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #111;
-}
-
-.social-links a:hover {
-    opacity: 0.7;
-}
-</style>
+<div class="social-links">
+      <a href="https://github.com/cait-oreilly" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/yourname/" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</div>
