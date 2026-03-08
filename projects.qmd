@@ -7,17 +7,18 @@ title: "Projects"
 ::: {.column width="48%"}
 
 ::: {.card style="background:#fff; padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
-![](images/project1.jpg){style="width:100%; border-radius:6px; margin-bottom:10px;"}
+![](Images\business-people-team-analytics-data-research-web-monitoring-report-dashboard-monitor-concept-finance-investment-graph-r-202761860.webp){style="width:100%; border-radius:6px; margin-bottom:10px;"}
 ### Project 1
-Short description of project 1.
+Statistical Tests and Regression using Jamovi
 
 [View Project →](project1.qmd)
 :::
 
 ::: {.card style="background:#fff; padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
-![](images/project3.jpg){style="width:100%; border-radius:6px; margin-bottom:10px;"}
+![](iImages\quota_sampling.jpg){style="width:100%; border-radius:6px; margin-bottom:10px;"}
 ### Project 3
-Short description of project 3.
+Confidence Intervals and Sampling Distributions
+
 
 [View Project →](project3.qmd)
 :::
@@ -30,9 +31,10 @@ Short description of project 3.
 ::: {.column width="48%"}
 
 ::: {.card style="background:#fff; padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
-![](images/project2.jpg){style="width:100%; border-radius:6px; margin-bottom:10px;"}
+![](Images\download.png){style="width:100%; border-radius:6px; margin-bottom:10px;"}
 ### Project 2
-Short description of project 2.
+Sales Dashboard Analysis using Power BI
+
 
 [View Project →](project2.qmd)
 :::
