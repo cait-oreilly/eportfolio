@@ -13,7 +13,7 @@ title: "About Me"
 
 ::: {.column width="65%"}
 
-## Hi, I'm Cáit!
+## Cáit O'Reilly O'Grady
 
 **Student • Analytical • Creative**
 
