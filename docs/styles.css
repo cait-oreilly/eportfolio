@@ -1,6 +1,6 @@
 /* Global */
 body {
-  background-color: #87CEEB !important;
+  background-color: #c0dfeb !important;
   font-family: Georgia, serif !important;
   font-size: 16px !important;
 }
@@ -10,26 +10,26 @@ body {
 main.content,
 div.page-columns,
 .page-layout-article {
-  background-color: #87CEEB !important;
+  background-color: #c0dfeb !important;
 }
 
 /* Navbar */
 .navbar {
-  background-color: #003366 !important;
+  background-color: #c0dfeb !important;
 }
 .navbar .navbar-brand,
 .navbar-nav .nav-link,
 .navbar .nav-link {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 .navbar .nav-link:hover {
-  color: #cce0ff !important;
+  color: #000000 !important;
 }
 
 /* Footer */
 .nav-footer {
-  background-color: #003366 !important;
-  color: #ffffff !important;
+  background-color: #c0dfeb !important;
+  color: #000000 !important;
 }
 .nav-footer a {
   color: #cce0ff !important;
@@ -44,15 +44,15 @@ p, li, td, th, label {
 
 h1, h2, h3, h4 {
   font-family: Georgia, serif !important;
-  color: #003366;
+  color: #000000;
 }
 
 /* Links */
 a {
-  color: #003366;
+  color: #000000;
 }
 a:hover {
-  color: #001f4d;
+  color: #000000;
 }
 
 /* Form inputs */

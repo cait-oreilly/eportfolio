@@ -44,15 +44,15 @@ p, li, td, th, label {
 
 h1, h2, h3, h4 {
   font-family: Georgia, serif !important;
-  color: #c0dfeb;
+  color: #000000;
 }
 
 /* Links */
 a {
-  color: #00c0dfeb3366;
+  color: #000000;
 }
 a:hover {
-  color: #c0dfeb;
+  color: #000000;
 }
 
 /* Form inputs */
