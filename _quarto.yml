@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "My E-Portfolio"
+  title: "Cáit O'Reilly"
   site-url: https://cait-oreilly.github.io/eportfolio
   navbar:
     background: dark
@@ -19,7 +19,7 @@ website:
       - text: "Contact"
         href: contact.qmd
   page-footer:
-    left: "2026 Cait OReilly"
+    left: "2026 Cait O'Reilly"
     right:
       - icon: github
         href: https://github.com/cait-oreilly
