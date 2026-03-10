@@ -35,4 +35,6 @@ format:
       dark: 
       - lux
       - styles_dark.scss
+    mainfont: Forum
+    toc: true
     page-layout: full
