@@ -2,7 +2,10 @@ project:
   type: website
   output-dir: docs
   resources:
-    - Images/
+    - Images/logo.png
+    - Images/download.png
+    - Images/quota_sampling.jpg
+    - Images/business-people-team-analytics-data-research-web-monitoring-report-dashboard-monitor-concept-finance-investment-graph-r-202761860.webp
 
 website:
   title: "Cáit O'Reilly"
