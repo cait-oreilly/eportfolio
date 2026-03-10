@@ -6,6 +6,7 @@ website:
   title: "Cáit O'Reilly"
   site-url: https://cait-oreilly.github.io/eportfolio
   navbar:
+    logo: Images\Logo maker project.png
     background: dark
     foreground: light
     search: true

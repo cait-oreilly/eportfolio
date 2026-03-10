@@ -4,12 +4,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Forum&family=Quicksand:wght@300..700&display=swap');
 
 // Colors
-$dark-grey: #303332;
-$white: #fcfcfc;
-$black: #000000;
+$warm-white: #F8F7F4;
+$stone: #EFEFEB;
+$slate-teal: #3D7A72;
+$sage: #7A9E96;
+$charcoal: #2C2C2C;
+$warm-grey: #7A7A72;
+$light-stone: #D9D9D3;
 
 // Base document colors
-$navbar-bg: $dark-grey; // navbar
-$navbar-fg: $white; // navbar foreground elements
-$body-bg: $white; // page background 
-$body-color: $black; // page text 
+$navbar-bg: $stone;        // navbar
+$navbar-fg: $charcoal;     // navbar foreground elements
+$body-bg: $warm-white;     // page background
+$body-color: $charcoal;    // page text
+$link-color: $slate-teal;  // links
+
+.navbar-logo {
+  max-height: 80px !important;  // change this to whatever size you want
+  width: auto;
+  padding-right: 4px;
+}
