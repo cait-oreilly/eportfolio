@@ -5,25 +5,26 @@ title: "Contact"
 You can reach me via:
 
 - **Email:** caitogrady@gmail.com
-- **LinkedIn:** [linkedin.com/in/yourname](https://www.linkedin.com/in/cait-oreilly-ogrady){target="_blank"}
+- **LinkedIn:** [linkedin.com/in/cait-oreilly-ogrady](https://www.linkedin.com/in/cait-oreilly-ogrady){target="_blank"}
 - **GitHub:** [github.com/cait-oreilly](https://github.com/cait-oreilly){target="_blank"}
 
 Or fill out the contact form below:
 
 ::: {style="max-width:500px;"}
 
-**Name:**
+<form action="https://formspree.io/f/xwvrlwwj" method="POST">
 
-<input type="text" name="name" style="width:100%; padding:8px; border:1px solid #003366; border-radius:6px; font-size:16px; margin-bottom:15px;">
+**Name:**
+<input type="text" name="name" required style="width:100%; padding:8px; border:1px solid #3D7A72; border-radius:6px; font-size:16px; margin-bottom:15px;">
 
 **Email:**
-
-<input type="email" name="email" style="width:100%; padding:8px; border:1px solid #003366; border-radius:6px; font-size:16px; margin-bottom:15px;">
+<input type="email" name="email" required style="width:100%; padding:8px; border:1px solid #3D7A72; border-radius:6px; font-size:16px; margin-bottom:15px;">
 
 **Message:**
+<textarea name="message" rows="5" required style="width:100%; padding:8px; border:1px solid #3D7A72; border-radius:6px; font-size:16px; margin-bottom:15px;"></textarea>
 
-<textarea name="message" rows="5" style="width:100%; padding:8px; border:1px solid #003366; border-radius:6px; font-size:16px; margin-bottom:15px;"></textarea>
+<button type="submit" style="padding:10px 24px; background-color:#3D7A72; color:#fff; border:none; border-radius:6px; font-size:16px; cursor:pointer;">Send Message</button>
 
-<button type="submit" style="padding:10px 24px; background-color:#003366; color:#fff; border:none; border-radius:6px; font-size:16px; cursor:pointer;">Send</button>
+</form>
 
 :::
