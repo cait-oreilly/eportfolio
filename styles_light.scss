@@ -28,6 +28,10 @@ $link-color: $slate-teal;
   color: $charcoal !important;
 }
 
+.nav-link.active {
+  color: $slate-teal !important;
+}
+
 .navbar-logo {
   max-height: 80px !important;
   width: auto;
