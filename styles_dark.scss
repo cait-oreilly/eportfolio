@@ -1,6 +1,5 @@
 /*-- scss:defaults --*/
 
-// Import Google fonts
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Forum&family=Quicksand:wght@300..700&display=swap');
 
 // Colors
@@ -11,6 +10,16 @@ $sage-mist: #7AAF9F;
 $off-white: #E8E8E4;
 $cool-grey: #9A9E9C;
 $dark-stone: #353A38;
+
+// Base document colors
+$navbar-bg: $dark-slate;
+$navbar-fg: $off-white;
+$body-bg: $deep-charcoal;
+$body-color: $off-white;
+$link-color: $muted-teal;
+
+/*-- scss:rules --*/
+
 .navbar {
   background-color: $dark-slate !important;
 }
@@ -19,20 +28,12 @@ $dark-stone: #353A38;
   color: $off-white !important;
 }
 
-// Base document colors
-$navbar-bg: $dark-slate;     // navbar
-$navbar-fg: $off-white;      // navbar foreground elements
-$body-bg: $deep-charcoal;    // page background
-$body-color: $off-white;     // page text
-$link-color: $muted-teal;    // links
-
 .navbar-logo {
-  max-height: 80px !important;  // change this to whatever size you want
+  max-height: 80px !important;
   width: auto;
   padding-right: 4px;
 }
 
-// Project cards
 .card {
   background-color: $dark-slate;
   color: $off-white;
@@ -41,7 +42,6 @@ $link-color: $muted-teal;    // links
   margin-right: auto;
 }
 
-// Project buttons
 .btn-primary {
   background-color: $muted-teal !important;
   border-color: $muted-teal !important;
@@ -56,11 +56,14 @@ $link-color: $muted-teal;    // links
   }
 }
 
-// header colours 
 h1, h2, h3, h4, h5, h6,
 .title,
 #quarto-document-content h1,
 #quarto-document-content h2,
 #quarto-document-content h3 {
+  color: #E8E8E4 !important;
+}
+
+.columns h2, .columns h1, .columns h3 {
   color: #E8E8E4 !important;
 }

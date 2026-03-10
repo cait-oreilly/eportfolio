@@ -7,104 +7,6 @@
     "text": "View Project →"
   },
   {
-    "objectID": "project2.html",
-    "href": "project2.html",
-    "title": "Project 2",
-    "section": "",
-    "text": "This project involved the analysis and visualisation of a dataset using Power BI. The dataset was loaded, cleaned, and explored to develop an interactive dashboard. A range of visualisations were created to examine key variables, relationships, and distributions.\nThe analysis identified meaningful patterns and trends, which were used to develop evidence-based recommendations. Results were compiled into a written report including an executive summary and supporting visuals, alongside a presentation incorporating the Power BI dashboard.\n\n\n\n\nPower BI\nMicrosoft Word\nMicrosoft PowerPoint\n\n\n\n\nAn interactive dashboard was developed that clearly communicated key insights, trends, and patterns across the dataset variables.\n\n\n\nThis project developed my ability to create professional data visualisations and communicate analytical findings clearly to a business audience.\nBack to Projects"
-  },
-  {
-    "objectID": "project2.html#sales-dashboard-analysis-using-power-bi",
-    "href": "project2.html#sales-dashboard-analysis-using-power-bi",
-    "title": "Project 2",
-    "section": "",
-    "text": "This project involved the analysis and visualisation of a dataset using Power BI. The dataset was loaded, cleaned, and explored to develop an interactive dashboard. A range of visualisations were created to examine key variables, relationships, and distributions.\nThe analysis identified meaningful patterns and trends, which were used to develop evidence-based recommendations. Results were compiled into a written report including an executive summary and supporting visuals, alongside a presentation incorporating the Power BI dashboard.\n\n\n\n\nPower BI\nMicrosoft Word\nMicrosoft PowerPoint\n\n\n\n\nAn interactive dashboard was developed that clearly communicated key insights, trends, and patterns across the dataset variables.\n\n\n\nThis project developed my ability to create professional data visualisations and communicate analytical findings clearly to a business audience.\nBack to Projects"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to My E-Portfolio",
-    "section": "",
-    "text": "Business Studies Student • DCU\nWelcome to my e-portfolio! I’m a final year Business Studies student at DCU, specialising in Data Analytics.\nExplore my work using the navigation bar above.\nAbout Me    Projects    Media    CV    Contact"
-  },
-  {
-    "objectID": "index.html#hi-im-cáit",
-    "href": "index.html#hi-im-cáit",
-    "title": "Welcome to My E-Portfolio",
-    "section": "",
-    "text": "Business Studies Student • DCU\nWelcome to my e-portfolio! I’m a final year Business Studies student at DCU, specialising in Data Analytics.\nExplore my work using the navigation bar above.\nAbout Me    Projects    Media    CV    Contact"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "Student • Analytical • Creative\nFinal Year Business Analytics Student at DCU\nGitHub    LinkedIn"
-  },
-  {
-    "objectID": "about.html#cáit-oreilly",
-    "href": "about.html#cáit-oreilly",
-    "title": "About Me",
-    "section": "",
-    "text": "Student • Analytical • Creative\n\n\nI first developed an interest in Business Analytics through my long-standing passion for problem solving, mathematics, and working with computers. These interests naturally aligned when I began studying Business at Dublin City University (DCU), where I am specialising in Data Analytics. From early in my degree, I was drawn to the analytical side of business, enjoying the challenge of using data to understand patterns, improve decision-making, and solve real-world problems.\nDuring first year, my exposure to Business Analytics tools such as Excel, Jamovi, and Tableau further strengthened my interest in the field. The hands-on and practical nature of analytics modules stood out to me, allowing me to move beyond theory and actively work with data. These experiences confirmed my desire to pursue analytics as a career path and motivated me to continue developing my technical and analytical skill set.\n\n\n\nIn my third year, I completed an 11-month placement at PwC as a Risk Assurance Internal Auditor. This role provided valuable exposure to a professional services environment and allowed me to apply analytical thinking in a real-world business context. Throughout my placement, I worked with data to assess risk, evaluate controls, and support internal audit engagements, gaining a strong understanding of governance, risk, and assurance processes. The experience strengthened my attention to detail, problem-solving abilities, and professional communication skills.\n\n\n\nNow in my final year at DCU, I continue to build on my analytical foundation through my specialisation in Data Analytics, working with SQL, Python, CSS and HTML. I am particularly motivated by the opportunity to combine business knowledge with data-driven insights and technology. With a strong academic background, practical industry experience, and a genuine passion for analytics, I am eager to pursue a career where I can continue learning and delivering value through data.\nGitHub    LinkedIn"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "You can reach me via:\n\nEmail: caitogrady@gmail.com\nLinkedIn: linkedin.com/in/cait-oreilly-ogrady\nGitHub: github.com/cait-oreilly\n\nOr fill out the contact form below:\n\n\nName: \nEmail: \nMessage:\n\n\nSend Message"
-  },
-  {
-    "objectID": "project1.html",
-    "href": "project1.html",
-    "title": "Project 1",
-    "section": "",
-    "text": "This assignment involved the statistical analysis of a House Price dataset using Jamovi. The analysis was structured into three main sections: descriptive statistics and correlations, statistical hypothesis testing, and linear regression modelling.\nDescriptive statistics were used to summarise the House Price variable. Correlation analysis examined relationships between house price and other quantitative variables. Statistical tests investigated differences in house prices across cities and house types. Linear regression modelled house prices using size, bedrooms, bathrooms, and land area as predictors.\n\n\n\n\nJamovi\nMicrosoft Word\n\n\n\n\nTwo regression models were developed. The first used house size, number of bedrooms, bathrooms, and land area. The second used statistically significant predictors from the first model alongside additional relevant variables.\n\n\n\nThis project strengthened my understanding of statistical testing, correlation analysis, and regression modelling in a real-world dataset context.\nBack to Projects"
-  },
-  {
-    "objectID": "project1.html#statistical-tests-and-regression-using-jamovi",
-    "href": "project1.html#statistical-tests-and-regression-using-jamovi",
-    "title": "Project 1",
-    "section": "",
-    "text": "This assignment involved the statistical analysis of a House Price dataset using Jamovi. The analysis was structured into three main sections: descriptive statistics and correlations, statistical hypothesis testing, and linear regression modelling.\nDescriptive statistics were used to summarise the House Price variable. Correlation analysis examined relationships between house price and other quantitative variables. Statistical tests investigated differences in house prices across cities and house types. Linear regression modelled house prices using size, bedrooms, bathrooms, and land area as predictors.\n\n\n\n\nJamovi\nMicrosoft Word\n\n\n\n\nTwo regression models were developed. The first used house size, number of bedrooms, bathrooms, and land area. The second used statistically significant predictors from the first model alongside additional relevant variables.\n\n\n\nThis project strengthened my understanding of statistical testing, correlation analysis, and regression modelling in a real-world dataset context.\nBack to Projects"
-  },
-  {
-    "objectID": "project3.html",
-    "href": "project3.html",
-    "title": "Project 3",
-    "section": "",
-    "text": "This analysis was divided into two parts. Part A focused on confidence interval construction using the House Price dataset. Part B examined sampling distributions using an external dataset on accident costs.\nIn Part A, three confidence intervals (90%, 95%, 99%) were calculated for average house price. A 95% confidence interval was calculated for average house size in Cork, and another for the proportion of detached houses sold in Ireland. The required sample size to reduce sampling error to 0.02 was also calculated.\nIn Part B, an Excel dataset on accident costs was analysed to compare individual accident cost distributions across 1,000 companies with average costs from 200 samples of 100 companies, with reference to the Central Limit Theorem.\n\n\n\n\nJamovi\nMicrosoft Excel\nMicrosoft Word\n\n\n\n\nThe analysis demonstrated how confidence level affects interval width, and how averaging across samples reduces variability in line with the Central Limit Theorem.\n\n\n\nThis project deepened my understanding of inferential statistics, confidence intervals, and sampling theory.\nBack to Projects"
-  },
-  {
-    "objectID": "project3.html#confidence-intervals-and-sampling-distributions",
-    "href": "project3.html#confidence-intervals-and-sampling-distributions",
-    "title": "Project 3",
-    "section": "",
-    "text": "This analysis was divided into two parts. Part A focused on confidence interval construction using the House Price dataset. Part B examined sampling distributions using an external dataset on accident costs.\nIn Part A, three confidence intervals (90%, 95%, 99%) were calculated for average house price. A 95% confidence interval was calculated for average house size in Cork, and another for the proportion of detached houses sold in Ireland. The required sample size to reduce sampling error to 0.02 was also calculated.\nIn Part B, an Excel dataset on accident costs was analysed to compare individual accident cost distributions across 1,000 companies with average costs from 200 samples of 100 companies, with reference to the Central Limit Theorem.\n\n\n\n\nJamovi\nMicrosoft Excel\nMicrosoft Word\n\n\n\n\nThe analysis demonstrated how confidence level affects interval width, and how averaging across samples reduces variability in line with the Central Limit Theorem.\n\n\n\nThis project deepened my understanding of inferential statistics, confidence intervals, and sampling theory.\nBack to Projects"
-  },
-  {
-    "objectID": "about.html#background",
-    "href": "about.html#background",
-    "title": "About Me",
-    "section": "Background",
-    "text": "Background\nI first developed an interest in Business Analytics through my long-standing passion for problem solving, mathematics, and working with computers. These interests naturally aligned when I began studying Business at Dublin City University (DCU), where I am specialising in Data Analytics. From early in my degree, I was drawn to the analytical side of business, enjoying the challenge of using data to understand patterns, improve decision-making, and solve real-world problems.\nDuring first year, my exposure to Business Analytics tools such as Excel, Jamovi, and Tableau further strengthened my interest in the field. The hands-on and practical nature of analytics modules stood out to me, allowing me to move beyond theory and actively work with data. These experiences confirmed my desire to pursue analytics as a career path and motivated me to continue developing my technical and analytical skill set."
-  },
-  {
-    "objectID": "about.html#pwc-placement",
-    "href": "about.html#pwc-placement",
-    "title": "About Me",
-    "section": "PwC Placement",
-    "text": "PwC Placement\nIn my third year, I completed an 11-month placement at PwC as a Risk Assurance Internal Auditor. This role provided valuable exposure to a professional services environment and allowed me to apply analytical thinking in a real-world business context. Throughout my placement, I worked with data to assess risk, evaluate controls, and support internal audit engagements, gaining a strong understanding of governance, risk, and assurance processes. The experience strengthened my attention to detail, problem-solving abilities, and professional communication skills."
-  },
-  {
-    "objectID": "about.html#final-year-at-dcu",
-    "href": "about.html#final-year-at-dcu",
-    "title": "About Me",
-    "section": "Final Year at DCU",
-    "text": "Final Year at DCU\nNow in my final year at DCU, I continue to build on my analytical foundation through my specialisation in Data Analytics, working with SQL, Python, CSS and HTML. I am particularly motivated by the opportunity to combine business knowledge with data-driven insights and technology. With a strong academic background, practical industry experience, and a genuine passion for analytics, I am eager to pursue a career where I can continue learning and delivering value through data."
-  },
-  {
     "objectID": "projects.html#project-1-statistical-tests-and-regression-using-jamovi",
     "href": "projects.html#project-1-statistical-tests-and-regression-using-jamovi",
     "title": "Projects",
@@ -124,6 +26,20 @@
     "title": "Projects",
     "section": "Project 3 — Confidence Intervals and Sampling Distributions",
     "text": "Project 3 — Confidence Intervals and Sampling Distributions\n\n\nView Project →"
+  },
+  {
+    "objectID": "project2.html",
+    "href": "project2.html",
+    "title": "Project 2",
+    "section": "",
+    "text": "This project involved the analysis and visualisation of a dataset using Power BI. The dataset was loaded, cleaned, and explored to develop an interactive dashboard. A range of visualisations were created to examine key variables, relationships, and distributions.\nThe analysis identified meaningful patterns and trends, which were used to develop evidence-based recommendations. Results were compiled into a written report including an executive summary and supporting visuals, alongside a presentation incorporating the Power BI dashboard.\n\n\n\n\nPower BI\nMicrosoft Word\nMicrosoft PowerPoint\n\n\n\n\nAn interactive dashboard was developed that clearly communicated key insights, trends, and patterns across the dataset variables.\n\n\n\nThis project developed my ability to create professional data visualisations and communicate analytical findings clearly to a business audience.\nBack to Projects"
+  },
+  {
+    "objectID": "project2.html#sales-dashboard-analysis-using-power-bi",
+    "href": "project2.html#sales-dashboard-analysis-using-power-bi",
+    "title": "Project 2",
+    "section": "",
+    "text": "This project involved the analysis and visualisation of a dataset using Power BI. The dataset was loaded, cleaned, and explored to develop an interactive dashboard. A range of visualisations were created to examine key variables, relationships, and distributions.\nThe analysis identified meaningful patterns and trends, which were used to develop evidence-based recommendations. Results were compiled into a written report including an executive summary and supporting visuals, alongside a presentation incorporating the Power BI dashboard.\n\n\n\n\nPower BI\nMicrosoft Word\nMicrosoft PowerPoint\n\n\n\n\nAn interactive dashboard was developed that clearly communicated key insights, trends, and patterns across the dataset variables.\n\n\n\nThis project developed my ability to create professional data visualisations and communicate analytical findings clearly to a business audience.\nBack to Projects"
   },
   {
     "objectID": "media.html",
@@ -152,5 +68,82 @@
     "title": "Media",
     "section": "Videos",
     "text": "Videos\n\n\n\n\n\nVideo Title Here\nBrief description of the video.\n\n\n\n\n\n\n\nVideo Title Here\nBrief description of the video."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "You can reach me via:\n\nEmail: caitogrady@gmail.com\nLinkedIn: linkedin.com/in/cait-oreilly-ogrady\nGitHub: github.com/cait-oreilly\n\nOr fill out the contact form below:\n\n\nName: \nEmail: \nMessage:\n\n\nSend Message"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Student • Analytical • Creative\nFinal Year Business Analytics Student at DCU\nGitHub    LinkedIn"
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About Me",
+    "section": "Background",
+    "text": "Background\nI first developed an interest in Business Analytics through my long-standing passion for problem solving, mathematics, and working with computers. These interests naturally aligned when I began studying Business at Dublin City University (DCU), where I am specialising in Data Analytics. From early in my degree, I was drawn to the analytical side of business, enjoying the challenge of using data to understand patterns, improve decision-making, and solve real-world problems.\nDuring first year, my exposure to Business Analytics tools such as Excel, Jamovi, and Tableau further strengthened my interest in the field. The hands-on and practical nature of analytics modules stood out to me, allowing me to move beyond theory and actively work with data. These experiences confirmed my desire to pursue analytics as a career path and motivated me to continue developing my technical and analytical skill set."
+  },
+  {
+    "objectID": "about.html#pwc-placement",
+    "href": "about.html#pwc-placement",
+    "title": "About Me",
+    "section": "PwC Placement",
+    "text": "PwC Placement\nIn my third year, I completed an 11-month placement at PwC as a Risk Assurance Internal Auditor. This role provided valuable exposure to a professional services environment and allowed me to apply analytical thinking in a real-world business context. Throughout my placement, I worked with data to assess risk, evaluate controls, and support internal audit engagements, gaining a strong understanding of governance, risk, and assurance processes. The experience strengthened my attention to detail, problem-solving abilities, and professional communication skills."
+  },
+  {
+    "objectID": "about.html#final-year-at-dcu",
+    "href": "about.html#final-year-at-dcu",
+    "title": "About Me",
+    "section": "Final Year at DCU",
+    "text": "Final Year at DCU\nNow in my final year at DCU, I continue to build on my analytical foundation through my specialisation in Data Analytics, working with SQL, Python, CSS and HTML. I am particularly motivated by the opportunity to combine business knowledge with data-driven insights and technology. With a strong academic background, practical industry experience, and a genuine passion for analytics, I am eager to pursue a career where I can continue learning and delivering value through data."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to My E-Portfolio",
+    "section": "",
+    "text": "Business Studies Student • DCU\nWelcome to my e-portfolio! I’m a final year Business Studies student at DCU, specialising in Data Analytics.\nExplore my work using the navigation bar above.\nAbout Me    Projects    Media    CV    Contact"
+  },
+  {
+    "objectID": "index.html#hi-im-cáit",
+    "href": "index.html#hi-im-cáit",
+    "title": "Welcome to My E-Portfolio",
+    "section": "",
+    "text": "Business Studies Student • DCU\nWelcome to my e-portfolio! I’m a final year Business Studies student at DCU, specialising in Data Analytics.\nExplore my work using the navigation bar above.\nAbout Me    Projects    Media    CV    Contact"
+  },
+  {
+    "objectID": "project1.html",
+    "href": "project1.html",
+    "title": "Project 1",
+    "section": "",
+    "text": "This assignment involved the statistical analysis of a House Price dataset using Jamovi. The analysis was structured into three main sections: descriptive statistics and correlations, statistical hypothesis testing, and linear regression modelling.\nDescriptive statistics were used to summarise the House Price variable. Correlation analysis examined relationships between house price and other quantitative variables. Statistical tests investigated differences in house prices across cities and house types. Linear regression modelled house prices using size, bedrooms, bathrooms, and land area as predictors.\n\n\n\n\nJamovi\nMicrosoft Word\n\n\n\n\nTwo regression models were developed. The first used house size, number of bedrooms, bathrooms, and land area. The second used statistically significant predictors from the first model alongside additional relevant variables.\n\n\n\nThis project strengthened my understanding of statistical testing, correlation analysis, and regression modelling in a real-world dataset context.\nBack to Projects"
+  },
+  {
+    "objectID": "project1.html#statistical-tests-and-regression-using-jamovi",
+    "href": "project1.html#statistical-tests-and-regression-using-jamovi",
+    "title": "Project 1",
+    "section": "",
+    "text": "This assignment involved the statistical analysis of a House Price dataset using Jamovi. The analysis was structured into three main sections: descriptive statistics and correlations, statistical hypothesis testing, and linear regression modelling.\nDescriptive statistics were used to summarise the House Price variable. Correlation analysis examined relationships between house price and other quantitative variables. Statistical tests investigated differences in house prices across cities and house types. Linear regression modelled house prices using size, bedrooms, bathrooms, and land area as predictors.\n\n\n\n\nJamovi\nMicrosoft Word\n\n\n\n\nTwo regression models were developed. The first used house size, number of bedrooms, bathrooms, and land area. The second used statistically significant predictors from the first model alongside additional relevant variables.\n\n\n\nThis project strengthened my understanding of statistical testing, correlation analysis, and regression modelling in a real-world dataset context.\nBack to Projects"
+  },
+  {
+    "objectID": "project3.html",
+    "href": "project3.html",
+    "title": "Project 3",
+    "section": "",
+    "text": "This analysis was divided into two parts. Part A focused on confidence interval construction using the House Price dataset. Part B examined sampling distributions using an external dataset on accident costs.\nIn Part A, three confidence intervals (90%, 95%, 99%) were calculated for average house price. A 95% confidence interval was calculated for average house size in Cork, and another for the proportion of detached houses sold in Ireland. The required sample size to reduce sampling error to 0.02 was also calculated.\nIn Part B, an Excel dataset on accident costs was analysed to compare individual accident cost distributions across 1,000 companies with average costs from 200 samples of 100 companies, with reference to the Central Limit Theorem.\n\n\n\n\nJamovi\nMicrosoft Excel\nMicrosoft Word\n\n\n\n\nThe analysis demonstrated how confidence level affects interval width, and how averaging across samples reduces variability in line with the Central Limit Theorem.\n\n\n\nThis project deepened my understanding of inferential statistics, confidence intervals, and sampling theory.\nBack to Projects"
+  },
+  {
+    "objectID": "project3.html#confidence-intervals-and-sampling-distributions",
+    "href": "project3.html#confidence-intervals-and-sampling-distributions",
+    "title": "Project 3",
+    "section": "",
+    "text": "This analysis was divided into two parts. Part A focused on confidence interval construction using the House Price dataset. Part B examined sampling distributions using an external dataset on accident costs.\nIn Part A, three confidence intervals (90%, 95%, 99%) were calculated for average house price. A 95% confidence interval was calculated for average house size in Cork, and another for the proportion of detached houses sold in Ireland. The required sample size to reduce sampling error to 0.02 was also calculated.\nIn Part B, an Excel dataset on accident costs was analysed to compare individual accident cost distributions across 1,000 companies with average costs from 200 samples of 100 companies, with reference to the Central Limit Theorem.\n\n\n\n\nJamovi\nMicrosoft Excel\nMicrosoft Word\n\n\n\n\nThe analysis demonstrated how confidence level affects interval width, and how averaging across samples reduces variability in line with the Central Limit Theorem.\n\n\n\nThis project deepened my understanding of inferential statistics, confidence intervals, and sampling theory.\nBack to Projects"
   }
 ]

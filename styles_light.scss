@@ -1,6 +1,5 @@
 /*-- scss:defaults --*/
 
-// Import Google fonts
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Forum&family=Quicksand:wght@300..700&display=swap');
 
 // Colors
@@ -13,22 +12,28 @@ $warm-grey: #7A7A72;
 $light-stone: #D9D9D3;
 
 // Base document colors
-$navbar-bg: $stone;        // navbar
-$navbar-fg: $charcoal;     // navbar foreground elements
-$body-bg: $warm-white;     // page background
-$body-color: $charcoal;    // page text
-$link-color: $slate-teal;  // links
+$navbar-bg: $stone;
+$navbar-fg: $charcoal;
+$body-bg: $warm-white;
+$body-color: $charcoal;
+$link-color: $slate-teal;
+
+/*-- scss:rules --*/
+
 .navbar {
   background-color: $stone !important;
 }
 
+.navbar-brand, .nav-link {
+  color: $charcoal !important;
+}
+
 .navbar-logo {
-  max-height: 80px !important;  // change this to whatever size you want
+  max-height: 80px !important;
   width: auto;
   padding-right: 4px;
 }
 
-// Project cards
 .card {
   background-color: $stone;
   color: $charcoal;
@@ -37,7 +42,6 @@ $link-color: $slate-teal;  // links
   margin-right: auto;
 }
 
-// Project buttons
 .btn-primary {
   background-color: $slate-teal !important;
   border-color: $slate-teal !important;
@@ -52,7 +56,6 @@ $link-color: $slate-teal;  // links
   }
 }
 
-// header colours
 h1, h2, h3, h4, h5, h6,
 .title,
 #quarto-document-content h1,
@@ -61,3 +64,6 @@ h1, h2, h3, h4, h5, h6,
   color: #3D7A72 !important;
 }
 
+.columns h2, .columns h1, .columns h3 {
+  color: #3D7A72 !important;
+}
