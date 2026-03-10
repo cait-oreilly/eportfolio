@@ -1,6 +1,7 @@
 ---
 title: "Welcome to My E-Portfolio"
 ---
+![](Images\pwc_img.jpg){style="width:100%; border-radius:10px; border:4px solid #3D7A72;"}
 
 Welcome to my e-portfolio! I'm Cáit, a final year Business Analytics student at DCU.
 
