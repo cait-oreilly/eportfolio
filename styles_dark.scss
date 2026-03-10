@@ -1,12 +1,12 @@
 /*-- scss:defaults --*/
 
 // Colors
-$dark-green: #3e6d62;
+$dark-grey: #303332;
 $white: #fcfcfc;
 $black: #000000;
 
 // Base document colors
-$navbar-bg: $dark-green; // navbar
+$navbar-bg: $black; // navbar
 $navbar-fg: $white; // navbar foreground elements
-$body-bg: $white; // page background 
-$body-color: $black; // page text 
+$body-bg: $dark-grey; // page background 
+$body-color: $white; // page text 

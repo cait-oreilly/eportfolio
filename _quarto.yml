@@ -29,7 +29,10 @@ website:
 format:
   html:
     theme: 
-      light: lux
-      dark: darkly
-    toc: true
+      light: 
+      - lux
+      - styles_light.scss
+      dark: 
+      - lux
+      - styles_dark.scss
     page-layout: full
