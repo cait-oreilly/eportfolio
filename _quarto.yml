@@ -2,16 +2,13 @@ project:
   type: website
   output-dir: docs
   resources:
-    - Images/logo.png
-    - Images/download.png
-    - Images/quota_sampling.jpg
-    - Images/business-people-team-analytics-data-research-web-monitoring-report-dashboard-monitor-concept-finance-investment-graph-r-202761860.webp
+    - Images
 
 website:
   title: "Cáit O'Reilly"
   site-url: https://cait-oreilly.github.io/eportfolio
   navbar:
-    logo: /eportfolio/Images/logo.png
+    logo: /eportfolio/images/logo.png
     background: dark
     foreground: light
     search: true

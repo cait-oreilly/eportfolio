@@ -5,7 +5,7 @@ title: "About Me"
 :::: {.columns}
 
 ::: {.column width="30%"}
-![](Images/IMG_1407.jpg){style="width:100%; border-radius:10px; border:4px solid #3D7A72;"}
+![](images/IMG_1407.jpg){style="width:100%; border-radius:10px; border:4px solid #3D7A72;"}
 :::
 
 ::: {.column width="5%"}
