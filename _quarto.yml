@@ -8,7 +8,7 @@ website:
   title: "Cáit O'Reilly"
   site-url: https://cait-oreilly.github.io/eportfolio
   navbar:
-    logo: /eportfolio/images/logo.png
+    logo: Images\Logo.png
     background: dark
     foreground: light
     search: true
@@ -27,7 +27,8 @@ website:
       - icon: github
         href: https://github.com/cait-oreilly
       - icon: linkedin
-        href: https://www.linkedin.com/in/yourname/
+        href: www.linkedin.com/in/cáit-oreilly-ogrady
+
 
 format:
   html:
