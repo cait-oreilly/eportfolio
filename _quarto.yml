@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
   resources:
-    - Images
+    - Images/
 
 website:
   title: "Cáit O'Reilly"
