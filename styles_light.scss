@@ -18,6 +18,9 @@ $navbar-fg: $charcoal;     // navbar foreground elements
 $body-bg: $warm-white;     // page background
 $body-color: $charcoal;    // page text
 $link-color: $slate-teal;  // links
+.navbar {
+  background-color: $stone !important;
+}
 
 .navbar-logo {
   max-height: 80px !important;  // change this to whatever size you want
