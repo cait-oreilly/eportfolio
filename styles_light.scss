@@ -24,3 +24,27 @@ $link-color: $slate-teal;  // links
   width: auto;
   padding-right: 4px;
 }
+
+// Project cards
+.card {
+  background-color: $stone;
+  color: $charcoal;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Project buttons
+.btn-primary {
+  background-color: $slate-teal !important;
+  border-color: $slate-teal !important;
+  color: $warm-white !important;
+  border-radius: 6px;
+  padding: 8px 18px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $sage !important;
+    border-color: $sage !important;
+  }
+}
