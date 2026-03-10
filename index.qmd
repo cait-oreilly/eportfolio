@@ -21,7 +21,7 @@ Welcome to my e-portfolio! I'm a final year Business Studies student at DCU, spe
 
 Explore my work using the navigation bar above.
 
-**[About Me](about.qmd) &nbsp;&nbsp; [Projects](projects.qmd) &nbsp;&nbsp; [Contact](contact.qmd) &nbsp;&nbsp; [Media](media.qmd) &nbsp;&nbsp; [CV](projects_files/CV.pdf)**
+**[About Me](about.qmd) &nbsp;&nbsp; [Projects](projects.qmd) &nbsp;&nbsp; [Media](media.qmd) &nbsp;&nbsp; [CV](projects_files/CV.pdf) &nbsp;&nbsp; [Contact](contact.qmd)**
 
 :::
 

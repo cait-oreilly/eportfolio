@@ -8,7 +8,7 @@ website:
   title: "Cáit O'Reilly"
   site-url: https://cait-oreilly.github.io/eportfolio
   navbar:
-    logo: Images\Logo.png
+    logo: Images/Logo.png
     background: dark
     foreground: light
     search: true
@@ -23,19 +23,18 @@ website:
         href: media.qmd
       - text: "CV"
         href: projects_files/CV.pdf
-        target: _blank 
+        target: _blank
       - text: "Contact"
         href: contact.qmd
       - icon: github
-        href:  https://github.com/cait-oreilly
+        href: https://github.com/cait-oreilly
   page-footer:
     left: "2026 Cáit O'Reilly"
     right:
       - icon: github
         href: https://github.com/cait-oreilly
       - icon: linkedin
-        href: www.linkedin.com/in/cait-oreilly-ogrady
-
+        href: https://www.linkedin.com/in/cait-oreilly-ogrady
 
 format:
   html:
@@ -49,4 +48,3 @@ format:
     mainfont: Arimo
     toc: true
     page-layout: full
-
