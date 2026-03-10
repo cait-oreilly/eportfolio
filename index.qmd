@@ -4,16 +4,16 @@ title: "Welcome to My E-Portfolio"
 
 :::: {.columns}
 
-::: {.column width="30%"}
+::: {.column width="45%"}
 ![](Images/pwc_img.jpg){style="width:100%; border-radius:10px; border:4px solid #3D7A72;"}
 :::
 
 ::: {.column width="5%"}
 :::
 
-::: {.column width="65%"}
+::: {.column width="50%"}
 
-## Hi, I'm Cáit 
+## Hi, I'm Cáit {.unnumbered}
 
 **Business Studies Student • DCU**
 
