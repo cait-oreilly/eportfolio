@@ -50,7 +50,11 @@ $link-color: $slate-teal;  // links
 }
 
 // header colours
-h1, h2, h3, h4, h5, h6 {
-  color: $slate-teal;
+h1, h2, h3, h4, h5, h6,
+.title,
+#quarto-document-content h1,
+#quarto-document-content h2,
+#quarto-document-content h3 {
+  color: #3D7A72 !important;
 }
 

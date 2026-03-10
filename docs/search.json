@@ -4,7 +4,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Project 1 — Statistical Tests and Regression using Jamovi\nView Project →\n\n\n\nProject 2 — Sales Dashboard Analysis using Power BI\nView Project →\n\n\n\nProject 3 — Confidence Intervals and Sampling Distributions\nView Project →"
+    "text": "View Project →"
   },
   {
     "objectID": "project2.html",
@@ -103,5 +103,26 @@
     "title": "About Me",
     "section": "Final Year at DCU",
     "text": "Final Year at DCU\nNow in my final year at DCU, I continue to build on my analytical foundation through my specialisation in Data Analytics, working with SQL, Python, CSS and HTML. I am particularly motivated by the opportunity to combine business knowledge with data-driven insights and technology. With a strong academic background, practical industry experience, and a genuine passion for analytics, I am eager to pursue a career where I can continue learning and delivering value through data."
+  },
+  {
+    "objectID": "projects.html#project-1-statistical-tests-and-regression-using-jamovi",
+    "href": "projects.html#project-1-statistical-tests-and-regression-using-jamovi",
+    "title": "Projects",
+    "section": "",
+    "text": "View Project →"
+  },
+  {
+    "objectID": "projects.html#project-2-sales-dashboard-analysis-using-power-bi",
+    "href": "projects.html#project-2-sales-dashboard-analysis-using-power-bi",
+    "title": "Projects",
+    "section": "Project 2 — Sales Dashboard Analysis using Power BI",
+    "text": "Project 2 — Sales Dashboard Analysis using Power BI\n\n\nView Project →"
+  },
+  {
+    "objectID": "projects.html#project-3-confidence-intervals-and-sampling-distributions",
+    "href": "projects.html#project-3-confidence-intervals-and-sampling-distributions",
+    "title": "Projects",
+    "section": "Project 3 — Confidence Intervals and Sampling Distributions",
+    "text": "Project 3 — Confidence Intervals and Sampling Distributions\n\n\nView Project →"
   }
 ]

@@ -51,6 +51,9 @@ $link-color: $muted-teal;    // links
 
 // header colours 
 h1, h2, h3, h4, h5, h6,
-.title, .quarto-title h1 {
+.title,
+#quarto-document-content h1,
+#quarto-document-content h2,
+#quarto-document-content h3 {
   color: #E8E8E4 !important;
 }
