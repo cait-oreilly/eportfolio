@@ -35,6 +35,6 @@ format:
       dark: 
       - lux
       - styles_dark.scss
-    mainfont: Forum
+    mainfont: Arimo
     toc: true
     page-layout: full
