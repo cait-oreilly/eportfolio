@@ -1,32 +1,41 @@
 ---
 title: "About Me"
+toc: true
 ---
 
 :::: {.columns}
 
-::: {.column width="30%"}
-![](Images/IMG_1407.jpg){style="width:100%; border-radius:10px; border:4px solid #3D7A72;"}
+::: {.column width="65%"}
+
+# Cáit O'Reilly
+
+**Student • Analytical • Creative**
+
+*Final Year Business Analytics Student at DCU*
+
+**[GitHub](https://github.com/cait-oreilly){target="_blank"} &nbsp;&nbsp; [LinkedIn](https://www.linkedin.com/in/cait-oreilly-ogrady){target="_blank"}**
+
 :::
 
 ::: {.column width="5%"}
 :::
 
-::: {.column width="65%"}
+::: {.column width="30%"}
+![](Images/IMG_1407.jpg){style="width:100%; border-radius:10px; border:4px solid #3D7A72;"}
+:::
 
-## Cáit O'Reilly
+::::
 
-**Student • Analytical • Creative**
+## Background
 
 I first developed an interest in Business Analytics through my long-standing passion for problem solving, mathematics, and working with computers. These interests naturally aligned when I began studying Business at Dublin City University (DCU), where I am specialising in Data Analytics. From early in my degree, I was drawn to the analytical side of business, enjoying the challenge of using data to understand patterns, improve decision-making, and solve real-world problems.
 
 During first year, my exposure to Business Analytics tools such as Excel, Jamovi, and Tableau further strengthened my interest in the field. The hands-on and practical nature of analytics modules stood out to me, allowing me to move beyond theory and actively work with data. These experiences confirmed my desire to pursue analytics as a career path and motivated me to continue developing my technical and analytical skill set.
 
+## PwC Placement
+
 In my third year, I completed an 11-month placement at PwC as a Risk Assurance Internal Auditor. This role provided valuable exposure to a professional services environment and allowed me to apply analytical thinking in a real-world business context. Throughout my placement, I worked with data to assess risk, evaluate controls, and support internal audit engagements, gaining a strong understanding of governance, risk, and assurance processes. The experience strengthened my attention to detail, problem-solving abilities, and professional communication skills.
 
+## Final Year at DCU
+
 Now in my final year at DCU, I continue to build on my analytical foundation through my specialisation in Data Analytics, working with SQL, Python, CSS and HTML. I am particularly motivated by the opportunity to combine business knowledge with data-driven insights and technology. With a strong academic background, practical industry experience, and a genuine passion for analytics, I am eager to pursue a career where I can continue learning and delivering value through data.
-
-**[GitHub](https://github.com/cait-oreilly){target="_blank"}     [LinkedIn](https://www.linkedin.com/in/cait-oreilly-ogrady){target="_blank"}**
-
-:::
-
-::::
