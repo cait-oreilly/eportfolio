@@ -15,9 +15,9 @@ title: "Welcome to My E-Portfolio"
 
 ## Hi, I'm Cáit 
 
-**Business Analytics Student • DCU**
+**Business Studies Student • DCU**
 
-Welcome to my e-portfolio! I'm a final year Business Analytics student at DCU, specialising in Data Analytics.
+Welcome to my e-portfolio! I'm a final year Business Studies student at DCU, specialising in Data Analytics.
 
 Explore my work using the navigation bar above.
 

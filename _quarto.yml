@@ -19,8 +19,15 @@ website:
         href: about.qmd
       - text: "Projects"
         href: projects.qmd
+      - text: "Media"
+        href: media.qmd
+      - text: "CV"
+        href: projects_files/CV.pdf
+        target: _blank 
       - text: "Contact"
         href: contact.qmd
+      - icon: github
+        href:  https://github.com/cait-oreilly
   page-footer:
     left: "2026 Cáit O'Reilly"
     right:
