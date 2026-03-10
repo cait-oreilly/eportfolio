@@ -7,7 +7,7 @@ title: "Projects"
 ::: {.column width="48%"}
 
 ::: {.card style="background:#fff; padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
-![](Images\business-people-team-analytics-data-research-web-monitoring-report-dashboard-monitor-concept-finance-investment-graph-r-202761860.webp){style="width:100%; border-radius:6px; margin-bottom:10px;"}
+![](Images/business-people-team-analytics-data-research-web-monitoring-report-dashboard-monitor-concept-finance-investment-graph-r-202761860.webp){style="width:100%; border-radius:6px; margin-bottom:10px;"}
 Project 1
 Statistical Tests and Regression using Jamovi
 
@@ -15,7 +15,7 @@ Statistical Tests and Regression using Jamovi
 :::
 
 ::: {.card style="background:#fff; padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
-![](Images\quota_sampling.jpg){style="width:100%; border-radius:6px; margin-bottom:10px;"}
+![](Images/quota_sampling.jpg){style="width:100%; border-radius:6px; margin-bottom:10px;"}
 Project 3
 Confidence Intervals and Sampling Distributions
 
@@ -31,7 +31,7 @@ Confidence Intervals and Sampling Distributions
 ::: {.column width="48%"}
 
 ::: {.card style="background:#fff; padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
-![](Images\download.png){style="width:100%; border-radius:6px; margin-bottom:10px;"}
+![](Images/download.png){style="width:100%; border-radius:6px; margin-bottom:10px;"}
 Project 2
 Sales Dashboard Analysis using Power BI
 
