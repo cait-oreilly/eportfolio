@@ -31,3 +31,5 @@ format:
     theme: 
       light: lux
       dark: darkly
+    toc: true
+    page-layout: full
