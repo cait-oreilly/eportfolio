@@ -49,7 +49,9 @@ $link-color: $slate-teal;  // links
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: $slate-teal;
+// header colours
+h1, h2, h3, h4, h5, h6,
+.title, .quarto-title h1 {
+  color: #3D7A72 !important;
 }
 

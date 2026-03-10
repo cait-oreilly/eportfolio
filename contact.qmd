@@ -4,8 +4,8 @@ title: "Contact"
 
 You can reach me via:
 
-- **Email:** caito@example.com
-- **LinkedIn:** [linkedin.com/in/yourname](https://www.linkedin.com/in/yourname/){target="_blank"}
+- **Email:** caitogrady@gmail.com
+- **LinkedIn:** [linkedin.com/in/yourname](www.linkedin.com/in/cait-oreilly-ogrady){target="_blank"}
 - **GitHub:** [github.com/cait-oreilly](https://github.com/cait-oreilly){target="_blank"}
 
 Or fill out the contact form below:
