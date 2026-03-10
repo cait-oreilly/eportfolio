@@ -11,6 +11,13 @@ $sage-mist: #7AAF9F;
 $off-white: #E8E8E4;
 $cool-grey: #9A9E9C;
 $dark-stone: #353A38;
+.navbar {
+  background-color: $dark-slate !important;
+}
+
+.navbar-brand, .nav-link {
+  color: $off-white !important;
+}
 
 // Base document colors
 $navbar-bg: $dark-slate;     // navbar
