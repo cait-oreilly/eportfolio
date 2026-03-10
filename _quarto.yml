@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - Images/
 
 website:
   title: "Cáit O'Reilly"
@@ -29,13 +31,14 @@ website:
 
 format:
   html:
-    theme: 
-      light: 
-      - lux
-      - styles_light.scss
-      dark: 
-      - lux
-      - styles_dark.scss
+    theme:
+      light:
+        - lux
+        - styles_light.scss
+      dark:
+        - lux
+        - styles_dark.scss
     mainfont: Arimo
     toc: true
     page-layout: full
+
