@@ -1,0 +1,109 @@
+---
+Title: Achievements
+TOC: true
+---
+## Kubicle Certificates
+
+**Total Learning Hours: 57.5**
+
+<div style="margin-bottom:15px; display:flex; gap:10px; flex-wrap:wrap;">
+  <input type="text" id="searchInput" placeholder="🔍 Filter by topic..." 
+    style="padding:8px 12px; border:1px solid #3D7A72; border-radius:6px; font-size:14px; width:200px;">
+  <select id="sortSelect" 
+    style="padding:8px 12px; border:1px solid #3D7A72; border-radius:6px; font-size:14px;">
+    <option value="newest">Sort: Newest First</option>
+    <option value="oldest">Sort: Oldest First</option>
+    <option value="topic">Sort: Topic A–Z</option>
+    <option value="hours">Sort: Hours (High–Low)</option>
+  </select>
+</div>
+
+<div style="max-height:400px; overflow-y:auto; border-radius:8px; border:1px solid #D9D9D3;">
+<table id="certTable" style="width:100%; border-collapse:collapse; font-size:13px;">
+  <thead style="position:sticky; top:0; background-color:#3D7A72; color:#fff;">
+    <tr>
+      <th style="padding:10px; text-align:left;">Topic</th>
+      <th style="padding:10px; text-align:left;">Course</th>
+      <th style="padding:10px; text-align:left;">Date</th>
+      <th style="padding:10px; text-align:center;">Hours</th>
+    </tr>
+  </thead>
+  <tbody id="certBody">
+    <tr><td style="padding:8px 10px;">Data Presentation Skills</td><td style="padding:8px 10px;">Presenting Your Data</td><td style="padding:8px 10px;">2026-02-25</td><td style="padding:8px 10px; text-align:center;">1.0</td></tr>
+    <tr><td style="padding:8px 10px;">Data Security</td><td style="padding:8px 10px;">Handling Data Securely and Responsibly</td><td style="padding:8px 10px;">2026-02-25</td><td style="padding:8px 10px; text-align:center;">1.5</td></tr>
+    <tr><td style="padding:8px 10px;">Data Presentation Skills</td><td style="padding:8px 10px;">Telling Stories with Data</td><td style="padding:8px 10px;">2026-01-27</td><td style="padding:8px 10px; text-align:center;">1.0</td></tr>
+    <tr><td style="padding:8px 10px;">Tableau</td><td style="padding:8px 10px;">Dashboard Design</td><td style="padding:8px 10px;">2024-04-20</td><td style="padding:8px 10px; text-align:center;">2.0</td></tr>
+    <tr><td style="padding:8px 10px;">Python Fundamentals</td><td style="padding:8px 10px;">Connecting to Live Data</td><td style="padding:8px 10px;">2024-04-20</td><td style="padding:8px 10px; text-align:center;">1.5</td></tr>
+    <tr><td style="padding:8px 10px;">SQL</td><td style="padding:8px 10px;">Selecting and Filtering Data</td><td style="padding:8px 10px;">2024-04-11</td><td style="padding:8px 10px; text-align:center;">2.0</td></tr>
+    <tr><td style="padding:8px 10px;">Tableau</td><td style="padding:8px 10px;">Further Formulas in Tableau</td><td style="padding:8px 10px;">2024-04-09</td><td style="padding:8px 10px; text-align:center;">1.5</td></tr>
+    <tr><td style="padding:8px 10px;">Data Security</td><td style="padding:8px 10px;">Keeping Your Information Safe</td><td style="padding:8px 10px;">2024-02-06</td><td style="padding:8px 10px; text-align:center;">1.0</td></tr>
+    <tr><td style="padding:8px 10px;">Data Presentation Skills</td><td style="padding:8px 10px;">Communicating Data Effectively</td><td style="padding:8px 10px;">2024-01-18</td><td style="padding:8px 10px; text-align:center;">1.0</td></tr>
+    <tr><td style="padding:8px 10px;">Statistical Analysis</td><td style="padding:8px 10px;">Probability Principles</td><td style="padding:8px 10px;">2024-01-16</td><td style="padding:8px 10px; text-align:center;">1.5</td></tr>
+    <tr><td style="padding:8px 10px;">Statistical Analysis</td><td style="padding:8px 10px;">Introduction to Predictive Modeling</td><td style="padding:8px 10px;">2024-01-16</td><td style="padding:8px 10px; text-align:center;">2.0</td></tr>
+    <tr><td style="padding:8px 10px;">Statistical Analysis</td><td style="padding:8px 10px;">Principles of Statistics</td><td style="padding:8px 10px;">2024-01-16</td><td style="padding:8px 10px; text-align:center;">1.5</td></tr>
+    <tr><td style="padding:8px 10px;">AI Fundamentals</td><td style="padding:8px 10px;">Introduction to Artificial Intelligence</td><td style="padding:8px 10px;">2024-01-16</td><td style="padding:8px 10px; text-align:center;">1.0</td></tr>
+    <tr><td style="padding:8px 10px;">Visualization Fundamentals</td><td style="padding:8px 10px;">Visual Data Thinking</td><td style="padding:8px 10px;">2024-01-15</td><td style="padding:8px 10px; text-align:center;">1.0</td></tr>
+    <tr><td style="padding:8px 10px;">AI Fundamentals</td><td style="padding:8px 10px;">Large Language Models</td><td style="padding:8px 10px;">2024-01-15</td><td style="padding:8px 10px; text-align:center;">1.0</td></tr>
+    <tr><td style="padding:8px 10px;">AI Fundamentals</td><td style="padding:8px 10px;">Generative AI and ChatGPT</td><td style="padding:8px 10px;">2024-01-15</td><td style="padding:8px 10px; text-align:center;">1.5</td></tr>
+    <tr><td style="padding:8px 10px;">AI Fundamentals</td><td style="padding:8px 10px;">Understanding Natural Language</td><td style="padding:8px 10px;">2024-01-15</td><td style="padding:8px 10px; text-align:center;">1.0</td></tr>
+    <tr><td style="padding:8px 10px;">AI Fundamentals</td><td style="padding:8px 10px;">Identifying Patterns</td><td style="padding:8px 10px;">2024-01-15</td><td style="padding:8px 10px; text-align:center;">1.0</td></tr>
+    <tr><td style="padding:8px 10px;">AI Fundamentals</td><td style="padding:8px 10px;">Predicting Scenarios</td><td style="padding:8px 10px;">2024-01-15</td><td style="padding:8px 10px; text-align:center;">1.0</td></tr>
+    <tr><td style="padding:8px 10px;">AI Fundamentals</td><td style="padding:8px 10px;">Predicting Future Values</td><td style="padding:8px 10px;">2024-01-15</td><td style="padding:8px 10px; text-align:center;">1.0</td></tr>
+    <tr><td style="padding:8px 10px;">AI Fundamentals</td><td style="padding:8px 10px;">Business Applications of AI</td><td style="padding:8px 10px;">2024-01-15</td><td style="padding:8px 10px; text-align:center;">1.0</td></tr>
+    <tr><td style="padding:8px 10px;">Power BI</td><td style="padding:8px 10px;">Introduction to Visualizations</td><td style="padding:8px 10px;">2023-12-29</td><td style="padding:8px 10px; text-align:center;">1.5</td></tr>
+    <tr><td style="padding:8px 10px;">Power BI</td><td style="padding:8px 10px;">Building Your First Dashboard</td><td style="padding:8px 10px;">2023-12-22</td><td style="padding:8px 10px; text-align:center;">1.5</td></tr>
+    <tr><td style="padding:8px 10px;">Excel</td><td style="padding:8px 10px;">Finance Functions</td><td style="padding:8px 10px;">2023-11-07</td><td style="padding:8px 10px; text-align:center;">1.0</td></tr>
+    <tr><td style="padding:8px 10px;">SQL</td><td style="padding:8px 10px;">Understanding SQL Databases</td><td style="padding:8px 10px;">2023-10-16</td><td style="padding:8px 10px; text-align:center;">1.5</td></tr>
+    <tr><td style="padding:8px 10px;">Python Fundamentals</td><td style="padding:8px 10px;">Functions, Conditionality and Loops</td><td style="padding:8px 10px;">2023-10-10</td><td style="padding:8px 10px; text-align:center;">2.5</td></tr>
+    <tr><td style="padding:8px 10px;">Python Fundamentals</td><td style="padding:8px 10px;">Python Fundamentals</td><td style="padding:8px 10px;">2023-10-03</td><td style="padding:8px 10px; text-align:center;">2.0</td></tr>
+    <tr><td style="padding:8px 10px;">Tableau</td><td style="padding:8px 10px;">Creating Visualizations</td><td style="padding:8px 10px;">2023-09-26</td><td style="padding:8px 10px; text-align:center;">2.0</td></tr>
+    <tr><td style="padding:8px 10px;">Excel</td><td style="padding:8px 10px;">Formulas and Functions</td><td style="padding:8px 10px;">2023-04-05</td><td style="padding:8px 10px; text-align:center;">3.0</td></tr>
+    <tr><td style="padding:8px 10px;">Tableau</td><td style="padding:8px 10px;">Introducing Tableau</td><td style="padding:8px 10px;">2023-03-14</td><td style="padding:8px 10px; text-align:center;">1.5</td></tr>
+    <tr><td style="padding:8px 10px;">Visualization Fundamentals</td><td style="padding:8px 10px;">Applying Visual Data Skills</td><td style="padding:8px 10px;">2023-02-22</td><td style="padding:8px 10px; text-align:center;">1.0</td></tr>
+    <tr><td style="padding:8px 10px;">Excel</td><td style="padding:8px 10px;">Charts in Depth</td><td style="padding:8px 10px;">2023-01-03</td><td style="padding:8px 10px; text-align:center;">1.0</td></tr>
+    <tr><td style="padding:8px 10px;">Excel</td><td style="padding:8px 10px;">Pivot Tables</td><td style="padding:8px 10px;">2022-11-22</td><td style="padding:8px 10px; text-align:center;">2.0</td></tr>
+    <tr><td style="padding:8px 10px;">Data Literacy</td><td style="padding:8px 10px;">Introduction to Data Preparation</td><td style="padding:8px 10px;">2022-10-20</td><td style="padding:8px 10px; text-align:center;">1.0</td></tr>
+    <tr><td style="padding:8px 10px;">Data Literacy</td><td style="padding:8px 10px;">Introduction to Data and Databases</td><td style="padding:8px 10px;">2022-10-20</td><td style="padding:8px 10px; text-align:center;">1.0</td></tr>
+    <tr><td style="padding:8px 10px;">Excel</td><td style="padding:8px 10px;">Data Manipulation and Formatting</td><td style="padding:8px 10px;">2022-10-06</td><td style="padding:8px 10px; text-align:center;">2.0</td></tr>
+  </tbody>
+</table>
+</div>
+
+<script>
+const rows = Array.from(document.querySelectorAll('#certBody tr'));
+const originalRows = [...rows];
+
+function renderRows(filtered) {
+  const tbody = document.getElementById('certBody');
+  tbody.innerHTML = '';
+  filtered.forEach((row, i) => {
+    row.style.backgroundColor = i % 2 === 0 ? '' : 'rgba(61,122,114,0.08)';
+    tbody.appendChild(row);
+  });
+}
+
+document.getElementById('searchInput').addEventListener('input', applyFilters);
+document.getElementById('sortSelect').addEventListener('change', applyFilters);
+
+function applyFilters() {
+  const search = document.getElementById('searchInput').value.toLowerCase();
+  const sort = document.getElementById('sortSelect').value;
+
+  let filtered = originalRows.filter(row => {
+    const topic = row.cells[0].textContent.toLowerCase();
+    const course = row.cells[1].textContent.toLowerCase();
+    return topic.includes(search) || course.includes(search);
+  });
+
+  filtered.sort((a, b) => {
+    if (sort === 'newest') return new Date(b.cells[2].textContent) - new Date(a.cells[2].textContent);
+    if (sort === 'oldest') return new Date(a.cells[2].textContent) - new Date(b.cells[2].textContent);
+    if (sort === 'topic') return a.cells[0].textContent.localeCompare(b.cells[0].textContent);
+    if (sort === 'hours') return parseFloat(b.cells[3].textContent) - parseFloat(a.cells[3].textContent);
+  });
+
+  renderRows(filtered);
+}
+
+applyFilters();
+</script>
