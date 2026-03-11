@@ -31,7 +31,7 @@ One of my favourite things to do is bake! Whenever I have free time, I bake for 
 ::: {.card style="padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px; max-width:700px; margin-left:auto; margin-right:auto;"}
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/Ib2wJcozWcM" frameborder="0" allowfullscreen style="border-radius:6px;"></iframe>
 :::
-## 🐕 Me and my dog
+## 🐕Me and my dog
 
 I spend every morning walking my dog, Rafa. It is the highlight of my day! At 12 years old, he still gets just as excited for his walks in the park as he did when he was a puppy!
 
@@ -68,6 +68,29 @@ I spend every morning walking my dog, Rafa. It is the highlight of my day! At 12
 ::: {.column width="48%"}
 ::: {.card style="padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
 ![](Images/race_day.jpg){style="width:100%; border-radius:6px;"}
+:::
+:::
+
+::::
+
+## 💪Gym
+
+I regularly spend time at the gym to support both my physical and emotional wellbeing. Exercising helps me step away from the pressures of work and study, allowing me to clear my mind, reduce stress, and focus on improving my fitness. I enjoy going both on my own and with friends—it provides a great balance of social interaction as well as personal time.
+
+:::: {.columns}
+
+::: {.column width="48%"}
+::: {.card style="padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
+![](Images/flyefit.jpg){style="width:100%; border-radius:6px;"}
+:::
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+::: {.card style="padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
+![](Images/gym.jpg){style="width:100%; border-radius:6px;"}
 :::
 :::
 

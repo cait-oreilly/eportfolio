@@ -87,8 +87,8 @@
     "objectID": "hobbies.html#me-and-my-dog",
     "href": "hobbies.html#me-and-my-dog",
     "title": "Hobbies & Interests",
-    "section": "🐕 Me and my dog",
-    "text": "🐕 Me and my dog\nI spend every morning walking my dog, Rafa. It is the highlight of my day! At 12 years old, he still gets just as excited for his walks in the park as he did when he was a puppy!"
+    "section": "🐕Me and my dog",
+    "text": "🐕Me and my dog\nI spend every morning walking my dog, Rafa. It is the highlight of my day! At 12 years old, he still gets just as excited for his walks in the park as he did when he was a puppy!"
   },
   {
     "objectID": "achievements.html",
@@ -180,5 +180,12 @@
     "title": "Project 3",
     "section": "",
     "text": "This analysis was divided into two parts. Part A focused on confidence interval construction using the House Price dataset. Part B examined sampling distributions using an external dataset on accident costs.\nIn Part A, three confidence intervals (90%, 95%, 99%) were calculated for average house price. A 95% confidence interval was calculated for average house size in Cork, and another for the proportion of detached houses sold in Ireland. The required sample size to reduce sampling error to 0.02 was also calculated.\nIn Part B, an Excel dataset on accident costs was analysed to compare individual accident cost distributions across 1,000 companies with average costs from 200 samples of 100 companies, with reference to the Central Limit Theorem.\n\n\n\n\nJamovi\nMicrosoft Excel\nMicrosoft Word\n\n\n\n\nThe analysis demonstrated how confidence level affects interval width, and how averaging across samples reduces variability in line with the Central Limit Theorem.\n\n\n\nThis project deepened my understanding of inferential statistics, confidence intervals, and sampling theory.\nBack to Projects"
+  },
+  {
+    "objectID": "hobbies.html#gym",
+    "href": "hobbies.html#gym",
+    "title": "Hobbies & Interests",
+    "section": "💪Gym",
+    "text": "💪Gym\nI regularly spend time at the gym to support both my physical and emotional wellbeing. Exercising helps me step away from the pressures of work and study, allowing me to clear my mind, reduce stress, and focus on improving my fitness. I enjoy going both on my own and with friends—it provides a great balance of social interaction as well as personal time."
   }
 ]
