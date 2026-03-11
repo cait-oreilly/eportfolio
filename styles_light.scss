@@ -3,13 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Forum&family=Quicksand:wght@300..700&display=swap');
 
 // Colors
-$warm-white: #F8F7F4;
-$stone: #EFEFEB;
+$warm-white: #FBF8F3;
+$stone: #EDE3D6;
 $slate-teal: #3D7A72;
 $sage: #7A9E96;
 $charcoal: #2C2C2C;
-$warm-grey: #7A7A72;
-$light-stone: #D9D9D3;
+$warm-grey: #8A7A6A;
+$light-stone: #DDD0BC;
 
 // Base document colors
 $navbar-bg: $stone;
@@ -19,6 +19,7 @@ $body-color: $charcoal;
 $link-color: $slate-teal;
 
 /*-- scss:rules --*/
+
 
 .navbar {
   background-color: $stone !important;
@@ -46,6 +47,7 @@ $link-color: $slate-teal;
   margin-right: auto;
 }
 
+
 .btn-primary {
   background-color: $slate-teal !important;
   border-color: $slate-teal !important;
@@ -71,3 +73,4 @@ h1, h2, h3, h4, h5, h6,
 .columns h2, .columns h1, .columns h3 {
   color: #3D7A72 !important;
 }
+

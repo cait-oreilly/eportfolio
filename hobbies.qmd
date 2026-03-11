@@ -9,32 +9,16 @@ Alongside my academic studies and part-time work, I spend a lot of my time doing
 
 One of my favourite things to do is bake! Whenever I have free time, I bake for my friends and family. I've been commissioned to make birthday cakes for friends, and this is something I would love to do more of.
 
-:::: {.columns}
-
-::: {.column width="48%"}
-::: {.card style="padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
-![](Images/21_cake.JPG){style="width:100%; border-radius:6px;"}
-:::
-:::
-
-::: {.column width="4%"}
-:::
-
-::: {.column width="48%"}
-::: {.card style="padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
-![](Images/21_pink.jpeg){style="width:100%; border-radius:6px;"}
-:::
-:::
-
-::::
-
 ::: {.card style="padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px; max-width:700px; margin-left:auto; margin-right:auto;"}
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/Ib2wJcozWcM" frameborder="0" allowfullscreen style="border-radius:6px;"></iframe>
+![](Images/21_cake.JPG){style="width:100%; height:auto; object-fit:cover; border-radius:6px;"}
 :::
+
 
 ## 🐕 Me and my dog
 
 I spend every morning walking my dog, Rafa. It is the highlight of my day! At 12 years old, he still gets just as excited for his walks in the park as he did when he was a puppy!
+Scroll through the carousel below for some photos!
+
 ```{=html}
 <div style="position:relative; max-width:400px; margin:auto; border-radius:10px; overflow:hidden; box-shadow:0 4px 10px rgba(0,0,0,0.15);">
   <div id="dogCarousel" style="display:flex; transition:transform 0.4s ease;">
