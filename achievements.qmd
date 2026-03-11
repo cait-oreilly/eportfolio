@@ -1,5 +1,5 @@
 ---
-Title: Achievements
+Title: Certificates
 TOC: true
 ---
 ## Kubicle Certificates
