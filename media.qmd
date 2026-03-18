@@ -11,13 +11,13 @@ A collection of media, presentations, and achievements.
 
 ::: {.column width="48%"}
 ::: {.card style="padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
-![](Images/Logo.png){style="width:100%; border-radius:6px; margin-bottom:10px;"}
+![](Images/work_in_progress.jpg){style="width:100%; border-radius:6px; margin-bottom:10px;"}
 
 **Presentation Title Here**
 
 A brief description of the presentation — topic, context, and date.
 
-[More →](Images/Logo.png){.btn .btn-primary}
+[More →](Images/work_in_progress.jpg){.btn .btn-primary}
 :::
 :::
 
@@ -26,31 +26,22 @@ A brief description of the presentation — topic, context, and date.
 
 ::: {.column width="48%"}
 ::: {.card style="padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
-![](Images/Logo.png){style="width:100%; border-radius:6px; margin-bottom:10px;"}
+![](Images/work_in_progress.jpg){style="width:100%; border-radius:6px; margin-bottom:10px;"}
 
 **Presentation Title Here**
 
 A brief description of the presentation — topic, context, and date.
 
-[More →](Images/Logo.png){.btn .btn-primary}
+[More →](Images/work_in_progress.jpg){.btn .btn-primary}
 :::
 :::
 
 ::::
 
-## Certificates & Achievements
+**Ad for Enterprise module**
 
-:::: {.columns}
-
-::: {.column width="48%"}
-::: {.card style="padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
-![](Images/Logo.png){style="width:100%; border-radius:6px; margin-bottom:10px;"}
-
-**Certificate Name — Issuing Organisation, Year**
-
-Brief description of what you achieved or learned.
-
-[More →](Images/Logo.png){.btn .btn-primary}
+In my enterprise module we were asked to create a new product or service that does not exist yet. My groups idea is a hamstring bad which is worn on both legs and it send vibration signals when it detects a potential strain.
+Below is the ad for the product.
 :::
 :::
 
@@ -59,44 +50,5 @@ Brief description of what you achieved or learned.
 
 ::: {.column width="48%"}
 ::: {.card style="padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
-![](Images/Logo.png){style="width:100%; border-radius:6px; margin-bottom:10px;"}
+<iframe width="100%" height="200" src="https://youtu.be/S-6mkB5iONY"  frameborder="0" allowfullscreen></iframe>
 
-**Certificate Name — Issuing Organisation, Year**
-
-Brief description of what you achieved or learned.
-
-[More →](Images/Logo.png){.btn .btn-primary}
-:::
-:::
-
-::::
-
-## Videos
-
-:::: {.columns}
-
-::: {.column width="48%"}
-::: {.card style="padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
-<iframe width="100%" height="200" src="https://www.youtube.com/embed/dvgZkm1xWPE?list=RDdvgZkm1xWPE"  frameborder="0" allowfullscreen></iframe>
-
-
-**Video Title Here**
-
-Brief description of the video.
-:::
-:::
-
-::: {.column width="4%"}
-:::
-
-::: {.column width="48%"}
-::: {.card style="padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
-<iframe width="100%" height="200" src="https://www.youtube.com/embed/dvgZkm1xWPE?list=RDdvgZkm1xWPE"  frameborder="0" allowfullscreen></iframe>
-
-**Video Title Here**
-
-Brief description of the video.
-:::
-:::
-
-::::
