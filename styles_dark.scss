@@ -103,3 +103,14 @@ h1, h2, h3, h4, h5, h6,
 .badge {
   color: $off-white !important;
 }
+
+// Fix secondary badge in dark mode
+.badge.bg-secondary {
+  background-color: $muted-teal !important;
+  color: $deep-charcoal !important;
+}
+
+.badge.bg-primary {
+  background-color: $dark-stone !important;
+  color: $off-white !important;
+}
