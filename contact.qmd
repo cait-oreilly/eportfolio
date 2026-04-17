@@ -26,7 +26,10 @@ Or fill out the contact form below:
 
 ## References
 
-::: {.callout-note}
-References are available upon request.
+## References
 
+
+::: callout-note
+## Note
+References are available upon request.
 :::

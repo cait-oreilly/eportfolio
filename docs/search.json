@@ -137,7 +137,7 @@
     "href": "contact.html",
     "title": "Contact & References",
     "section": "",
-    "text": "You can reach me via:\n\nEmail: caitogrady@gmail.com\nLinkedIn: linkedin.com/in/cait-oreilly-ogrady\nGitHub: github.com/cait-oreilly\n\nOr fill out the contact form below:\n\n\nName: \nEmail: \nMessage:\n\n\nSend Message"
+    "text": "You can reach me via:\n\nEmail: caitogrady@gmail.com\nLinkedIn: linkedin.com/in/cait-oreilly-ogrady\nGitHub: github.com/cait-oreilly\n\nOr fill out the contact form below:\n\n\nName: \n\n\nEmail: \n\n\nMessage:\n\n\n\nSend Message"
   },
   {
     "objectID": "index.html",
@@ -333,13 +333,20 @@
     "href": "contact.html#references",
     "title": "Contact & References",
     "section": "References",
-    "text": "References\n\n\n\n\n\n\nNote\n\n\n\nReferences are available upon request. ::"
+    "text": "References"
   },
   {
     "objectID": "contact.html#get-in-touch",
     "href": "contact.html#get-in-touch",
     "title": "Contact & References",
     "section": "",
-    "text": "You can reach me via:\n\nEmail: caitogrady@gmail.com\nLinkedIn: linkedin.com/in/cait-oreilly-ogrady\nGitHub: github.com/cait-oreilly\n\nOr fill out the contact form below:\n\n\nName: \nEmail: \nMessage:\n\n\nSend Message"
+    "text": "You can reach me via:\n\nEmail: caitogrady@gmail.com\nLinkedIn: linkedin.com/in/cait-oreilly-ogrady\nGitHub: github.com/cait-oreilly\n\nOr fill out the contact form below:\n\n\nName: \n\n\nEmail: \n\n\nMessage:\n\n\n\nSend Message"
+  },
+  {
+    "objectID": "contact.html#references-1",
+    "href": "contact.html#references-1",
+    "title": "Contact & References",
+    "section": "References",
+    "text": "References\n\n\n\n\n\n\nNoteNote\n\n\n\nReferences are available upon request."
   }
 ]
