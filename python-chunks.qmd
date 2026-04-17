@@ -1,0 +1,721 @@
+---
+title: "Predicting Student Depression Using Machine Learning"
+description: "Comparing ensemble methods and interpretable linear models across a dataset of 27,901 university students to predict depression and identify key risk factors."
+author: "Cáit O'Reilly O'Grady"
+date: "2026-04-17"
+image: "Images/quota_sampling.jpg"
+categories: [Machine Learning, Python, Classification, Mental Health]
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    code-tools: true
+    highlight-style: arrow
+---
+
+## About
+
+This study applies supervised machine learning to a dataset of **27,901 university students** to predict depression and identify key risk factors. Models evaluated include Logistic Regression (LR), Random Forest (RF), Gradient Boosting (GB), and a Voting Ensemble (VE), alongside SHAP-based interpretability and calibration analysis.
+
+All models achieved strong performance (ROC-AUC ≈ 0.92), with LR matching or slightly outperforming more complex methods. Key predictors include **suicidal ideation**, **academic pressure**, and **financial stress**.
+
+> **Module:** BAA1027 Data Analytics: Machine Learning & Advanced Python  
+> **Lecturer:** Dr. Michael Farayola  
+> **Word Count:** 2,744
+
+---
+
+## 1. Imports
+
+```{python}
+#| code-fold: true
+#| code-summary: "Show imports"
+
+import os
+import warnings
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib as mpl
+import seaborn as sns
+from scipy import stats
+
+from sklearn.model_selection import (
+    train_test_split, cross_val_score,
+    StratifiedKFold, GridSearchCV, learning_curve
+)
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+from sklearn.linear_model import LogisticRegression, LinearRegression
+from sklearn.ensemble import (
+    RandomForestClassifier,
+    GradientBoostingClassifier,
+    VotingClassifier
+)
+from sklearn.metrics import (
+    classification_report, confusion_matrix,
+    roc_auc_score, roc_curve, ConfusionMatrixDisplay,
+    precision_recall_curve, average_precision_score
+)
+from sklearn.decomposition import PCA
+from sklearn.pipeline import Pipeline
+from sklearn.calibration import calibration_curve
+
+warnings.filterwarnings('ignore')
+os.makedirs("figures", exist_ok=True)
+
+# ── Colour palette ────────────────────────────────────────────────
+PALETTE = {
+    'primary_dark':   '#0D3D80',
+    'primary':        '#1A5FBF',
+    'primary_light':  '#3B82D4',
+    'accent':         '#0EA5D0',
+    'accent_subtle':  '#E0F5FC',
+    'surface':        '#F5F8FC',
+    'border':         '#E2EAF4',
+    'muted':          '#8FA8C8',
+    'text':           '#1A2B3C',
+    'text_secondary': '#4A6080',
+}
+
+MODEL_COLORS = [
+    PALETTE['primary_dark'],
+    PALETTE['primary'],
+    PALETTE['primary_light'],
+    PALETTE['accent'],
+]
+
+mpl.rcParams.update({
+    'font.family':      'sans-serif',
+    'font.size':        10,
+    'axes.titlesize':   11,
+    'axes.labelsize':   10,
+    'legend.fontsize':  9,
+    'figure.titlesize': 12,
+    'axes.facecolor':   PALETTE['surface'],
+    'figure.facecolor': PALETTE['surface'],
+    'axes.edgecolor':   PALETTE['border'],
+    'grid.color':       PALETTE['border'],
+    'grid.linewidth':   0.5,
+    'text.color':       PALETTE['text'],
+    'axes.labelcolor':  PALETTE['text'],
+    'xtick.color':      PALETTE['text_secondary'],
+    'ytick.color':      PALETTE['text_secondary'],
+})
+
+print("Libraries loaded ✓")
+```
+
+---
+
+## 2. Dataset and Data Preparation
+
+```{python}
+#| code-fold: true
+#| code-summary: "Show data preparation code"
+
+# ── Load dataset ──────────────────────────────────────────────────
+df = pd.read_csv('projects_files/student-depression-dataset.csv')
+
+print("Shape:", df.shape)
+print("\nColumn Types:\n", df.dtypes)
+print("\nMissing Values:\n", df.isnull().sum())
+print("\nTarget Distribution:\n",
+      df['Depression'].value_counts(normalize=True).round(3))
+df.head()
+```
+
+```{python}
+#| code-fold: true
+#| code-summary: "Show encoding and cleaning code"
+
+df_clean = df.copy()
+df_clean.drop(columns=['id'], inplace=True, errors='ignore')
+
+# Binary encoding
+binary_cols = [
+    'Gender',
+    'Have you ever had suicidal thoughts ?',
+    'Family History of Mental Illness'
+]
+le = LabelEncoder()
+for col in binary_cols:
+    df_clean[col] = le.fit_transform(df_clean[col].astype(str))
+
+# Ordinal encoding
+sleep_order  = {'Less than 5 hours': 0, '5-6 hours': 1,
+                '7-8 hours': 2, 'More than 8 hours': 3}
+diet_order   = {'Unhealthy': 0, 'Moderate': 1, 'Healthy': 2}
+
+df_clean['Sleep Duration'] = df_clean['Sleep Duration'].map(sleep_order)
+df_clean['Dietary Habits'] = df_clean['Dietary Habits'].map(diet_order)
+
+# One-hot encode high-cardinality nominals
+df_clean = pd.get_dummies(
+    df_clean,
+    columns=['City', 'Profession', 'Degree'],
+    drop_first=True
+)
+
+df_clean.dropna(inplace=True)
+
+print("Cleaned shape:", df_clean.shape)
+print("Remaining nulls:", df_clean.isnull().sum().sum())
+```
+
+```{python}
+#| code-fold: true
+#| code-summary: "Show train-test split code"
+
+core_features = [
+    'Age', 'Academic Pressure', 'CGPA',
+    'Study Satisfaction', 'Financial Stress',
+    'Work/Study Hours', 'Sleep Duration',
+    'Dietary Habits', 'Gender',
+    'Have you ever had suicidal thoughts ?',
+    'Family History of Mental Illness'
+]
+
+X = df_clean[core_features]
+y = df_clean['Depression']
+
+X_raw_train, X_raw_test, y_raw_train, y_raw_test = train_test_split(
+    X, y, test_size=0.2, random_state=42, stratify=y
+)
+
+print("Train size:", X_raw_train.shape)
+print("Test size: ", X_raw_test.shape)
+```
+
+---
+
+## 3. Model Training
+
+### Logistic Regression
+
+```{python}
+#| code-fold: true
+#| code-summary: "Show Logistic Regression code"
+
+lr_pipe = Pipeline([
+    ('scaler', StandardScaler()),
+    ('lr', LogisticRegression(max_iter=1000, random_state=42))
+])
+lr_pipe.fit(X_raw_train, y_raw_train)
+
+y_pred_lr = lr_pipe.predict(X_raw_test)
+lr_probs  = lr_pipe.predict_proba(X_raw_test)[:, 1]
+
+print("=== Logistic Regression ===")
+print(classification_report(y_raw_test, y_pred_lr))
+print(f"ROC-AUC: {roc_auc_score(y_raw_test, lr_probs):.4f}")
+```
+
+### Random Forest
+
+```{python}
+#| code-fold: true
+#| code-summary: "Show Random Forest code"
+
+rf_plain = RandomForestClassifier(
+    n_estimators=200, max_depth=10,
+    random_state=42, n_jobs=-1
+)
+rf_plain.fit(X_raw_train, y_raw_train)
+
+y_pred_rf = rf_plain.predict(X_raw_test)
+rf_probs  = rf_plain.predict_proba(X_raw_test)[:, 1]
+
+print("=== Random Forest ===")
+print(classification_report(y_raw_test, y_pred_rf))
+print(f"ROC-AUC: {roc_auc_score(y_raw_test, rf_probs):.4f}")
+```
+
+### Gradient Boosting
+
+```{python}
+#| code-fold: true
+#| code-summary: "Show Gradient Boosting code"
+
+gb_plain = GradientBoostingClassifier(
+    n_estimators=200, learning_rate=0.05,
+    max_depth=4, random_state=42
+)
+gb_plain.fit(X_raw_train, y_raw_train)
+
+y_pred_gb = gb_plain.predict(X_raw_test)
+gb_probs  = gb_plain.predict_proba(X_raw_test)[:, 1]
+
+print("=== Gradient Boosting ===")
+print(classification_report(y_raw_test, y_pred_gb))
+print(f"ROC-AUC: {roc_auc_score(y_raw_test, gb_probs):.4f}")
+```
+
+### Voting Ensemble
+
+```{python}
+#| code-fold: true
+#| code-summary: "Show Voting Ensemble code"
+
+voting_clf = VotingClassifier(
+    estimators=[
+        ('lr', lr_pipe),
+        ('rf', rf_plain),
+        ('gb', gb_plain)
+    ],
+    voting='soft'
+)
+voting_clf.fit(X_raw_train, y_raw_train)
+
+y_pred_vc = voting_clf.predict(X_raw_test)
+vc_probs  = voting_clf.predict_proba(X_raw_test)[:, 1]
+
+print("=== Soft Voting Ensemble ===")
+print(classification_report(y_raw_test, y_pred_vc))
+print(f"ROC-AUC: {roc_auc_score(y_raw_test, vc_probs):.4f}")
+
+# Shared model map for downstream evaluation
+model_test_map = [
+    ('Logistic Regression', lr_pipe,    X_raw_test, y_raw_test),
+    ('Random Forest',       rf_plain,   X_raw_test, y_raw_test),
+    ('Gradient Boosting',   gb_plain,   X_raw_test, y_raw_test),
+    ('Voting Ensemble',     voting_clf, X_raw_test, y_raw_test),
+]
+```
+
+---
+
+## 4. Evaluation Results
+
+### Model Performance Summary
+
+```{python}
+#| echo: false
+
+metrics_data = {
+    'Model':     ['Logistic Regression', 'Random Forest',
+                  'Gradient Boosting',   'Voting Ensemble'],
+    'Accuracy':  [0.8563, 0.8479, 0.8531, 0.8543],
+    'Precision': [0.8658, 0.8574, 0.8631, 0.8634],
+    'Recall':    [0.8931, 0.8879, 0.8903, 0.8925],
+    'F1-Score':  [0.8792, 0.8724, 0.8765, 0.8777],
+    'ROC-AUC':   [0.9247, 0.9209, 0.9231, 0.9246],
+}
+summary_df = pd.DataFrame(metrics_data).set_index('Model')
+summary_df.style.format("{:.4f}").background_gradient(
+    cmap='Blues', subset=['Accuracy', 'F1-Score', 'ROC-AUC']
+)
+```
+
+### ROC Curves
+
+```{python}
+#| echo: false
+#| fig-cap: "ROC Curves for all four models on the test set"
+
+fig, ax = plt.subplots(figsize=(7, 5))
+fig.patch.set_facecolor(PALETTE['surface'])
+ax.set_facecolor(PALETTE['surface'])
+
+model_probs = [
+    ('Logistic Regression', lr_probs),
+    ('Random Forest',       rf_probs),
+    ('Gradient Boosting',   gb_probs),
+    ('Voting Ensemble',     vc_probs),
+]
+
+for (name, probs), color in zip(model_probs, MODEL_COLORS):
+    fpr, tpr, _ = roc_curve(y_raw_test, probs)
+    auc = roc_auc_score(y_raw_test, probs)
+    ax.plot(fpr, tpr, color=color, lw=1.8, label=f'{name} (AUC = {auc:.3f})')
+
+ax.plot([0, 1], [0, 1], 'k--', lw=1, label='Random Classifier')
+ax.set_xlabel('False Positive Rate')
+ax.set_ylabel('True Positive Rate')
+ax.set_title('ROC Curves — All Models', fontweight='bold')
+ax.legend(loc='lower right', frameon=False)
+ax.grid(True, alpha=0.4)
+plt.tight_layout()
+plt.show()
+```
+
+### Confusion Matrices
+
+```{python}
+#| echo: false
+#| fig-cap: "Confusion matrices for all four models on the test set"
+
+fig, axes = plt.subplots(2, 2, figsize=(9, 7))
+fig.suptitle('Confusion Matrices — All Models',
+             fontsize=12, fontweight='bold', color=PALETTE['text'])
+fig.patch.set_facecolor(PALETTE['surface'])
+
+cmap = mpl.colors.LinearSegmentedColormap.from_list(
+    'bp', [PALETTE['accent_subtle'], PALETTE['primary_dark']]
+)
+
+for i, (name, model, Xt, yt) in enumerate(model_test_map):
+    ax  = axes[i // 2, i % 2]
+    cm  = confusion_matrix(yt, model.predict(Xt))
+    disp = ConfusionMatrixDisplay(
+        cm, display_labels=['No Depression', 'Depressed']
+    )
+    disp.plot(ax=ax, colorbar=False, cmap=cmap)
+    ax.set_title(name, fontsize=10, color=PALETTE['text'])
+
+plt.tight_layout()
+plt.show()
+```
+
+---
+
+## 5. Cross-Validation
+
+```{python}
+#| code-fold: true
+#| code-summary: "Show cross-validation code"
+#| fig-cap: "5-fold stratified cross-validation ROC-AUC scores across all models"
+
+cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
+
+models_cv = {
+    'Logistic Regression': lr_pipe,
+    'Random Forest':       rf_plain,
+    'Gradient Boosting':   gb_plain,
+    'Voting Ensemble':     voting_clf,
+}
+
+cv_results = {}
+print("=" * 60)
+print("5-FOLD STRATIFIED CROSS-VALIDATION RESULTS")
+print("=" * 60)
+
+for name, model in models_cv.items():
+    scores = cross_val_score(
+        model, X, y, cv=cv, scoring='roc_auc', n_jobs=-1
+    )
+    cv_results[name] = scores
+    print(f"{name:<25}  Mean AUC: {scores.mean():.4f} "
+          f"±{scores.std():.4f}  "
+          f"Min: {scores.min():.4f}  Max: {scores.max():.4f}")
+```
+
+```{python}
+#| echo: false
+#| fig-cap: "Cross-validation ROC-AUC score distributions"
+
+fig, ax = plt.subplots(figsize=(8, 4))
+fig.patch.set_facecolor(PALETTE['surface'])
+ax.set_facecolor(PALETTE['surface'])
+
+bp = ax.boxplot(
+    [cv_results[n] for n in models_cv],
+    labels=list(models_cv.keys()),
+    patch_artist=True,
+    medianprops=dict(color=PALETTE['accent'], linewidth=2),
+    whiskerprops=dict(color=PALETTE['muted']),
+    capprops=dict(color=PALETTE['muted']),
+    flierprops=dict(marker='o', color=PALETTE['muted'], markersize=5)
+)
+
+for patch, color in zip(bp['boxes'], MODEL_COLORS):
+    patch.set_facecolor(color)
+    patch.set_alpha(0.6)
+
+ax.set_ylabel('ROC-AUC Score')
+ax.set_title('5-Fold Cross-Validation ROC-AUC Scores',
+             fontweight='bold', color=PALETTE['text'])
+ax.grid(True, axis='y', alpha=0.4)
+plt.tight_layout()
+plt.show()
+```
+
+---
+
+## 6. Feature Analysis and Interpretability
+
+### Correlation Heatmap
+
+```{python}
+#| echo: false
+#| fig-cap: "Correlation matrix — core features vs depression status"
+
+corr_df = df_clean[core_features + ['Depression']].copy()
+corr    = corr_df.corr()
+
+fig, ax = plt.subplots(figsize=(10, 8))
+fig.patch.set_facecolor(PALETTE['surface'])
+
+sns.heatmap(
+    corr,
+    ax=ax,
+    annot=True, fmt='.2f', annot_kws={'size': 7},
+    cmap=sns.diverging_palette(220, 20, as_cmap=True),
+    center=0, linewidths=0.5,
+    linecolor=PALETTE['border']
+)
+ax.set_title('Correlation Matrix — Core Features',
+             fontweight='bold', color=PALETTE['text'], pad=12)
+plt.xticks(rotation=45, ha='right', fontsize=8)
+plt.yticks(fontsize=8)
+plt.tight_layout()
+plt.show()
+```
+
+### Random Forest Feature Importance
+
+```{python}
+#| echo: false
+#| fig-cap: "Random Forest feature importances (mean decrease in impurity)"
+
+importances = pd.Series(
+    rf_plain.feature_importances_, index=core_features
+).sort_values()
+
+fig, ax = plt.subplots(figsize=(8, 5))
+fig.patch.set_facecolor(PALETTE['surface'])
+ax.set_facecolor(PALETTE['surface'])
+
+colors = [
+    PALETTE['primary_dark'] if v > 0.10
+    else PALETTE['primary'] if v > 0.05
+    else PALETTE['accent']
+    for v in importances.values
+]
+importances.plot(kind='barh', ax=ax, color=colors)
+ax.set_xlabel('Mean Decrease in Impurity')
+ax.set_title('Random Forest — Feature Importances',
+             fontweight='bold', color=PALETTE['text'])
+ax.grid(True, axis='x', alpha=0.4)
+plt.tight_layout()
+plt.show()
+```
+
+### Feature Importance Boxplots
+
+```{python}
+#| echo: false
+#| fig-cap: "Key feature distributions by depression status"
+
+key_vars = [
+    'Academic Pressure', 'Financial Stress',
+    'Age', 'Work/Study Hours', 'CGPA', 'Sleep Duration'
+]
+
+fig, axes = plt.subplots(2, 3, figsize=(11, 6))
+fig.suptitle('Key Features vs Depression Status',
+             fontweight='bold', color=PALETTE['text'])
+fig.patch.set_facecolor(PALETTE['surface'])
+
+for ax, var in zip(axes.flat, key_vars):
+    ax.set_facecolor(PALETTE['surface'])
+    groups = [
+        df_clean.loc[df_clean['Depression'] == 0, var].dropna(),
+        df_clean.loc[df_clean['Depression'] == 1, var].dropna(),
+    ]
+    bp = ax.boxplot(
+        groups,
+        labels=['No Depression', 'Depressed'],
+        patch_artist=True,
+        medianprops=dict(color='white', linewidth=2),
+    )
+    bp['boxes'][0].set_facecolor(PALETTE['primary'])
+    bp['boxes'][1].set_facecolor(PALETTE['accent'])
+    for box in bp['boxes']:
+        box.set_alpha(0.75)
+    ax.set_title(var, fontsize=9, color=PALETTE['text'])
+    ax.set_xlabel('Depression', fontsize=8)
+    ax.set_ylabel(var, fontsize=8)
+    ax.grid(True, axis='y', alpha=0.3)
+
+plt.tight_layout()
+plt.show()
+```
+
+---
+
+## 7. Interaction Effects
+
+```{python}
+#| echo: false
+#| fig-cap: "Depression rate by Academic Pressure × Financial Stress interaction"
+
+pivot = df_clean.groupby(
+    ['Academic Pressure', 'Financial Stress']
+)['Depression'].mean().unstack()
+
+fig, ax = plt.subplots(figsize=(8, 5))
+fig.patch.set_facecolor(PALETTE['surface'])
+
+sns.heatmap(
+    pivot, ax=ax,
+    annot=True, fmt='.2f', annot_kws={'size': 9},
+    cmap='RdYlGn_r', vmin=0, vmax=1,
+    linewidths=0.5, linecolor=PALETTE['border']
+)
+ax.set_title(
+    'Depression Rate by Academic Pressure × Financial Stress',
+    fontweight='bold', color=PALETTE['text'], pad=12
+)
+ax.set_xlabel('Financial Stress')
+ax.set_ylabel('Academic Pressure')
+plt.tight_layout()
+plt.show()
+```
+
+---
+
+## 8. Learning Curves
+
+```{python}
+#| code-fold: true
+#| code-summary: "Show learning curve code"
+#| fig-cap: "Learning curves — bias-variance analysis for LR, RF, and GB"
+
+lc_models = {
+    'Logistic Regression': lr_pipe,
+    'Random Forest':       rf_plain,
+    'Gradient Boosting':   gb_plain,
+}
+
+fig, axes = plt.subplots(1, 3, figsize=(13, 4))
+fig.suptitle('Learning Curves — Bias-Variance Analysis',
+             fontweight='bold', color=PALETTE['text'])
+fig.patch.set_facecolor(PALETTE['surface'])
+
+for ax, (name, model) in zip(axes, lc_models.items()):
+    ax.set_facecolor(PALETTE['surface'])
+    train_sizes, train_scores, val_scores = learning_curve(
+        model, X, y,
+        cv=StratifiedKFold(n_splits=5, shuffle=True, random_state=42),
+        scoring='roc_auc',
+        train_sizes=np.linspace(0.1, 1.0, 10),
+        n_jobs=-1
+    )
+    t_mean = train_scores.mean(axis=1)
+    v_mean = val_scores.mean(axis=1)
+    t_std  = train_scores.std(axis=1)
+    v_std  = val_scores.std(axis=1)
+
+    ax.plot(train_sizes, t_mean, 'o-',
+            color=PALETTE['primary_dark'], label='Train AUC', lw=1.5)
+    ax.plot(train_sizes, v_mean, 'o-',
+            color=PALETTE['accent'], label='Val AUC', lw=1.5)
+    ax.fill_between(train_sizes,
+                    t_mean - t_std, t_mean + t_std,
+                    alpha=0.15, color=PALETTE['primary_dark'])
+    ax.fill_between(train_sizes,
+                    v_mean - v_std, v_mean + v_std,
+                    alpha=0.15, color=PALETTE['accent'])
+    ax.set_title(name, fontsize=9, color=PALETTE['text'])
+    ax.set_xlabel('Training Size', fontsize=8)
+    ax.set_ylabel('ROC-AUC', fontsize=8)
+    ax.legend(fontsize=7, frameon=False)
+    ax.grid(True, alpha=0.3)
+
+plt.tight_layout()
+plt.show()
+```
+
+---
+
+## 9. Calibration Curves
+
+```{python}
+#| echo: false
+#| fig-cap: "Calibration curves — are predicted probabilities reliable?"
+
+fig, ax = plt.subplots(figsize=(7, 5))
+fig.patch.set_facecolor(PALETTE['surface'])
+ax.set_facecolor(PALETTE['surface'])
+
+ax.plot([0, 1], [0, 1], 'k--', lw=1.2, label='Perfectly Calibrated')
+
+all_probs = [lr_probs, rf_probs, gb_probs, vc_probs]
+names     = ['Logistic Regression', 'Random Forest',
+             'Gradient Boosting',   'Voting Ensemble']
+
+for probs, name, color in zip(all_probs, names, MODEL_COLORS):
+    fraction_pos, mean_pred = calibration_curve(
+        y_raw_test, probs, n_bins=10
+    )
+    ax.plot(mean_pred, fraction_pos, 'o-',
+            color=color, lw=1.5, markersize=5, label=name)
+
+ax.set_xlabel('Mean Predicted Probability')
+ax.set_ylabel('Fraction of Positives')
+ax.set_title('Calibration Curves — Are Predicted Probabilities Reliable?',
+             fontweight='bold', color=PALETTE['text'])
+ax.legend(frameon=False, fontsize=9)
+ax.grid(True, alpha=0.4)
+plt.tight_layout()
+plt.show()
+```
+
+---
+
+## 10. CGPA Regression
+
+```{python}
+#| code-fold: true
+#| code-summary: "Show CGPA regression code"
+#| fig-cap: "Linear regression coefficients predicting CGPA from stress/lifestyle variables"
+
+cgpa_features = [
+    'Academic Pressure', 'Study Satisfaction',
+    'Work/Study Hours', 'Financial Stress',
+    'Sleep Duration', 'Depression'
+]
+
+cgpa_df  = df_clean[cgpa_features + ['CGPA']].dropna()
+X_cgpa   = cgpa_df[cgpa_features]
+y_cgpa   = cgpa_df['CGPA']
+
+scaler_cgpa = StandardScaler()
+X_cgpa_sc   = scaler_cgpa.fit_transform(X_cgpa)
+
+lr_cgpa  = LinearRegression()
+lr_cgpa.fit(X_cgpa_sc, y_cgpa)
+y_pred_cgpa = lr_cgpa.predict(X_cgpa_sc)
+
+r2   = 1 - np.sum((y_cgpa - y_pred_cgpa)**2) / np.sum((y_cgpa - y_cgpa.mean())**2)
+rmse = np.sqrt(np.mean((y_cgpa - y_pred_cgpa)**2))
+
+print(f"R²:   {r2:.4f}")
+print(f"RMSE: {rmse:.4f}")
+
+coef_s = pd.Series(lr_cgpa.coef_, index=cgpa_features).sort_values()
+
+fig, ax = plt.subplots(figsize=(7, 4))
+fig.patch.set_facecolor(PALETTE['surface'])
+ax.set_facecolor(PALETTE['surface'])
+
+colors = [
+    PALETTE['accent'] if v >= 0 else PALETTE['primary_dark']
+    for v in coef_s.values
+]
+coef_s.plot(kind='barh', ax=ax, color=colors)
+ax.axvline(0, color=PALETTE['muted'], linewidth=0.8)
+ax.set_title('Linear Regression Coefficients — Predicting CGPA',
+             fontweight='bold', color=PALETTE['text'])
+ax.set_xlabel('Standardised Coefficient')
+ax.grid(True, axis='x', alpha=0.4)
+plt.tight_layout()
+plt.show()
+```
+
+---
+
+## Summary
+
+All four models achieved **ROC-AUC ≈ 0.92**, with Logistic Regression performing as well as — or slightly better than — the ensemble methods. This suggests predictive relationships are primarily **linear and additive**.
+
+The three dominant predictors identified consistently across correlation, SHAP, and feature importance analyses were:
+
+1. **Suicidal ideation** (~0.195 mean |SHAP|)
+2. **Academic pressure** (~0.127 mean |SHAP|)
+3. **Financial stress** (~0.093 mean |SHAP|)
+
+Interaction analysis showed depression prevalence rising from ~7% to **95%** at maximum combined stress levels, supporting dual-stressor intervention strategies.
+
+> 📄 [Read the Full Report →](projects_files/Predicting-Student-Depression-Using-Machine-Learning.pdf){target="_blank"}

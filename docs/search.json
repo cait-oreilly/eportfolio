@@ -4,7 +4,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "View Project →"
+    "text": "This section covers applied machine learning projects including statistical analysis, data visualisation, and predictive modelling.\n\n\n\n\n👤 Cáit O’Reilly  |  📅 April 2026\n\n\nResearch Academic\n\nPredicting Depression →\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Dec. 2025\n\n\nCode Academic\n\nPython Code →\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Feb. 2026\n\n\nReflection Academic\n\nCritical Reflection →"
   },
   {
     "objectID": "projects.html#project-1-statistical-tests-and-regression-using-jamovi",
@@ -144,14 +144,14 @@
     "href": "index.html",
     "title": "Welcome to My E-Portfolio",
     "section": "",
-    "text": "Business Studies Student • DCU\nWelcome to my e-portfolio! I’m a final year Business Studies student at DCU, specialising in Data Analytics.\nExplore my work using the navigation bar above.\nAbout Me    Projects    Media    CV    Contact"
+    "text": "Business Studies Student • DCU\nWelcome to my e-portfolio! I’m a final year Business Studies student at DCU, specialising in Data Analytics.\nExplore my work using the navigation bar below.\nAbout Me    Projects    Certificates    CV    Contact"
   },
   {
     "objectID": "index.html#hi-im-cáit",
     "href": "index.html#hi-im-cáit",
     "title": "Welcome to My E-Portfolio",
     "section": "",
-    "text": "Business Studies Student • DCU\nWelcome to my e-portfolio! I’m a final year Business Studies student at DCU, specialising in Data Analytics.\nExplore my work using the navigation bar above.\nAbout Me    Projects    Media    CV    Contact"
+    "text": "Business Studies Student • DCU\nWelcome to my e-portfolio! I’m a final year Business Studies student at DCU, specialising in Data Analytics.\nExplore my work using the navigation bar below.\nAbout Me    Projects    Certificates    CV    Contact"
   },
   {
     "objectID": "project1.html",
@@ -180,5 +180,152 @@
     "title": "Project 3",
     "section": "",
     "text": "This analysis was divided into two parts. Part A focused on confidence interval construction using the House Price dataset. Part B examined sampling distributions using an external dataset on accident costs.\nIn Part A, three confidence intervals (90%, 95%, 99%) were calculated for average house price. A 95% confidence interval was calculated for average house size in Cork, and another for the proportion of detached houses sold in Ireland. The required sample size to reduce sampling error to 0.02 was also calculated.\nIn Part B, an Excel dataset on accident costs was analysed to compare individual accident cost distributions across 1,000 companies with average costs from 200 samples of 100 companies, with reference to the Central Limit Theorem.\n\n\n\n\nJamovi\nMicrosoft Excel\nMicrosoft Word\n\n\n\n\nThe analysis demonstrated how confidence level affects interval width, and how averaging across samples reduces variability in line with the Central Limit Theorem.\n\n\n\nThis project deepened my understanding of inferential statistics, confidence intervals, and sampling theory.\nBack to Projects"
+  },
+  {
+    "objectID": "about.html#baking",
+    "href": "about.html#baking",
+    "title": "About Me",
+    "section": "Baking",
+    "text": "Baking\nOne of my favourite things to do is bake! Whenever I have free time, I bake for my friends and family. I’ve been commissioned to make birthday cakes for friends, and this is something I would love to do more of."
+  },
+  {
+    "objectID": "about.html#me-and-my-dog",
+    "href": "about.html#me-and-my-dog",
+    "title": "About Me",
+    "section": "Me and my dog",
+    "text": "Me and my dog\nI spend every morning walking my dog, Rafa. It is the highlight of my day! At 12 years old, he still gets just as excited for his walks in the park as he did when he was a puppy! Scroll through the carousel below for some photos!\n\n  \n    \n    \n    \n    \n  \n  ‹\n  ›\n  \n    \n    \n    \n    \n  \n\n\n::::"
+  },
+  {
+    "objectID": "about.html#gym",
+    "href": "about.html#gym",
+    "title": "About Me",
+    "section": "💪 Gym",
+    "text": "💪 Gym\nI regularly spend time at the gym to support both my physical and emotional wellbeing. Exercising helps me step away from the pressures of work and study, allowing me to clear my mind, reduce stress, and focus on improving my fitness. I enjoy going both on my own and with friends—it provides a great balance of social interaction as well as personal time."
+  },
+  {
+    "objectID": "about.html#hobbies-interests",
+    "href": "about.html#hobbies-interests",
+    "title": "About Me",
+    "section": "Hobbies & Interests",
+    "text": "Hobbies & Interests\nAlongside my academic studies and part-time work, I spend a lot of my time doing things that I love — whether that be walking my dog or baking."
+  },
+  {
+    "objectID": "projects.html#machine-learning",
+    "href": "projects.html#machine-learning",
+    "title": "Projects",
+    "section": "",
+    "text": "This section covers applied machine learning projects including statistical analysis, data visualisation, and predictive modelling.\n\n\n\n\n👤 Cáit O’Reilly  |  📅 April 2026\n\n\nResearch Academic\n\nPredicting Depression →\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Dec. 2025\n\n\nCode Academic\n\nPython Code →\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Feb. 2026\n\n\nReflection Academic\n\nCritical Reflection →"
+  },
+  {
+    "objectID": "projects.html#new-enterprise-development",
+    "href": "projects.html#new-enterprise-development",
+    "title": "Projects",
+    "section": "New Enterprise Development",
+    "text": "New Enterprise Development\nThis module focuses on the process of developing and assessing new business ventures, guiding us from initial idea generation through to market positioning and implementation. A key aspect of the module was creating our own original product concept. Our group developed VIVA, a wearable device designed to be placed on the hamstring. The device is intended to monitor muscle activity and detect early signs of potential strain, triggering vibrations to alert the user before an injury occurs.\n\n\n\n\n👤 Group 15  |  📅 Oct. 2025\n\n\nConcept Professional\n\nConcept Paper →\n\n\n\n\n👤 Group 15  |  📅 Dec. 2025\n\n\nAnalysis Professional\n\nFeasibility Report →\n\n\n\n\n👤 Group 15  |  📅 Feb. 2026\n\n\nReport Professional\n\nMarketing Report →\n\n\n\n\n👤 Group 15  |  📅 Feb. 2026\n\n\nVideo Professional\n\nMarketing Video →\n\n\n\n\n👤 Group 15  |  📅 Mar. 2026\n\n\nPitch Professional\n\nPitch Deck →\n\n\n\n\n👤 Group 15  |  📅 Apr. 2026\n\n\nStrategy Professional\n\nBusiness Plan →"
+  },
+  {
+    "objectID": "python-chunks.html",
+    "href": "python-chunks.html",
+    "title": "Predicting Student Depression Using Machine Learning",
+    "section": "",
+    "text": "This study applies supervised machine learning to a dataset of 27,901 university students to predict depression and identify key risk factors. Models evaluated include Logistic Regression (LR), Random Forest (RF), Gradient Boosting (GB), and a Voting Ensemble (VE), alongside SHAP-based interpretability and calibration analysis.\nAll models achieved strong performance (ROC-AUC ≈ 0.92), with LR matching or slightly outperforming more complex methods. Key predictors include suicidal ideation, academic pressure, and financial stress.\n\nModule: BAA1027 Data Analytics: Machine Learning & Advanced Python\nLecturer: Dr. Michael Farayola\nWord Count: 2,744"
+  },
+  {
+    "objectID": "python-chunks.html#about",
+    "href": "python-chunks.html#about",
+    "title": "Predicting Student Depression Using Machine Learning",
+    "section": "",
+    "text": "This study applies supervised machine learning to a dataset of 27,901 university students to predict depression and identify key risk factors. Models evaluated include Logistic Regression (LR), Random Forest (RF), Gradient Boosting (GB), and a Voting Ensemble (VE), alongside SHAP-based interpretability and calibration analysis.\nAll models achieved strong performance (ROC-AUC ≈ 0.92), with LR matching or slightly outperforming more complex methods. Key predictors include suicidal ideation, academic pressure, and financial stress.\n\nModule: BAA1027 Data Analytics: Machine Learning & Advanced Python\nLecturer: Dr. Michael Farayola\nWord Count: 2,744"
+  },
+  {
+    "objectID": "python-chunks.html#imports",
+    "href": "python-chunks.html#imports",
+    "title": "Predicting Student Depression Using Machine Learning",
+    "section": "1. Imports",
+    "text": "1. Imports\n\n\nShow imports\nimport os\nimport warnings\nimport pandas as pd\nimport numpy as np\nimport matplotlib.pyplot as plt\nimport matplotlib as mpl\nimport seaborn as sns\nfrom scipy import stats\n\nfrom sklearn.model_selection import (\n    train_test_split, cross_val_score,\n    StratifiedKFold, GridSearchCV, learning_curve\n)\nfrom sklearn.preprocessing import LabelEncoder, StandardScaler\nfrom sklearn.linear_model import LogisticRegression, LinearRegression\nfrom sklearn.ensemble import (\n    RandomForestClassifier,\n    GradientBoostingClassifier,\n    VotingClassifier\n)\nfrom sklearn.metrics import (\n    classification_report, confusion_matrix,\n    roc_auc_score, roc_curve, ConfusionMatrixDisplay,\n    precision_recall_curve, average_precision_score\n)\nfrom sklearn.decomposition import PCA\nfrom sklearn.pipeline import Pipeline\nfrom sklearn.calibration import calibration_curve\n\nwarnings.filterwarnings('ignore')\nos.makedirs(\"figures\", exist_ok=True)\n\n# ── Colour palette ────────────────────────────────────────────────\nPALETTE = {\n    'primary_dark':   '#0D3D80',\n    'primary':        '#1A5FBF',\n    'primary_light':  '#3B82D4',\n    'accent':         '#0EA5D0',\n    'accent_subtle':  '#E0F5FC',\n    'surface':        '#F5F8FC',\n    'border':         '#E2EAF4',\n    'muted':          '#8FA8C8',\n    'text':           '#1A2B3C',\n    'text_secondary': '#4A6080',\n}\n\nMODEL_COLORS = [\n    PALETTE['primary_dark'],\n    PALETTE['primary'],\n    PALETTE['primary_light'],\n    PALETTE['accent'],\n]\n\nmpl.rcParams.update({\n    'font.family':      'sans-serif',\n    'font.size':        10,\n    'axes.titlesize':   11,\n    'axes.labelsize':   10,\n    'legend.fontsize':  9,\n    'figure.titlesize': 12,\n    'axes.facecolor':   PALETTE['surface'],\n    'figure.facecolor': PALETTE['surface'],\n    'axes.edgecolor':   PALETTE['border'],\n    'grid.color':       PALETTE['border'],\n    'grid.linewidth':   0.5,\n    'text.color':       PALETTE['text'],\n    'axes.labelcolor':  PALETTE['text'],\n    'xtick.color':      PALETTE['text_secondary'],\n    'ytick.color':      PALETTE['text_secondary'],\n})\n\nprint(\"Libraries loaded ✓\")\n\n\nLibraries loaded ✓"
+  },
+  {
+    "objectID": "python-chunks.html#dataset-and-data-preparation",
+    "href": "python-chunks.html#dataset-and-data-preparation",
+    "title": "Predicting Student Depression Using Machine Learning",
+    "section": "2. Dataset and Data Preparation",
+    "text": "2. Dataset and Data Preparation\n\n\nShow data preparation code\n# ── Load dataset ──────────────────────────────────────────────────\ndf = pd.read_csv('projects_files/student-depression-dataset.csv')\n\nprint(\"Shape:\", df.shape)\nprint(\"\\nColumn Types:\\n\", df.dtypes)\nprint(\"\\nMissing Values:\\n\", df.isnull().sum())\nprint(\"\\nTarget Distribution:\\n\",\n      df['Depression'].value_counts(normalize=True).round(3))\ndf.head()\n\n\nShape: (27901, 18)\n\nColumn Types:\n id                                         int64\nGender                                    object\nAge                                      float64\nCity                                      object\nProfession                                object\nAcademic Pressure                        float64\nWork Pressure                            float64\nCGPA                                     float64\nStudy Satisfaction                       float64\nJob Satisfaction                         float64\nSleep Duration                            object\nDietary Habits                            object\nDegree                                    object\nHave you ever had suicidal thoughts ?     object\nWork/Study Hours                         float64\nFinancial Stress                         float64\nFamily History of Mental Illness          object\nDepression                                 int64\ndtype: object\n\nMissing Values:\n id                                       0\nGender                                   0\nAge                                      0\nCity                                     0\nProfession                               0\nAcademic Pressure                        0\nWork Pressure                            0\nCGPA                                     0\nStudy Satisfaction                       0\nJob Satisfaction                         0\nSleep Duration                           0\nDietary Habits                           0\nDegree                                   0\nHave you ever had suicidal thoughts ?    0\nWork/Study Hours                         0\nFinancial Stress                         3\nFamily History of Mental Illness         0\nDepression                               0\ndtype: int64\n\nTarget Distribution:\n Depression\n1    0.585\n0    0.415\nName: proportion, dtype: float64\n\n\n\n\n\n\n\n\n\nid\nGender\nAge\nCity\nProfession\nAcademic Pressure\nWork Pressure\nCGPA\nStudy Satisfaction\nJob Satisfaction\nSleep Duration\nDietary Habits\nDegree\nHave you ever had suicidal thoughts ?\nWork/Study Hours\nFinancial Stress\nFamily History of Mental Illness\nDepression\n\n\n\n\n0\n2\nMale\n33.0\nVisakhapatnam\nStudent\n5.0\n0.0\n8.97\n2.0\n0.0\n5-6 hours\nHealthy\nB.Pharm\nYes\n3.0\n1.0\nNo\n1\n\n\n1\n8\nFemale\n24.0\nBangalore\nStudent\n2.0\n0.0\n5.90\n5.0\n0.0\n5-6 hours\nModerate\nBSc\nNo\n3.0\n2.0\nYes\n0\n\n\n2\n26\nMale\n31.0\nSrinagar\nStudent\n3.0\n0.0\n7.03\n5.0\n0.0\nLess than 5 hours\nHealthy\nBA\nNo\n9.0\n1.0\nYes\n0\n\n\n3\n30\nFemale\n28.0\nVaranasi\nStudent\n3.0\n0.0\n5.59\n2.0\n0.0\n7-8 hours\nModerate\nBCA\nYes\n4.0\n5.0\nYes\n1\n\n\n4\n32\nFemale\n25.0\nJaipur\nStudent\n4.0\n0.0\n8.13\n3.0\n0.0\n5-6 hours\nModerate\nM.Tech\nYes\n1.0\n1.0\nNo\n0\n\n\n\n\n\n\n\n\n\nShow encoding and cleaning code\ndf_clean = df.copy()\ndf_clean.drop(columns=['id'], inplace=True, errors='ignore')\n\n# Binary encoding\nbinary_cols = [\n    'Gender',\n    'Have you ever had suicidal thoughts ?',\n    'Family History of Mental Illness'\n]\nle = LabelEncoder()\nfor col in binary_cols:\n    df_clean[col] = le.fit_transform(df_clean[col].astype(str))\n\n# Ordinal encoding\nsleep_order  = {'Less than 5 hours': 0, '5-6 hours': 1,\n                '7-8 hours': 2, 'More than 8 hours': 3}\ndiet_order   = {'Unhealthy': 0, 'Moderate': 1, 'Healthy': 2}\n\ndf_clean['Sleep Duration'] = df_clean['Sleep Duration'].map(sleep_order)\ndf_clean['Dietary Habits'] = df_clean['Dietary Habits'].map(diet_order)\n\n# One-hot encode high-cardinality nominals\ndf_clean = pd.get_dummies(\n    df_clean,\n    columns=['City', 'Profession', 'Degree'],\n    drop_first=True\n)\n\ndf_clean.dropna(inplace=True)\n\nprint(\"Cleaned shape:\", df_clean.shape)\nprint(\"Remaining nulls:\", df_clean.isnull().sum().sum())\n\n\nCleaned shape: (27868, 105)\nRemaining nulls: 0\n\n\n\n\nShow train-test split code\ncore_features = [\n    'Age', 'Academic Pressure', 'CGPA',\n    'Study Satisfaction', 'Financial Stress',\n    'Work/Study Hours', 'Sleep Duration',\n    'Dietary Habits', 'Gender',\n    'Have you ever had suicidal thoughts ?',\n    'Family History of Mental Illness'\n]\n\nX = df_clean[core_features]\ny = df_clean['Depression']\n\nX_raw_train, X_raw_test, y_raw_train, y_raw_test = train_test_split(\n    X, y, test_size=0.2, random_state=42, stratify=y\n)\n\nprint(\"Train size:\", X_raw_train.shape)\nprint(\"Test size: \", X_raw_test.shape)\n\n\nTrain size: (22294, 11)\nTest size:  (5574, 11)"
+  },
+  {
+    "objectID": "python-chunks.html#model-training",
+    "href": "python-chunks.html#model-training",
+    "title": "Predicting Student Depression Using Machine Learning",
+    "section": "3. Model Training",
+    "text": "3. Model Training\n\nLogistic Regression\n\n\nShow Logistic Regression code\nlr_pipe = Pipeline([\n    ('scaler', StandardScaler()),\n    ('lr', LogisticRegression(max_iter=1000, random_state=42))\n])\nlr_pipe.fit(X_raw_train, y_raw_train)\n\ny_pred_lr = lr_pipe.predict(X_raw_test)\nlr_probs  = lr_pipe.predict_proba(X_raw_test)[:, 1]\n\nprint(\"=== Logistic Regression ===\")\nprint(classification_report(y_raw_test, y_pred_lr))\nprint(f\"ROC-AUC: {roc_auc_score(y_raw_test, lr_probs):.4f}\")\n\n\n=== Logistic Regression ===\n              precision    recall  f1-score   support\n\n           0       0.84      0.80      0.82      2310\n           1       0.87      0.89      0.88      3264\n\n    accuracy                           0.86      5574\n   macro avg       0.85      0.85      0.85      5574\nweighted avg       0.86      0.86      0.86      5574\n\nROC-AUC: 0.9247\n\n\n\n\nRandom Forest\n\n\nShow Random Forest code\nrf_plain = RandomForestClassifier(\n    n_estimators=200, max_depth=10,\n    random_state=42, n_jobs=-1\n)\nrf_plain.fit(X_raw_train, y_raw_train)\n\ny_pred_rf = rf_plain.predict(X_raw_test)\nrf_probs  = rf_plain.predict_proba(X_raw_test)[:, 1]\n\nprint(\"=== Random Forest ===\")\nprint(classification_report(y_raw_test, y_pred_rf))\nprint(f\"ROC-AUC: {roc_auc_score(y_raw_test, rf_probs):.4f}\")\n\n\n=== Random Forest ===\n              precision    recall  f1-score   support\n\n           0       0.83      0.79      0.81      2310\n           1       0.86      0.89      0.87      3264\n\n    accuracy                           0.85      5574\n   macro avg       0.85      0.84      0.84      5574\nweighted avg       0.85      0.85      0.85      5574\n\nROC-AUC: 0.9209\n\n\n\n\nGradient Boosting\n\n\nShow Gradient Boosting code\ngb_plain = GradientBoostingClassifier(\n    n_estimators=200, learning_rate=0.05,\n    max_depth=4, random_state=42\n)\ngb_plain.fit(X_raw_train, y_raw_train)\n\ny_pred_gb = gb_plain.predict(X_raw_test)\ngb_probs  = gb_plain.predict_proba(X_raw_test)[:, 1]\n\nprint(\"=== Gradient Boosting ===\")\nprint(classification_report(y_raw_test, y_pred_gb))\nprint(f\"ROC-AUC: {roc_auc_score(y_raw_test, gb_probs):.4f}\")\n\n\n=== Gradient Boosting ===\n              precision    recall  f1-score   support\n\n           0       0.84      0.80      0.82      2310\n           1       0.86      0.89      0.88      3264\n\n    accuracy                           0.85      5574\n   macro avg       0.85      0.85      0.85      5574\nweighted avg       0.85      0.85      0.85      5574\n\nROC-AUC: 0.9231\n\n\n\n\nVoting Ensemble\n\n\nShow Voting Ensemble code\nvoting_clf = VotingClassifier(\n    estimators=[\n        ('lr', lr_pipe),\n        ('rf', rf_plain),\n        ('gb', gb_plain)\n    ],\n    voting='soft'\n)\nvoting_clf.fit(X_raw_train, y_raw_train)\n\ny_pred_vc = voting_clf.predict(X_raw_test)\nvc_probs  = voting_clf.predict_proba(X_raw_test)[:, 1]\n\nprint(\"=== Soft Voting Ensemble ===\")\nprint(classification_report(y_raw_test, y_pred_vc))\nprint(f\"ROC-AUC: {roc_auc_score(y_raw_test, vc_probs):.4f}\")\n\n# Shared model map for downstream evaluation\nmodel_test_map = [\n    ('Logistic Regression', lr_pipe,    X_raw_test, y_raw_test),\n    ('Random Forest',       rf_plain,   X_raw_test, y_raw_test),\n    ('Gradient Boosting',   gb_plain,   X_raw_test, y_raw_test),\n    ('Voting Ensemble',     voting_clf, X_raw_test, y_raw_test),\n]\n\n\n=== Soft Voting Ensemble ===\n              precision    recall  f1-score   support\n\n           0       0.84      0.80      0.82      2310\n           1       0.86      0.89      0.88      3264\n\n    accuracy                           0.85      5574\n   macro avg       0.85      0.85      0.85      5574\nweighted avg       0.85      0.85      0.85      5574\n\nROC-AUC: 0.9246"
+  },
+  {
+    "objectID": "python-chunks.html#evaluation-results",
+    "href": "python-chunks.html#evaluation-results",
+    "title": "Predicting Student Depression Using Machine Learning",
+    "section": "4. Evaluation Results",
+    "text": "4. Evaluation Results\n\nModel Performance Summary\n\n\n\n\n\n\n\n \nAccuracy\nPrecision\nRecall\nF1-Score\nROC-AUC\n\n\nModel\n \n \n \n \n \n\n\n\n\nLogistic Regression\n0.8563\n0.8658\n0.8931\n0.8792\n0.9247\n\n\nRandom Forest\n0.8479\n0.8574\n0.8879\n0.8724\n0.9209\n\n\nGradient Boosting\n0.8531\n0.8631\n0.8903\n0.8765\n0.9231\n\n\nVoting Ensemble\n0.8543\n0.8634\n0.8925\n0.8777\n0.9246\n\n\n\n\n\n\n\nROC Curves\n\n\n\n\n\nROC Curves for all four models on the test set\n\n\n\n\n\n\nConfusion Matrices\n\n\n\n\n\nConfusion matrices for all four models on the test set"
+  },
+  {
+    "objectID": "python-chunks.html#cross-validation",
+    "href": "python-chunks.html#cross-validation",
+    "title": "Predicting Student Depression Using Machine Learning",
+    "section": "5. Cross-Validation",
+    "text": "5. Cross-Validation\n\n\nShow cross-validation code\ncv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)\n\nmodels_cv = {\n    'Logistic Regression': lr_pipe,\n    'Random Forest':       rf_plain,\n    'Gradient Boosting':   gb_plain,\n    'Voting Ensemble':     voting_clf,\n}\n\ncv_results = {}\nprint(\"=\" * 60)\nprint(\"5-FOLD STRATIFIED CROSS-VALIDATION RESULTS\")\nprint(\"=\" * 60)\n\nfor name, model in models_cv.items():\n    scores = cross_val_score(\n        model, X, y, cv=cv, scoring='roc_auc', n_jobs=-1\n    )\n    cv_results[name] = scores\n    print(f\"{name:&lt;25}  Mean AUC: {scores.mean():.4f} \"\n          f\"±{scores.std():.4f}  \"\n          f\"Min: {scores.min():.4f}  Max: {scores.max():.4f}\")\n\n\n============================================================\n5-FOLD STRATIFIED CROSS-VALIDATION RESULTS\n============================================================\nLogistic Regression        Mean AUC: 0.9210 ±0.0030  Min: 0.9151  Max: 0.9235\nRandom Forest              Mean AUC: 0.9178 ±0.0030  Min: 0.9122  Max: 0.9203\nGradient Boosting          Mean AUC: 0.9208 ±0.0032  Min: 0.9147  Max: 0.9234\nVoting Ensemble            Mean AUC: 0.9214 ±0.0031  Min: 0.9155  Max: 0.9239\n\n\n\n\n\n\n\nCross-validation ROC-AUC score distributions"
+  },
+  {
+    "objectID": "python-chunks.html#feature-analysis-and-interpretability",
+    "href": "python-chunks.html#feature-analysis-and-interpretability",
+    "title": "Predicting Student Depression Using Machine Learning",
+    "section": "6. Feature Analysis and Interpretability",
+    "text": "6. Feature Analysis and Interpretability\n\nCorrelation Heatmap\n\n\n\n\n\nCorrelation matrix — core features vs depression status\n\n\n\n\n\n\nRandom Forest Feature Importance\n\n\n\n\n\nRandom Forest feature importances (mean decrease in impurity)\n\n\n\n\n\n\nFeature Importance Boxplots\n\n\n\n\n\nKey feature distributions by depression status"
+  },
+  {
+    "objectID": "python-chunks.html#interaction-effects",
+    "href": "python-chunks.html#interaction-effects",
+    "title": "Predicting Student Depression Using Machine Learning",
+    "section": "7. Interaction Effects",
+    "text": "7. Interaction Effects\n\n\n\n\n\nDepression rate by Academic Pressure × Financial Stress interaction"
+  },
+  {
+    "objectID": "python-chunks.html#learning-curves",
+    "href": "python-chunks.html#learning-curves",
+    "title": "Predicting Student Depression Using Machine Learning",
+    "section": "8. Learning Curves",
+    "text": "8. Learning Curves\n\n\nShow learning curve code\nlc_models = {\n    'Logistic Regression': lr_pipe,\n    'Random Forest':       rf_plain,\n    'Gradient Boosting':   gb_plain,\n}\n\nfig, axes = plt.subplots(1, 3, figsize=(13, 4))\nfig.suptitle('Learning Curves — Bias-Variance Analysis',\n             fontweight='bold', color=PALETTE['text'])\nfig.patch.set_facecolor(PALETTE['surface'])\n\nfor ax, (name, model) in zip(axes, lc_models.items()):\n    ax.set_facecolor(PALETTE['surface'])\n    train_sizes, train_scores, val_scores = learning_curve(\n        model, X, y,\n        cv=StratifiedKFold(n_splits=5, shuffle=True, random_state=42),\n        scoring='roc_auc',\n        train_sizes=np.linspace(0.1, 1.0, 10),\n        n_jobs=-1\n    )\n    t_mean = train_scores.mean(axis=1)\n    v_mean = val_scores.mean(axis=1)\n    t_std  = train_scores.std(axis=1)\n    v_std  = val_scores.std(axis=1)\n\n    ax.plot(train_sizes, t_mean, 'o-',\n            color=PALETTE['primary_dark'], label='Train AUC', lw=1.5)\n    ax.plot(train_sizes, v_mean, 'o-',\n            color=PALETTE['accent'], label='Val AUC', lw=1.5)\n    ax.fill_between(train_sizes,\n                    t_mean - t_std, t_mean + t_std,\n                    alpha=0.15, color=PALETTE['primary_dark'])\n    ax.fill_between(train_sizes,\n                    v_mean - v_std, v_mean + v_std,\n                    alpha=0.15, color=PALETTE['accent'])\n    ax.set_title(name, fontsize=9, color=PALETTE['text'])\n    ax.set_xlabel('Training Size', fontsize=8)\n    ax.set_ylabel('ROC-AUC', fontsize=8)\n    ax.legend(fontsize=7, frameon=False)\n    ax.grid(True, alpha=0.3)\n\nplt.tight_layout()\nplt.show()\n\n\n\n\n\nLearning curves — bias-variance analysis for LR, RF, and GB"
+  },
+  {
+    "objectID": "python-chunks.html#calibration-curves",
+    "href": "python-chunks.html#calibration-curves",
+    "title": "Predicting Student Depression Using Machine Learning",
+    "section": "9. Calibration Curves",
+    "text": "9. Calibration Curves\n\n\n\n\n\nCalibration curves — are predicted probabilities reliable?"
+  },
+  {
+    "objectID": "python-chunks.html#cgpa-regression",
+    "href": "python-chunks.html#cgpa-regression",
+    "title": "Predicting Student Depression Using Machine Learning",
+    "section": "10. CGPA Regression",
+    "text": "10. CGPA Regression\n\n\nShow CGPA regression code\ncgpa_features = [\n    'Academic Pressure', 'Study Satisfaction',\n    'Work/Study Hours', 'Financial Stress',\n    'Sleep Duration', 'Depression'\n]\n\ncgpa_df  = df_clean[cgpa_features + ['CGPA']].dropna()\nX_cgpa   = cgpa_df[cgpa_features]\ny_cgpa   = cgpa_df['CGPA']\n\nscaler_cgpa = StandardScaler()\nX_cgpa_sc   = scaler_cgpa.fit_transform(X_cgpa)\n\nlr_cgpa  = LinearRegression()\nlr_cgpa.fit(X_cgpa_sc, y_cgpa)\ny_pred_cgpa = lr_cgpa.predict(X_cgpa_sc)\n\nr2   = 1 - np.sum((y_cgpa - y_pred_cgpa)**2) / np.sum((y_cgpa - y_cgpa.mean())**2)\nrmse = np.sqrt(np.mean((y_cgpa - y_pred_cgpa)**2))\n\nprint(f\"R²:   {r2:.4f}\")\nprint(f\"RMSE: {rmse:.4f}\")\n\ncoef_s = pd.Series(lr_cgpa.coef_, index=cgpa_features).sort_values()\n\nfig, ax = plt.subplots(figsize=(7, 4))\nfig.patch.set_facecolor(PALETTE['surface'])\nax.set_facecolor(PALETTE['surface'])\n\ncolors = [\n    PALETTE['accent'] if v &gt;= 0 else PALETTE['primary_dark']\n    for v in coef_s.values\n]\ncoef_s.plot(kind='barh', ax=ax, color=colors)\nax.axvline(0, color=PALETTE['muted'], linewidth=0.8)\nax.set_title('Linear Regression Coefficients — Predicting CGPA',\n             fontweight='bold', color=PALETTE['text'])\nax.set_xlabel('Standardised Coefficient')\nax.grid(True, axis='x', alpha=0.4)\nplt.tight_layout()\nplt.show()\n\n\nR²:   0.0037\nRMSE: 1.4679\n\n\n\n\n\nLinear regression coefficients predicting CGPA from stress/lifestyle variables"
+  },
+  {
+    "objectID": "python-chunks.html#summary",
+    "href": "python-chunks.html#summary",
+    "title": "Predicting Student Depression Using Machine Learning",
+    "section": "Summary",
+    "text": "Summary\nAll four models achieved ROC-AUC ≈ 0.92, with Logistic Regression performing as well as — or slightly better than — the ensemble methods. This suggests predictive relationships are primarily linear and additive.\nThe three dominant predictors identified consistently across correlation, SHAP, and feature importance analyses were:\n\nSuicidal ideation (~0.195 mean |SHAP|)\nAcademic pressure (~0.127 mean |SHAP|)\nFinancial stress (~0.093 mean |SHAP|)\n\nInteraction analysis showed depression prevalence rising from ~7% to 95% at maximum combined stress levels, supporting dual-stressor intervention strategies.\n\n📄 Read the Full Report →"
+  },
+  {
+    "objectID": "critical-reflection.html",
+    "href": "critical-reflection.html",
+    "title": "Critical Reflection",
+    "section": "",
+    "text": "Entering this module, my experience with web development and publishing tools was minimal. I had some exposure to Python, but tools like Quarto, HTML, CSS, and SCSS were either completely new to me or only vaguely familiar. I also had no real understanding of how to integrate these technologies into a cohesive workflow to build and publish a website, particularly using Visual Studio Code and GitHub. What I did bring, however, was a willingness to experiment and a persistence in figuring things out independently, even when the process felt unclear.\nOver the course of the project, I developed a much more practical understanding of how different technologies interact. Learning Quarto was a turning point, as it required me to think not just about writing code, but about structuring content, rendering outputs, and managing configurations. Combining this with HTML for structure and CSS/SCSS for styling made me realise that building a website is not a linear task, but an iterative process of adjustment and refinement. Small changes in styling often had unexpected consequences, which forced me to slow down and become more precise in how I approached debugging.\nWorking within VS Code and managing files across multiple languages also pushed me to become more organised. At times, I found myself navigating between Python scripts, Quarto documents, and styling files without a clear system, which led to confusion and inefficiency. This experience highlighted the importance of maintaining a clean and logical project structure. Over time, I began to think more deliberately about file organisation and naming conventions, which improved both my workflow and my ability to troubleshoot issues.\nOne of the more challenging aspects was understanding how to deploy the website through GitHub. While I was able to follow the steps required to publish the site, I did not initially grasp the underlying mechanics of version control and deployment. My commits, particularly early on, lacked clarity and purpose. This reflected a broader issue: I was focused on getting the website to work, rather than documenting the process in a meaningful way. Through this, I realised that version control is not just a technical requirement but a form of communication, both with others and with my future self.\nThe integration of Python into the website added another layer of complexity. Rather than using Python in isolation, I had to think about how it contributed to the overall presentation and functionality of the site. This shifted my perspective from coding as a standalone task to coding as part of a broader system. It also reinforced the importance of writing clean, readable code, as poorly structured scripts made integration significantly more difficult.\nBuilding and publishing my own website was ultimately the most valuable outcome of this experience. It transformed abstract technical skills into something tangible and visible. Having a live site hosted on GitHub made the learning process feel more purposeful, as the final product could be shared and evaluated beyond the classroom. It also gave me a clearer sense of how these skills translate into real-world applications, particularly in contexts where digital presence and technical communication are important.\nLooking ahead, I recognise that my understanding is still developing. While I can now build and deploy a basic website, I am not yet fully confident in my ability to customise it extensively or optimise it for different use cases. However, this experience has given me a foundation to build on. More importantly, it has changed how I approach learning technical skills: I am more comfortable working through uncertainty, more aware of the importance of structure and documentation, and more conscious of the need to balance detail with progress.\nOverall, this project was not just about learning new tools, but about learning how to bring them together into a coherent workflow. The ability to integrate, adapt, and continuously refine feels like the most valuable skill I have taken from the experience, and one that will remain relevant as technologies continue to evolve. Back to Projects"
+  },
+  {
+    "objectID": "critical-reflection.html#sales-dashboard-analysis-using-power-bi",
+    "href": "critical-reflection.html#sales-dashboard-analysis-using-power-bi",
+    "title": "Project 2",
+    "section": "",
+    "text": "This project involved the analysis and visualisation of a dataset using Power BI. The dataset was loaded, cleaned, and explored to develop an interactive dashboard. A range of visualisations were created to examine key variables, relationships, and distributions.\nThe analysis identified meaningful patterns and trends, which were used to develop evidence-based recommendations. Results were compiled into a written report including an executive summary and supporting visuals, alongside a presentation incorporating the Power BI dashboard.\n\n\n\n\nPower BI\nMicrosoft Word\nMicrosoft PowerPoint\n\n\n\n\nAn interactive dashboard was developed that clearly communicated key insights, trends, and patterns across the dataset variables.\n\n\n\nThis project developed my ability to create professional data visualisations and communicate analytical findings clearly to a business audience.\nBack to Projects"
   }
 ]

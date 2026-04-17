@@ -19,9 +19,9 @@ title: "Welcome to My E-Portfolio"
 
 Welcome to my e-portfolio! I'm a final year Business Studies student at DCU, specialising in Data Analytics.
 
-Explore my work using the navigation bar above.
+Explore my work using the navigation bar below.
 
-**[About Me](about.qmd) &nbsp;&nbsp; [Projects](projects.qmd) &nbsp;&nbsp; [Media](media.qmd) &nbsp;&nbsp; [CV](projects_files/CV.pdf) &nbsp;&nbsp; [Contact](contact.qmd)**
+**[About Me](about.qmd) &nbsp;&nbsp; [Projects](projects.qmd) &nbsp;&nbsp; [Certificates](achievements.qmd) &nbsp;&nbsp; [CV](projects_files/CV.pdf) &nbsp;&nbsp; [Contact](contact.qmd)**
 
 :::
 

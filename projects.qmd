@@ -3,26 +3,105 @@ title: "Projects"
 toc: true
 ---
 
-## Project 1 — Statistical Tests and Regression using Jamovi
+## Machine Learning
 
-::: {.card style="padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
-![](Images/business-people-team-analytics-data-research-web-monitoring-report-dashboard-monitor-concept-finance-investment-graph-r-202761860.webp){style="width:100%; border-radius:6px; margin-bottom:10px;"}
+This section covers applied machine learning projects including statistical analysis, data visualisation, and predictive modelling.
 
-[View Project →](project1.qmd){.btn .btn-primary}
+<div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:20px; max-width:1000px;">
+
+::: {.card style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;"}
+![](Images/quota_sampling.jpg){style="width:100%; height:160px; object-fit:cover; border-radius:8px; margin-bottom:10px;"}
+
+::: {style="font-size:0.8rem; color:#4A6080; margin: 6px 0;"}
+👤 Cáit O'Reilly &nbsp;|&nbsp; 📅 April 2026
 :::
 
-## Project 2 — Sales Dashboard Analysis using Power BI
-
-::: {.card style="padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
-![](Images/download.png){style="width:100%; border-radius:6px; margin-bottom:10px;"}
-
-[View Project →](project2.qmd){.btn .btn-primary}
+::: {style="display:center; flex-wrap:wrap; gap:5px; margin-bottom:10px; text-align:center;"}
+[Research]{.badge .bg-primary}
+[Academic]{.badge .bg-secondary}
 :::
 
-## Project 3 — Confidence Intervals and Sampling Distributions
-
-::: {.card style="padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:25px;"}
-![](Images/quota_sampling.jpg){style="width:100%; border-radius:6px; margin-bottom:10px;"}
-
-[View Project →](project3.qmd){.btn .btn-primary}
+[Predicting Depression →](projects_files/Predicting-Student-Depression-Using-Machine-Learning.pdf){.btn .btn-accent .btn-sm target="_blank"}
 :::
+
+::: {.card style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;"}
+![](Images/download.png){style="width:100%; height:160px; object-fit:cover; border-radius:8px; margin-bottom:10px;"}
+
+::: {style="font-size:0.8rem; color:#4A6080; margin: 6px 0;"}
+👤 Cáit O'Reilly &nbsp;|&nbsp; 📅 Dec. 2025
+:::
+
+::: {style="display:center; flex-wrap:wrap; gap:5px; margin-bottom:10px; text-align:center;"}
+[Code]{.badge .bg-primary}
+[Academic]{.badge .bg-secondary}
+:::
+
+[Python Code →](python-chunks.qmd){.btn .btn-accent .btn-sm}
+:::
+
+::: {.card style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;"}
+![](Images/quota_sampling.jpg){style="width:100%; height:160px; object-fit:cover; border-radius:8px; margin-bottom:10px;"}
+
+::: {style="font-size:0.8rem; color:#4A6080; margin: 6px 0;"}
+👤 Cáit O'Reilly &nbsp;|&nbsp; 📅 Feb. 2026
+:::
+
+::: {style="display:center; flex-wrap:wrap; gap:5px; margin-bottom:10px; text-align:center;"}
+[Reflection]{.badge .bg-primary}
+[Academic]{.badge .bg-secondary}
+:::
+
+[Critical Reflection →](critical-reflection.qmd){.btn .btn-accent .btn-sm}
+:::
+
+</div>
+
+## New Enterprise Development
+
+This module focuses on the process of developing and assessing new business ventures, guiding us from initial idea generation through to market positioning and implementation. A key aspect of the module was creating our own original product concept. Our group developed VIVA, a wearable device designed to be placed on the hamstring. The device is intended to monitor muscle activity and detect early signs of potential strain, triggering vibrations to alert the user before an injury occurs.
+
+<div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:20px; max-width:1000px;">
+
+<div class="card" style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;">
+<img src="Images/viva-band.png" style="width:100%; height:160px; object-fit:cover; border-radius:8px; margin-bottom:10px;"/>
+<div style="font-size:0.8rem; color:#4A6080; margin: 6px 0;">👤 Group 15 &nbsp;|&nbsp; 📅 Oct. 2025</div>
+<div style="margin-bottom:10px;"><span class="badge bg-primary">Concept</span> <span class="badge bg-secondary">Professional</span></div>
+<a href="projects_files/concept-paper.pdf" class="btn btn-accent btn-sm" target="_blank">Concept Paper →</a>
+</div>
+
+<div class="card" style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;">
+<img src="Images/run-club.png" style="width:100%; height:160px; object-fit:cover; border-radius:8px; margin-bottom:10px;"/>
+<div style="font-size:0.8rem; color:#4A6080; margin: 6px 0;">👤 Group 15 &nbsp;|&nbsp; 📅 Dec. 2025</div>
+<div style="margin-bottom:10px;"><span class="badge bg-primary">Analysis</span> <span class="badge bg-secondary">Professional</span></div>
+<a href="projects_files/feasability-analysis.pdf" class="btn btn-accent btn-sm" target="_blank">Feasibility Report →</a>
+</div>
+
+<div class="card" style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;">
+<img src="Images/diagram-leg.png" style="width:100%; height:160px; object-fit:cover; border-radius:8px; margin-bottom:10px;"/>
+<div style="font-size:0.8rem; color:#4A6080; margin: 6px 0;">👤 Group 15 &nbsp;|&nbsp; 📅 Feb. 2026</div>
+<div style="margin-bottom:10px;"><span class="badge bg-primary">Report</span> <span class="badge bg-secondary">Professional</span></div>
+<a href="projects_files/marketing-strategy.pdf" class="btn btn-accent btn-sm" target="_blank">Marketing Report →</a>
+</div>
+
+<div class="card" style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;">
+<img src="Images/filming-pic.png" style="width:100%; height:160px; object-fit:cover; border-radius:8px; margin-bottom:10px;"/>
+<div style="font-size:0.8rem; color:#4A6080; margin: 6px 0;">👤 Group 15 &nbsp;|&nbsp; 📅 Feb. 2026</div>
+<div style="margin-bottom:10px;"><span class="badge bg-primary">Video</span> <span class="badge bg-secondary">Professional</span></div>
+<a href="https://www.youtube.com/watch?v=nlmdZbdTcnE" class="btn btn-accent btn-sm" target="_blank">Marketing Video →</a>
+</div>
+
+<div class="card" style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;">
+<img src="Images/pitch-pic.png" style="width:100%; height:160px; object-fit:cover; border-radius:8px; margin-bottom:10px;"/>
+<div style="font-size:0.8rem; color:#4A6080; margin: 6px 0;">👤 Group 15 &nbsp;|&nbsp; 📅 Mar. 2026</div>
+<div style="margin-bottom:10px;"><span class="badge bg-primary">Pitch</span> <span class="badge bg-secondary">Professional</span></div>
+<a href="projects_files/dragons-den.pdf" class="btn btn-accent btn-sm" target="_blank">Pitch Deck →</a>
+</div>
+
+<div class="card" style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;">
+<img src="Images/running-pic.png" style="width:100%; height:160px; object-fit:cover; border-radius:8px; margin-bottom:10px;"/>
+<div style="font-size:0.8rem; color:#4A6080; margin: 6px 0;">👤 Group 15 &nbsp;|&nbsp; 📅 Apr. 2026</div>
+<div style="margin-bottom:10px;"><span class="badge bg-primary">Strategy</span> <span class="badge bg-secondary">Professional</span></div>
+<a href="projects_files/business-plan.pdf" class="btn btn-accent btn-sm" target="_blank">Business Plan →</a>
+</div>
+
+</div>

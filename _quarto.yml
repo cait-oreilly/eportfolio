@@ -19,10 +19,6 @@ website:
         href: projects.qmd
       - text: "Certificates"
         href: achievements.qmd
-      - text: "Media"
-        href: media.qmd
-      - text: "Hobbies"
-        href: hobbies.qmd
       - text: "CV"
         href: projects_files/CV.pdf
         target: _blank

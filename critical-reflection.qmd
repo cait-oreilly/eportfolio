@@ -1,0 +1,21 @@
+---
+title: "Critical Reflection"
+---
+
+Entering this module, my experience with web development and publishing tools was minimal. I had some exposure to Python, but tools like Quarto, HTML, CSS, and SCSS were either completely new to me or only vaguely familiar. I also had no real understanding of how to integrate these technologies into a cohesive workflow to build and publish a website, particularly using Visual Studio Code and GitHub. What I did bring, however, was a willingness to experiment and a persistence in figuring things out independently, even when the process felt unclear.
+
+Over the course of the project, I developed a much more practical understanding of how different technologies interact. Learning Quarto was a turning point, as it required me to think not just about writing code, but about structuring content, rendering outputs, and managing configurations. Combining this with HTML for structure and CSS/SCSS for styling made me realise that building a website is not a linear task, but an iterative process of adjustment and refinement. Small changes in styling often had unexpected consequences, which forced me to slow down and become more precise in how I approached debugging.
+
+Working within VS Code and managing files across multiple languages also pushed me to become more organised. At times, I found myself navigating between Python scripts, Quarto documents, and styling files without a clear system, which led to confusion and inefficiency. This experience highlighted the importance of maintaining a clean and logical project structure. Over time, I began to think more deliberately about file organisation and naming conventions, which improved both my workflow and my ability to troubleshoot issues.
+
+One of the more challenging aspects was understanding how to deploy the website through GitHub. While I was able to follow the steps required to publish the site, I did not initially grasp the underlying mechanics of version control and deployment. My commits, particularly early on, lacked clarity and purpose. This reflected a broader issue: I was focused on getting the website to work, rather than documenting the process in a meaningful way. Through this, I realised that version control is not just a technical requirement but a form of communication, both with others and with my future self.
+
+The integration of Python into the website added another layer of complexity. Rather than using Python in isolation, I had to think about how it contributed to the overall presentation and functionality of the site. This shifted my perspective from coding as a standalone task to coding as part of a broader system. It also reinforced the importance of writing clean, readable code, as poorly structured scripts made integration significantly more difficult.
+
+Building and publishing my own website was ultimately the most valuable outcome of this experience. It transformed abstract technical skills into something tangible and visible. Having a live site hosted on GitHub made the learning process feel more purposeful, as the final product could be shared and evaluated beyond the classroom. It also gave me a clearer sense of how these skills translate into real-world applications, particularly in contexts where digital presence and technical communication are important.
+
+Looking ahead, I recognise that my understanding is still developing. While I can now build and deploy a basic website, I am not yet fully confident in my ability to customise it extensively or optimise it for different use cases. However, this experience has given me a foundation to build on. More importantly, it has changed how I approach learning technical skills: I am more comfortable working through uncertainty, more aware of the importance of structure and documentation, and more conscious of the need to balance detail with progress.
+
+Overall, this project was not just about learning new tools, but about learning how to bring them together into a coherent workflow. The ability to integrate, adapt, and continuously refine feels like the most valuable skill I have taken from the experience, and one that will remain relevant as technologies continue to evolve.
+
+[Back to Projects](projects.html)
