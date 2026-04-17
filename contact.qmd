@@ -2,6 +2,7 @@
 title: "Contact & References"
 toc: true 
 ---
+
 ## Get in Touch
 
 You can reach me via:
@@ -12,25 +13,24 @@ You can reach me via:
 
 Or fill out the contact form below:
 
-::: {style="max-width:500px;"}
+<form action="https://formspree.io/f/xwvrlwwj" method="POST" style="max-width:500px;">
 
-<form action="https://formspree.io/f/xwvrlwwj" method="POST">
+<p><strong>Name:</strong><br>
+<input type="text" name="name" required style="width:100%; padding:8px; border:1px solid #3D7A72; border-radius:6px; font-size:16px;"></p>
 
-**Name:**
-<input type="text" name="name" required style="width:100%; padding:8px; border:1px solid #3D7A72; border-radius:6px; font-size:16px; margin-bottom:15px;">
+<p><strong>Email:</strong><br>
+<input type="email" name="email" required style="width:100%; padding:8px; border:1px solid #3D7A72; border-radius:6px; font-size:16px;"></p>
 
-**Email:**
-<input type="email" name="email" required style="width:100%; padding:8px; border:1px solid #3D7A72; border-radius:6px; font-size:16px; margin-bottom:15px;">
-
-**Message:**
-<textarea name="message" rows="5" required style="width:100%; padding:8px; border:1px solid #3D7A72; border-radius:6px; font-size:16px; margin-bottom:15px;"></textarea>
+<p><strong>Message:</strong><br>
+<textarea name="message" rows="5" required style="width:100%; padding:8px; border:1px solid #3D7A72; border-radius:6px; font-size:16px;"></textarea></p>
 
 <button type="submit" style="padding:10px 24px; background-color:#3D7A72; color:#fff; border:none; border-radius:6px; font-size:16px; cursor:pointer;">Send Message</button>
 
 </form>
 
-:::
-
 ## References
 
+::: {.callout-note}
 References are available upon request.
+:::
+

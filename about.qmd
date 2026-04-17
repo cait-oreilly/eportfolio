@@ -1,13 +1,11 @@
 ---
-title: "About Me"
+title: "Cáit O'Reilly"
 toc: true
 ---
 
 :::: {.columns}
 
-::: {.column width="65%"}
-
-# Cáit O'Reilly
+::: {.column width="70%"}
 
 **Student • Analytical • Creative**
 
@@ -15,9 +13,6 @@ toc: true
 
 **[GitHub](https://github.com/cait-oreilly){target="_blank"} &nbsp;&nbsp; [LinkedIn](https://www.linkedin.com/in/cait-oreilly-ogrady){target="_blank"}**
 
-:::
-
-::: {.column width="5%"}
 :::
 
 ::: {.column width="30%"}
