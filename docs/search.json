@@ -312,7 +312,7 @@
     "href": "python-chunks.html#summary",
     "title": "Predicting Student Depression Using Machine Learning",
     "section": "Summary",
-    "text": "Summary\nAll four models achieved ROC-AUC ≈ 0.92, with Logistic Regression performing as well as — or slightly better than — the ensemble methods. This suggests predictive relationships are primarily linear and additive.\nThe three dominant predictors identified consistently across correlation, SHAP, and feature importance analyses were:\n\nSuicidal ideation (~0.195 mean |SHAP|)\nAcademic pressure (~0.127 mean |SHAP|)\nFinancial stress (~0.093 mean |SHAP|)\n\nInteraction analysis showed depression prevalence rising from ~7% to 95% at maximum combined stress levels, supporting dual-stressor intervention strategies.\n\n📄 Read the Full Report →"
+    "text": "Summary\nAll four models achieved ROC-AUC ≈ 0.92, with Logistic Regression performing better than the ensemble methods. This suggests predictive relationships are primarily linear and additive.\nThe three dominant predictors identified consistently across correlation, SHAP, and feature importance analyses were:\n\nSuicidal ideation (~0.195 mean |SHAP|)\nAcademic pressure (~0.127 mean |SHAP|)\nFinancial stress (~0.093 mean |SHAP|)\n\nInteraction analysis showed depression prevalence rising from ~7% to 95% at maximum combined stress levels, supporting dual-stressor intervention strategies.\n\n📄 Read the Full Report →"
   },
   {
     "objectID": "critical-reflection.html",
