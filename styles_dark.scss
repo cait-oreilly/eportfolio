@@ -71,3 +71,35 @@ h1, h2, h3, h4, h5, h6,
 .columns h2, .columns h1, .columns h3 {
   color: #E8E8E4 !important;
 }
+
+// Fix card text colour in dark mode
+.card p, .card div, .card span {
+  color: $off-white !important;
+}
+
+// Fix the author/date text specifically
+[style*="color:#4A6080"] {
+  color: $cool-grey !important;
+}
+
+// Fix search input and dropdown in dark mode
+#searchInput, #sortSelect {
+  background-color: $dark-stone !important;
+  color: $off-white !important;
+  border-color: $muted-teal !important;
+}
+
+// Fix certificates table text
+#certTable td {
+  color: $off-white !important;
+}
+
+// Fix button text on project cards
+.btn-accent {
+  color: $off-white !important;
+}
+
+// Fix badge text
+.badge {
+  color: $off-white !important;
+}
