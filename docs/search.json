@@ -4,7 +4,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "This section covers applied machine learning projects including statistical analysis, data visualisation, and predictive modelling.\n\n\n\n\n👤 Cáit O’Reilly  |  📅 April 2026\n\n\nResearch Academic\n\nPredicting Depression →\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Dec. 2025\n\n\nCode Academic\n\nPython Code →\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Feb. 2026\n\n\nReflection Academic\n\nCritical Reflection →"
+    "text": "This section covers applied machine learning projects including statistical analysis, data visualisation, and predictive modelling.\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Apr. 2026\n\n\nResearch Academic\n\nPredicting Depression →\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Dec. 2025\n\n\nCode Academic\n\nPython Code →\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Feb. 2026\n\n\nReflection Academic\n\nCritical Reflection →"
   },
   {
     "objectID": "projects.html#project-1-statistical-tests-and-regression-using-jamovi",
@@ -135,7 +135,7 @@
   {
     "objectID": "contact.html",
     "href": "contact.html",
-    "title": "Contact",
+    "title": "Contact & References",
     "section": "",
     "text": "You can reach me via:\n\nEmail: caitogrady@gmail.com\nLinkedIn: linkedin.com/in/cait-oreilly-ogrady\nGitHub: github.com/cait-oreilly\n\nOr fill out the contact form below:\n\n\nName: \nEmail: \nMessage:\n\n\nSend Message"
   },
@@ -214,14 +214,14 @@
     "href": "projects.html#machine-learning",
     "title": "Projects",
     "section": "",
-    "text": "This section covers applied machine learning projects including statistical analysis, data visualisation, and predictive modelling.\n\n\n\n\n👤 Cáit O’Reilly  |  📅 April 2026\n\n\nResearch Academic\n\nPredicting Depression →\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Dec. 2025\n\n\nCode Academic\n\nPython Code →\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Feb. 2026\n\n\nReflection Academic\n\nCritical Reflection →"
+    "text": "This section covers applied machine learning projects including statistical analysis, data visualisation, and predictive modelling.\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Apr. 2026\n\n\nResearch Academic\n\nPredicting Depression →\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Dec. 2025\n\n\nCode Academic\n\nPython Code →\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Feb. 2026\n\n\nReflection Academic\n\nCritical Reflection →"
   },
   {
     "objectID": "projects.html#new-enterprise-development",
     "href": "projects.html#new-enterprise-development",
     "title": "Projects",
     "section": "New Enterprise Development",
-    "text": "New Enterprise Development\nThis module focuses on the process of developing and assessing new business ventures, guiding us from initial idea generation through to market positioning and implementation. A key aspect of the module was creating our own original product concept. Our group developed VIVA, a wearable device designed to be placed on the hamstring. The device is intended to monitor muscle activity and detect early signs of potential strain, triggering vibrations to alert the user before an injury occurs.\n\n\n\n\n👤 Group 15  |  📅 Oct. 2025\n\n\nConcept Professional\n\nConcept Paper →\n\n\n\n\n👤 Group 15  |  📅 Dec. 2025\n\n\nAnalysis Professional\n\nFeasibility Report →\n\n\n\n\n👤 Group 15  |  📅 Feb. 2026\n\n\nReport Professional\n\nMarketing Report →\n\n\n\n\n👤 Group 15  |  📅 Feb. 2026\n\n\nVideo Professional\n\nMarketing Video →\n\n\n\n\n👤 Group 15  |  📅 Mar. 2026\n\n\nPitch Professional\n\nPitch Deck →\n\n\n\n\n👤 Group 15  |  📅 Apr. 2026\n\n\nStrategy Professional\n\nBusiness Plan →"
+    "text": "New Enterprise Development\nThis module focuses on the process of developing and assessing new business ventures, guiding us from initial idea generation through to market positioning and implementation. A key aspect of the module was creating our own original product concept. Our group developed VIVA, a wearable device designed to be placed on the hamstring. The device is intended to monitor muscle activity and detect early signs of potential strain, triggering vibrations to alert the user before an injury occurs.\n\n\n\n\n\n👤 Group 15  |  📅 Oct. 2025\n\n\nConcept Professional\n\nConcept Paper →\n\n\n\n\n👤 Group 15  |  📅 Dec. 2025\n\n\nAnalysis Professional\n\nFeasibility Report →\n\n\n\n\n👤 Group 15  |  📅 Feb. 2026\n\n\nReport Professional\n\nMarketing Report →\n\n\n\n\n👤 Group 15  |  📅 Feb. 2026\n\n\nVideo Professional\n\nMarketing Video →\n\n\n\n\n👤 Group 15  |  📅 Mar. 2026\n\n\nPitch Professional\n\nPitch Deck →\n\n\n\n\n👤 Group 15  |  📅 Apr. 2026\n\n\nStrategy Professional\n\nBusiness Plan →"
   },
   {
     "objectID": "python-chunks.html",
@@ -327,5 +327,19 @@
     "title": "Project 2",
     "section": "",
     "text": "This project involved the analysis and visualisation of a dataset using Power BI. The dataset was loaded, cleaned, and explored to develop an interactive dashboard. A range of visualisations were created to examine key variables, relationships, and distributions.\nThe analysis identified meaningful patterns and trends, which were used to develop evidence-based recommendations. Results were compiled into a written report including an executive summary and supporting visuals, alongside a presentation incorporating the Power BI dashboard.\n\n\n\n\nPower BI\nMicrosoft Word\nMicrosoft PowerPoint\n\n\n\n\nAn interactive dashboard was developed that clearly communicated key insights, trends, and patterns across the dataset variables.\n\n\n\nThis project developed my ability to create professional data visualisations and communicate analytical findings clearly to a business audience.\nBack to Projects"
+  },
+  {
+    "objectID": "contact.html#references",
+    "href": "contact.html#references",
+    "title": "Contact & References",
+    "section": "References",
+    "text": "References\nReferences are available upon request."
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Contact & References",
+    "section": "",
+    "text": "You can reach me via:\n\nEmail: caitogrady@gmail.com\nLinkedIn: linkedin.com/in/cait-oreilly-ogrady\nGitHub: github.com/cait-oreilly\n\nOr fill out the contact form below:\n\n\nName: \nEmail: \nMessage:\n\n\nSend Message"
   }
 ]

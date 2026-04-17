@@ -1,6 +1,8 @@
 ---
-title: "Contact"
+title: "Contact & References"
+toc: true 
 ---
+## Get in Touch
 
 You can reach me via:
 
@@ -28,3 +30,7 @@ Or fill out the contact form below:
 </form>
 
 :::
+
+## References
+
+References are available upon request.

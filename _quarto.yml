@@ -3,10 +3,12 @@ project:
   output-dir: docs
   resources:
     - Images/
+    - Images/favicon.png
 
 website:
   title: "Cáit O'Reilly"
   site-url: https://cait-oreilly.github.io/eportfolio
+  favicon: "Images/favicon.png"
   navbar:
     logo: Images/Logo.png
     search: true

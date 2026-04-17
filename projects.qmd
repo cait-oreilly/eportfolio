@@ -10,10 +10,10 @@ This section covers applied machine learning projects including statistical anal
 <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:20px; max-width:1000px;">
 
 ::: {.card style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;"}
-![](Images/quota_sampling.jpg){style="width:100%; height:160px; object-fit:cover; border-radius:8px; margin-bottom:10px;"}
+![](Images/depression-pic.png){style="width:100%; height:160px; object-fit:cover; border-radius:8px; margin-bottom:10px;"}
 
 ::: {style="font-size:0.8rem; color:#4A6080; margin: 6px 0;"}
-👤 Cáit O'Reilly &nbsp;|&nbsp; 📅 April 2026
+👤 Cáit O'Reilly &nbsp;|&nbsp; 📅 Apr. 2026
 :::
 
 ::: {style="display:center; flex-wrap:wrap; gap:5px; margin-bottom:10px; text-align:center;"}
@@ -25,7 +25,7 @@ This section covers applied machine learning projects including statistical anal
 :::
 
 ::: {.card style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;"}
-![](Images/download.png){style="width:100%; height:160px; object-fit:cover; border-radius:8px; margin-bottom:10px;"}
+![](Images/interaction_heatmap.png){style="width:100%; height:160px; object-fit:cover; border-radius:8px; margin-bottom:10px;"}
 
 ::: {style="font-size:0.8rem; color:#4A6080; margin: 6px 0;"}
 👤 Cáit O'Reilly &nbsp;|&nbsp; 📅 Dec. 2025
@@ -60,48 +60,100 @@ This section covers applied machine learning projects including statistical anal
 
 This module focuses on the process of developing and assessing new business ventures, guiding us from initial idea generation through to market positioning and implementation. A key aspect of the module was creating our own original product concept. Our group developed VIVA, a wearable device designed to be placed on the hamstring. The device is intended to monitor muscle activity and detect early signs of potential strain, triggering vibrations to alert the user before an injury occurs.
 
+<style>
+.ned-card img { height: 160px !important; width: 100% !important; object-fit: cover !important; border-radius: 8px !important; margin-bottom: 10px !important; }
+</style>
+
 <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:20px; max-width:1000px;">
 
-<div class="card" style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;">
-<img src="Images/viva-band.png" style="width:100%; height:160px; object-fit:cover; border-radius:8px; margin-bottom:10px;"/>
-<div style="font-size:0.8rem; color:#4A6080; margin: 6px 0;">👤 Group 15 &nbsp;|&nbsp; 📅 Oct. 2025</div>
-<div style="margin-bottom:10px;"><span class="badge bg-primary">Concept</span> <span class="badge bg-secondary">Professional</span></div>
-<a href="projects_files/concept-paper.pdf" class="btn btn-accent btn-sm" target="_blank">Concept Paper →</a>
-</div>
+::: {.card .ned-card style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;"}
+![](Images/viva-logo.png)
 
-<div class="card" style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;">
-<img src="Images/run-club.png" style="width:100%; height:160px; object-fit:cover; border-radius:8px; margin-bottom:10px;"/>
-<div style="font-size:0.8rem; color:#4A6080; margin: 6px 0;">👤 Group 15 &nbsp;|&nbsp; 📅 Dec. 2025</div>
-<div style="margin-bottom:10px;"><span class="badge bg-primary">Analysis</span> <span class="badge bg-secondary">Professional</span></div>
-<a href="projects_files/feasability-analysis.pdf" class="btn btn-accent btn-sm" target="_blank">Feasibility Report →</a>
-</div>
+::: {style="font-size:0.8rem; color:#4A6080; margin: 6px 0;"}
+👤 Group 15 &nbsp;|&nbsp; 📅 Oct. 2025
+:::
 
-<div class="card" style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;">
-<img src="Images/diagram-leg.png" style="width:100%; height:160px; object-fit:cover; border-radius:8px; margin-bottom:10px;"/>
-<div style="font-size:0.8rem; color:#4A6080; margin: 6px 0;">👤 Group 15 &nbsp;|&nbsp; 📅 Feb. 2026</div>
-<div style="margin-bottom:10px;"><span class="badge bg-primary">Report</span> <span class="badge bg-secondary">Professional</span></div>
-<a href="projects_files/marketing-strategy.pdf" class="btn btn-accent btn-sm" target="_blank">Marketing Report →</a>
-</div>
+::: {style="display:center; flex-wrap:wrap; gap:5px; margin-bottom:10px; text-align:center;"}
+[Concept]{.badge .bg-primary}
+[Professional]{.badge .bg-secondary}
+:::
 
-<div class="card" style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;">
-<img src="Images/filming-pic.png" style="width:100%; height:160px; object-fit:cover; border-radius:8px; margin-bottom:10px;"/>
-<div style="font-size:0.8rem; color:#4A6080; margin: 6px 0;">👤 Group 15 &nbsp;|&nbsp; 📅 Feb. 2026</div>
-<div style="margin-bottom:10px;"><span class="badge bg-primary">Video</span> <span class="badge bg-secondary">Professional</span></div>
-<a href="https://www.youtube.com/watch?v=nlmdZbdTcnE" class="btn btn-accent btn-sm" target="_blank">Marketing Video →</a>
-</div>
+[Concept Paper →](projects_files/concept-paper.pdf){.btn .btn-accent .btn-sm target="_blank"}
+:::
 
-<div class="card" style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;">
-<img src="Images/pitch-pic.png" style="width:100%; height:160px; object-fit:cover; border-radius:8px; margin-bottom:10px;"/>
-<div style="font-size:0.8rem; color:#4A6080; margin: 6px 0;">👤 Group 15 &nbsp;|&nbsp; 📅 Mar. 2026</div>
-<div style="margin-bottom:10px;"><span class="badge bg-primary">Pitch</span> <span class="badge bg-secondary">Professional</span></div>
-<a href="projects_files/dragons-den.pdf" class="btn btn-accent btn-sm" target="_blank">Pitch Deck →</a>
-</div>
+::: {.card .ned-card style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;"}
+![](Images/viva-band.png)
 
-<div class="card" style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;">
-<img src="Images/running-pic.png" style="width:100%; height:160px; object-fit:cover; border-radius:8px; margin-bottom:10px;"/>
-<div style="font-size:0.8rem; color:#4A6080; margin: 6px 0;">👤 Group 15 &nbsp;|&nbsp; 📅 Apr. 2026</div>
-<div style="margin-bottom:10px;"><span class="badge bg-primary">Strategy</span> <span class="badge bg-secondary">Professional</span></div>
-<a href="projects_files/business-plan.pdf" class="btn btn-accent btn-sm" target="_blank">Business Plan →</a>
-</div>
+::: {style="font-size:0.8rem; color:#4A6080; margin: 6px 0;"}
+👤 Group 15 &nbsp;|&nbsp; 📅 Dec. 2025
+:::
+
+::: {style="display:center; flex-wrap:wrap; gap:5px; margin-bottom:10px; text-align:center;"}
+[Analysis]{.badge .bg-primary}
+[Professional]{.badge .bg-secondary}
+:::
+
+[Feasibility Report →](projects_files/feasability-analysis.pdf){.btn .btn-accent .btn-sm target="_blank"}
+:::
+
+::: {.card .ned-card style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;"}
+![](Images/diagram-leg.png)
+
+::: {style="font-size:0.8rem; color:#4A6080; margin: 6px 0;"}
+👤 Group 15 &nbsp;|&nbsp; 📅 Feb. 2026
+:::
+
+::: {style="display:center; flex-wrap:wrap; gap:5px; margin-bottom:10px; text-align:center;"}
+[Report]{.badge .bg-primary}
+[Professional]{.badge .bg-secondary}
+:::
+
+[Marketing Report →](projects_files/marketing-strategy.pdf){.btn .btn-accent .btn-sm target="_blank"}
+:::
+
+::: {.card .ned-card style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;"}
+![](Images/running-pic.png)
+
+::: {style="font-size:0.8rem; color:#4A6080; margin: 6px 0;"}
+👤 Group 15 &nbsp;|&nbsp; 📅 Feb. 2026
+:::
+
+::: {style="display:center; flex-wrap:wrap; gap:5px; margin-bottom:10px; text-align:center;"}
+[Video]{.badge .bg-primary}
+[Professional]{.badge .bg-secondary}
+:::
+
+[Marketing Video →](https://www.youtube.com/watch?v=nlmdZbdTcnE){.btn .btn-accent .btn-sm target="_blank"}
+:::
+
+::: {.card .ned-card style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;"}
+![](Images/pitch-pic.png)
+
+::: {style="font-size:0.8rem; color:#4A6080; margin: 6px 0;"}
+👤 Group 15 &nbsp;|&nbsp; 📅 Mar. 2026
+:::
+
+::: {style="display:center; flex-wrap:wrap; gap:5px; margin-bottom:10px; text-align:center;"}
+[Pitch]{.badge .bg-primary}
+[Professional]{.badge .bg-secondary}
+:::
+
+[Pitch Deck →](projects_files/dragons-den.pdf){.btn .btn-accent .btn-sm target="_blank"}
+:::
+
+::: {.card .ned-card style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;"}
+![](Images/run-club.png)
+
+::: {style="font-size:0.8rem; color:#4A6080; margin: 6px 0;"}
+👤 Group 15 &nbsp;|&nbsp; 📅 Apr. 2026
+:::
+
+::: {style="display:center; flex-wrap:wrap; gap:5px; margin-bottom:10px; text-align:center;"}
+[Strategy]{.badge .bg-primary}
+[Professional]{.badge .bg-secondary}
+:::
+
+[Business Plan →](projects_files/business-plan.pdf){.btn .btn-accent .btn-sm target="_blank"}
+:::
 
 </div>
