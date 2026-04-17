@@ -1,0 +1,7 @@
+---
+title: "VIVA Marketing Video"
+toc: true
+---
+Myself and my team spent the month of February filming and editing our ad to showcase VIVA. We performed very well in this assignment and we were extremely happy with our result.
+
+{{< video https://www.youtube.com/watch?v=nlmdZbdTcnE >}}

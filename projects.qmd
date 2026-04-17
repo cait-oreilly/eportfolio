@@ -108,7 +108,8 @@ This module focuses on the process of developing and assessing new business vent
 [Professional]{.badge .bg-secondary}
 :::
 
-[Marketing Report →](projects_files/marketing-strategy.pdf){.btn .btn-accent .btn-sm target="_blank"}
+[Marketing Report →](video-project.qmd){.btn .btn-accent .btn-sm}
+:::(projects_files/marketing-strategy.pdf){.btn .btn-accent .btn-sm target="_blank"}
 :::
 
 ::: {.card .ned-card style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;"}
