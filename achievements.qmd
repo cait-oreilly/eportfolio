@@ -1,6 +1,6 @@
 ---
-Title: Certificates
-TOC: true
+title: "Certificates"
+toc: true
 ---
 ## Kubicle Certificates
 
@@ -107,3 +107,7 @@ function applyFilters() {
 
 applyFilters();
 </script>
+
+This was completed during my time at DCU.[^1]
+
+[^1]: Dublin City University, Collins Avenue, Dublin 9.
