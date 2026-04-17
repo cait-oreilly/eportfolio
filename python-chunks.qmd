@@ -708,7 +708,7 @@ plt.show()
 
 ## Summary
 
-All four models achieved **ROC-AUC ≈ 0.92**, with Logistic Regression performing as well as — or slightly better than — the ensemble methods. This suggests predictive relationships are primarily **linear and additive**.
+All four models achieved **ROC-AUC ≈ 0.92**, with Logistic Regression performing better than the ensemble methods. This suggests predictive relationships are primarily **linear and additive**.
 
 The three dominant predictors identified consistently across correlation, SHAP, and feature importance analyses were:
 
