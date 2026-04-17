@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "video-project.html",
+    "href": "video-project.html",
+    "title": "VIVA Marketing Video",
+    "section": "",
+    "text": "Myself and my team spent the month of February filming and editing our ad to showcase VIVA. We performed very well in this assignment and we were extremely happy with our result."
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
@@ -7,88 +14,25 @@
     "text": "This section covers applied machine learning projects including statistical analysis, data visualisation, and predictive modelling.\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Apr. 2026\n\n\nResearch Academic\n\nPredicting Depression →\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Dec. 2025\n\n\nCode Academic\n\nPython Code →\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Feb. 2026\n\n\nReflection Academic\n\nCritical Reflection →"
   },
   {
-    "objectID": "projects.html#project-1-statistical-tests-and-regression-using-jamovi",
-    "href": "projects.html#project-1-statistical-tests-and-regression-using-jamovi",
+    "objectID": "projects.html#machine-learning",
+    "href": "projects.html#machine-learning",
     "title": "Projects",
     "section": "",
-    "text": "View Project →"
+    "text": "This section covers applied machine learning projects including statistical analysis, data visualisation, and predictive modelling.\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Apr. 2026\n\n\nResearch Academic\n\nPredicting Depression →\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Dec. 2025\n\n\nCode Academic\n\nPython Code →\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Feb. 2026\n\n\nReflection Academic\n\nCritical Reflection →"
   },
   {
-    "objectID": "projects.html#project-2-sales-dashboard-analysis-using-power-bi",
-    "href": "projects.html#project-2-sales-dashboard-analysis-using-power-bi",
+    "objectID": "projects.html#new-enterprise-development",
+    "href": "projects.html#new-enterprise-development",
     "title": "Projects",
-    "section": "Project 2 — Sales Dashboard Analysis using Power BI",
-    "text": "Project 2 — Sales Dashboard Analysis using Power BI\n\n\nView Project →"
+    "section": "New Enterprise Development",
+    "text": "New Enterprise Development\nThis module focuses on the process of developing and assessing new business ventures, guiding us from initial idea generation through to market positioning and implementation. A key aspect of the module was creating our own original product concept. Our group developed VIVA, a wearable device designed to be placed on the hamstring. The device is intended to monitor muscle activity and detect early signs of potential strain, triggering vibrations to alert the user before an injury occurs.\n\n\n\n\n\n👤 Group 15  |  📅 Oct. 2025\n\n\nConcept Professional\n\nConcept Paper →\n\n\n\n\n👤 Group 15  |  📅 Dec. 2025\n\n\nAnalysis Professional\n\nFeasibility Report →\n\n\n\n\n👤 Group 15  |  📅 Feb. 2026\n\n\nReport Professional\n\nMarketing Report → :::(projects_files/marketing-strategy.pdf){.btn .btn-accent .btn-sm target=“_blank”}\n\n\n\n\n👤 Group 15  |  📅 Feb. 2026\n\n\nVideo Professional\n\nMarketing Video →\n\n\n\n\n👤 Group 15  |  📅 Mar. 2026\n\n\nPitch Professional\n\nPitch Deck →\n\n\n\n\n👤 Group 15  |  📅 Apr. 2026\n\n\nStrategy Professional\n\nBusiness Plan →"
   },
   {
-    "objectID": "projects.html#project-3-confidence-intervals-and-sampling-distributions",
-    "href": "projects.html#project-3-confidence-intervals-and-sampling-distributions",
-    "title": "Projects",
-    "section": "Project 3 — Confidence Intervals and Sampling Distributions",
-    "text": "Project 3 — Confidence Intervals and Sampling Distributions\n\n\nView Project →"
-  },
-  {
-    "objectID": "project2.html",
-    "href": "project2.html",
-    "title": "Project 2",
+    "objectID": "critical-reflection.html",
+    "href": "critical-reflection.html",
+    "title": "Critical Reflection",
     "section": "",
-    "text": "This project involved the analysis and visualisation of a dataset using Power BI. The dataset was loaded, cleaned, and explored to develop an interactive dashboard. A range of visualisations were created to examine key variables, relationships, and distributions.\nThe analysis identified meaningful patterns and trends, which were used to develop evidence-based recommendations. Results were compiled into a written report including an executive summary and supporting visuals, alongside a presentation incorporating the Power BI dashboard.\n\n\n\n\nPower BI\nMicrosoft Word\nMicrosoft PowerPoint\n\n\n\n\nAn interactive dashboard was developed that clearly communicated key insights, trends, and patterns across the dataset variables.\n\n\n\nThis project developed my ability to create professional data visualisations and communicate analytical findings clearly to a business audience.\nBack to Projects"
-  },
-  {
-    "objectID": "project2.html#sales-dashboard-analysis-using-power-bi",
-    "href": "project2.html#sales-dashboard-analysis-using-power-bi",
-    "title": "Project 2",
-    "section": "",
-    "text": "This project involved the analysis and visualisation of a dataset using Power BI. The dataset was loaded, cleaned, and explored to develop an interactive dashboard. A range of visualisations were created to examine key variables, relationships, and distributions.\nThe analysis identified meaningful patterns and trends, which were used to develop evidence-based recommendations. Results were compiled into a written report including an executive summary and supporting visuals, alongside a presentation incorporating the Power BI dashboard.\n\n\n\n\nPower BI\nMicrosoft Word\nMicrosoft PowerPoint\n\n\n\n\nAn interactive dashboard was developed that clearly communicated key insights, trends, and patterns across the dataset variables.\n\n\n\nThis project developed my ability to create professional data visualisations and communicate analytical findings clearly to a business audience.\nBack to Projects"
-  },
-  {
-    "objectID": "media.html",
-    "href": "media.html",
-    "title": "Media",
-    "section": "",
-    "text": "A collection of media, presentations, and achievements."
-  },
-  {
-    "objectID": "media.html#presentations-slides",
-    "href": "media.html#presentations-slides",
-    "title": "Media",
-    "section": "Presentations & Slides",
-    "text": "Presentations & Slides\n\n\n\n\nPresentation Title Here\nA brief description of the presentation — topic, context, and date.\nMore →\n\n\n\n\n\n\nPresentation Title Here\nA brief description of the presentation — topic, context, and date.\nMore →"
-  },
-  {
-    "objectID": "media.html#videos",
-    "href": "media.html#videos",
-    "title": "Media",
-    "section": "Videos",
-    "text": "Videos\nAd for Enterprise module\nIn my enterprise module we were asked to create a new product or service that does not exist yet. My group’s idea is a hamstring band which is worn on both legs and sends vibration signals when it detects a potential strain. Below is the ad for the product."
-  },
-  {
-    "objectID": "hobbies.html",
-    "href": "hobbies.html",
-    "title": "Hobbies & Interests",
-    "section": "",
-    "text": "Alongside my academic studies and part-time work, I spend a lot of my time doing things that I love — whether that be walking my dog, going to the gym, or baking."
-  },
-  {
-    "objectID": "hobbies.html#baking",
-    "href": "hobbies.html#baking",
-    "title": "Hobbies & Interests",
-    "section": "🎂 Baking",
-    "text": "🎂 Baking\nOne of my favourite things to do is bake! Whenever I have free time, I bake for my friends and family. I’ve been commissioned to make birthday cakes for friends, and this is something I would love to do more of."
-  },
-  {
-    "objectID": "hobbies.html#me-and-my-dog",
-    "href": "hobbies.html#me-and-my-dog",
-    "title": "Hobbies & Interests",
-    "section": "🐕 Me and my dog",
-    "text": "🐕 Me and my dog\nI spend every morning walking my dog, Rafa. It is the highlight of my day! At 12 years old, he still gets just as excited for his walks in the park as he did when he was a puppy! Scroll through the carousel below for some photos!\n\n  \n    \n    \n    \n    \n  \n  ‹\n  ›"
-  },
-  {
-    "objectID": "hobbies.html#gym",
-    "href": "hobbies.html#gym",
-    "title": "Hobbies & Interests",
-    "section": "💪 Gym",
-    "text": "💪 Gym\nI regularly spend time at the gym to support both my physical and emotional wellbeing. Exercising helps me step away from the pressures of work and study, allowing me to clear my mind, reduce stress, and focus on improving my fitness. I enjoy going both on my own and with friends—it provides a great balance of social interaction as well as personal time."
+    "text": "Entering this module, my experience with web development and publishing tools was minimal. I had some exposure to Python, but tools like Quarto, HTML, CSS, and SCSS were either completely new to me or only vaguely familiar. I also had no real understanding of how to integrate these technologies into a cohesive workflow to build and publish a website, particularly using Visual Studio Code and GitHub. What I did bring, however, was a willingness to experiment and a persistence in figuring things out independently, even when the process felt unclear.\nOver the course of the project, I developed a much more practical understanding of how different technologies interact. Learning Quarto was a turning point, as it required me to think not just about writing code, but about structuring content, rendering outputs, and managing configurations. Combining this with HTML for structure and CSS/SCSS for styling made me realise that building a website is not a linear task, but an iterative process of adjustment and refinement. Small changes in styling often had unexpected consequences, which forced me to slow down and become more precise in how I approached debugging.\nWorking within VS Code and managing files across multiple languages also pushed me to become more organised. At times, I found myself navigating between Python scripts, Quarto documents, and styling files without a clear system, which led to confusion and inefficiency. This experience highlighted the importance of maintaining a clean and logical project structure. Over time, I began to think more deliberately about file organisation and naming conventions, which improved both my workflow and my ability to troubleshoot issues.\nOne of the more challenging aspects was understanding how to deploy the website through GitHub. While I was able to follow the steps required to publish the site, I did not initially grasp the underlying mechanics of version control and deployment. My commits, particularly early on, lacked clarity and purpose. This reflected a broader issue: I was focused on getting the website to work, rather than documenting the process in a meaningful way. Through this, I realised that version control is not just a technical requirement but a form of communication, both with others and with my future self.\nThe integration of Python into the website added another layer of complexity. Rather than using Python in isolation, I had to think about how it contributed to the overall presentation and functionality of the site. This shifted my perspective from coding as a standalone task to coding as part of a broader system. It also reinforced the importance of writing clean, readable code, as poorly structured scripts made integration significantly more difficult.\nBuilding and publishing my own website was ultimately the most valuable outcome of this experience. It transformed abstract technical skills into something tangible and visible. Having a live site hosted on GitHub made the learning process feel more purposeful, as the final product could be shared and evaluated beyond the classroom. It also gave me a clearer sense of how these skills translate into real-world applications, particularly in contexts where digital presence and technical communication are important.\nLooking ahead, I recognise that my understanding is still developing. While I can now build and deploy a basic website, I am not yet fully confident in my ability to customise it extensively or optimise it for different use cases. However, this experience has given me a foundation to build on. More importantly, it has changed how I approach learning technical skills: I am more comfortable working through uncertainty, more aware of the importance of structure and documentation, and more conscious of the need to balance detail with progress.\nOverall, this project was not just about learning new tools, but about learning how to bring them together into a coherent workflow. The ability to integrate, adapt, and continuously refine feels like the most valuable skill I have taken from the experience, and one that will remain relevant as technologies continue to evolve.\nBack to Projects"
   },
   {
     "objectID": "achievements.html",
@@ -103,6 +47,13 @@
     "title": "Certificates",
     "section": "",
     "text": "Total Learning Hours: 57.5\n\n  Sort: Newest First Sort: Oldest First Sort: Topic A–Z Sort: Hours (High–Low) \n\n\n\n\n\n\nTopic\n\n\nCourse\n\n\nDate\n\n\nHours\n\n\n\n\n\n\nData Presentation Skills\n\n\nPresenting Your Data\n\n\n2026-02-25\n\n\n1.0\n\n\n\n\nData Security\n\n\nHandling Data Securely and Responsibly\n\n\n2026-02-25\n\n\n1.5\n\n\n\n\nData Presentation Skills\n\n\nTelling Stories with Data\n\n\n2026-01-27\n\n\n1.0\n\n\n\n\nTableau\n\n\nDashboard Design\n\n\n2024-04-20\n\n\n2.0\n\n\n\n\nPython Fundamentals\n\n\nConnecting to Live Data\n\n\n2024-04-20\n\n\n1.5\n\n\n\n\nSQL\n\n\nSelecting and Filtering Data\n\n\n2024-04-11\n\n\n2.0\n\n\n\n\nTableau\n\n\nFurther Formulas in Tableau\n\n\n2024-04-09\n\n\n1.5\n\n\n\n\nData Security\n\n\nKeeping Your Information Safe\n\n\n2024-02-06\n\n\n1.0\n\n\n\n\nData Presentation Skills\n\n\nCommunicating Data Effectively\n\n\n2024-01-18\n\n\n1.0\n\n\n\n\nStatistical Analysis\n\n\nProbability Principles\n\n\n2024-01-16\n\n\n1.5\n\n\n\n\nStatistical Analysis\n\n\nIntroduction to Predictive Modeling\n\n\n2024-01-16\n\n\n2.0\n\n\n\n\nStatistical Analysis\n\n\nPrinciples of Statistics\n\n\n2024-01-16\n\n\n1.5\n\n\n\n\nAI Fundamentals\n\n\nIntroduction to Artificial Intelligence\n\n\n2024-01-16\n\n\n1.0\n\n\n\n\nVisualization Fundamentals\n\n\nVisual Data Thinking\n\n\n2024-01-15\n\n\n1.0\n\n\n\n\nAI Fundamentals\n\n\nLarge Language Models\n\n\n2024-01-15\n\n\n1.0\n\n\n\n\nAI Fundamentals\n\n\nGenerative AI and ChatGPT\n\n\n2024-01-15\n\n\n1.5\n\n\n\n\nAI Fundamentals\n\n\nUnderstanding Natural Language\n\n\n2024-01-15\n\n\n1.0\n\n\n\n\nAI Fundamentals\n\n\nIdentifying Patterns\n\n\n2024-01-15\n\n\n1.0\n\n\n\n\nAI Fundamentals\n\n\nPredicting Scenarios\n\n\n2024-01-15\n\n\n1.0\n\n\n\n\nAI Fundamentals\n\n\nPredicting Future Values\n\n\n2024-01-15\n\n\n1.0\n\n\n\n\nAI Fundamentals\n\n\nBusiness Applications of AI\n\n\n2024-01-15\n\n\n1.0\n\n\n\n\nPower BI\n\n\nIntroduction to Visualizations\n\n\n2023-12-29\n\n\n1.5\n\n\n\n\nPower BI\n\n\nBuilding Your First Dashboard\n\n\n2023-12-22\n\n\n1.5\n\n\n\n\nExcel\n\n\nFinance Functions\n\n\n2023-11-07\n\n\n1.0\n\n\n\n\nSQL\n\n\nUnderstanding SQL Databases\n\n\n2023-10-16\n\n\n1.5\n\n\n\n\nPython Fundamentals\n\n\nFunctions, Conditionality and Loops\n\n\n2023-10-10\n\n\n2.5\n\n\n\n\nPython Fundamentals\n\n\nPython Fundamentals\n\n\n2023-10-03\n\n\n2.0\n\n\n\n\nTableau\n\n\nCreating Visualizations\n\n\n2023-09-26\n\n\n2.0\n\n\n\n\nExcel\n\n\nFormulas and Functions\n\n\n2023-04-05\n\n\n3.0\n\n\n\n\nTableau\n\n\nIntroducing Tableau\n\n\n2023-03-14\n\n\n1.5\n\n\n\n\nVisualization Fundamentals\n\n\nApplying Visual Data Skills\n\n\n2023-02-22\n\n\n1.0\n\n\n\n\nExcel\n\n\nCharts in Depth\n\n\n2023-01-03\n\n\n1.0\n\n\n\n\nExcel\n\n\nPivot Tables\n\n\n2022-11-22\n\n\n2.0\n\n\n\n\nData Literacy\n\n\nIntroduction to Data Preparation\n\n\n2022-10-20\n\n\n1.0\n\n\n\n\nData Literacy\n\n\nIntroduction to Data and Databases\n\n\n2022-10-20\n\n\n1.0\n\n\n\n\nExcel\n\n\nData Manipulation and Formatting\n\n\n2022-10-06\n\n\n2.0\n\n\n\n\n\n\nThis was completed during my time at DCU.1"
+  },
+  {
+    "objectID": "achievements.html#footnotes",
+    "href": "achievements.html#footnotes",
+    "title": "Certificates",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nDublin City University, Collins Avenue, Dublin 9.↩︎"
   },
   {
     "objectID": "about.html",
@@ -133,53 +84,11 @@
     "text": "Final Year at DCU\nNow in my final year at DCU, I continue to build on my analytical foundation through my specialisation in Data Analytics, working with SQL, Python, CSS and HTML. I am particularly motivated by the opportunity to combine business knowledge with data-driven insights and technology. With a strong academic background, practical industry experience, and a genuine passion for analytics, I am eager to pursue a career where I can continue learning and delivering value through data."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact & References",
-    "section": "",
-    "text": "You can reach me via:\n\nEmail: caitogrady@gmail.com\nLinkedIn: linkedin.com/in/cait-oreilly-ogrady\nGitHub: github.com/cait-oreilly\n\nOr fill out the contact form below:\n\n\nName: \n\n\nEmail: \n\n\nMessage:\n\n\n\nSend Message"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to My E-Portfolio",
-    "section": "",
-    "text": "Myself and the other interns on our last day of our PwC internship\n\n\n\n\n\n\n\nBusiness Studies Student • DCU\nWelcome to my e-portfolio! I’m a final year Business Studies student at DCU, specialising in Data Analytics.\nExplore my work using the navigation bar below.\nAbout Me    Projects    Certificates    CV    Contact"
-  },
-  {
-    "objectID": "index.html#hi-im-cáit",
-    "href": "index.html#hi-im-cáit",
-    "title": "Welcome to My E-Portfolio",
-    "section": "",
-    "text": "Business Studies Student • DCU\nWelcome to my e-portfolio! I’m a final year Business Studies student at DCU, specialising in Data Analytics.\nExplore my work using the navigation bar below.\nAbout Me    Projects    Certificates    CV    Contact"
-  },
-  {
-    "objectID": "project1.html",
-    "href": "project1.html",
-    "title": "Project 1",
-    "section": "",
-    "text": "This assignment involved the statistical analysis of a House Price dataset using Jamovi. The analysis was structured into three main sections: descriptive statistics and correlations, statistical hypothesis testing, and linear regression modelling.\nDescriptive statistics were used to summarise the House Price variable. Correlation analysis examined relationships between house price and other quantitative variables. Statistical tests investigated differences in house prices across cities and house types. Linear regression modelled house prices using size, bedrooms, bathrooms, and land area as predictors.\n\n\n\n\nJamovi\nMicrosoft Word\n\n\n\n\nTwo regression models were developed. The first used house size, number of bedrooms, bathrooms, and land area. The second used statistically significant predictors from the first model alongside additional relevant variables.\n\n\n\nThis project strengthened my understanding of statistical testing, correlation analysis, and regression modelling in a real-world dataset context.\nBack to Projects"
-  },
-  {
-    "objectID": "project1.html#statistical-tests-and-regression-using-jamovi",
-    "href": "project1.html#statistical-tests-and-regression-using-jamovi",
-    "title": "Project 1",
-    "section": "",
-    "text": "This assignment involved the statistical analysis of a House Price dataset using Jamovi. The analysis was structured into three main sections: descriptive statistics and correlations, statistical hypothesis testing, and linear regression modelling.\nDescriptive statistics were used to summarise the House Price variable. Correlation analysis examined relationships between house price and other quantitative variables. Statistical tests investigated differences in house prices across cities and house types. Linear regression modelled house prices using size, bedrooms, bathrooms, and land area as predictors.\n\n\n\n\nJamovi\nMicrosoft Word\n\n\n\n\nTwo regression models were developed. The first used house size, number of bedrooms, bathrooms, and land area. The second used statistically significant predictors from the first model alongside additional relevant variables.\n\n\n\nThis project strengthened my understanding of statistical testing, correlation analysis, and regression modelling in a real-world dataset context.\nBack to Projects"
-  },
-  {
-    "objectID": "project3.html",
-    "href": "project3.html",
-    "title": "Project 3",
-    "section": "",
-    "text": "This analysis was divided into two parts. Part A focused on confidence interval construction using the House Price dataset. Part B examined sampling distributions using an external dataset on accident costs.\nIn Part A, three confidence intervals (90%, 95%, 99%) were calculated for average house price. A 95% confidence interval was calculated for average house size in Cork, and another for the proportion of detached houses sold in Ireland. The required sample size to reduce sampling error to 0.02 was also calculated.\nIn Part B, an Excel dataset on accident costs was analysed to compare individual accident cost distributions across 1,000 companies with average costs from 200 samples of 100 companies, with reference to the Central Limit Theorem.\n\n\n\n\nJamovi\nMicrosoft Excel\nMicrosoft Word\n\n\n\n\nThe analysis demonstrated how confidence level affects interval width, and how averaging across samples reduces variability in line with the Central Limit Theorem.\n\n\n\nThis project deepened my understanding of inferential statistics, confidence intervals, and sampling theory.\nBack to Projects"
-  },
-  {
-    "objectID": "project3.html#confidence-intervals-and-sampling-distributions",
-    "href": "project3.html#confidence-intervals-and-sampling-distributions",
-    "title": "Project 3",
-    "section": "",
-    "text": "This analysis was divided into two parts. Part A focused on confidence interval construction using the House Price dataset. Part B examined sampling distributions using an external dataset on accident costs.\nIn Part A, three confidence intervals (90%, 95%, 99%) were calculated for average house price. A 95% confidence interval was calculated for average house size in Cork, and another for the proportion of detached houses sold in Ireland. The required sample size to reduce sampling error to 0.02 was also calculated.\nIn Part B, an Excel dataset on accident costs was analysed to compare individual accident cost distributions across 1,000 companies with average costs from 200 samples of 100 companies, with reference to the Central Limit Theorem.\n\n\n\n\nJamovi\nMicrosoft Excel\nMicrosoft Word\n\n\n\n\nThe analysis demonstrated how confidence level affects interval width, and how averaging across samples reduces variability in line with the Central Limit Theorem.\n\n\n\nThis project deepened my understanding of inferential statistics, confidence intervals, and sampling theory.\nBack to Projects"
+    "objectID": "about.html#hobbies-interests",
+    "href": "about.html#hobbies-interests",
+    "title": "Cáit O’Reilly",
+    "section": "Hobbies & Interests",
+    "text": "Hobbies & Interests\nAlongside my academic studies and part-time work, I spend a lot of my time doing things that I love — whether that be walking my dog or baking."
   },
   {
     "objectID": "about.html#baking",
@@ -196,32 +105,39 @@
     "text": "Me and my dog\nI spend every morning walking my dog, Rafa. It is the highlight of my day! At 12 years old, he still gets just as excited for his walks in the park as he did when he was a puppy! Scroll through the carousel below for some photos!\n\n  \n    \n    \n    \n    \n  \n  ‹\n  ›\n  \n    \n    \n    \n    \n  \n\n\n::::"
   },
   {
-    "objectID": "about.html#gym",
-    "href": "about.html#gym",
-    "title": "About Me",
-    "section": "💪 Gym",
-    "text": "💪 Gym\nI regularly spend time at the gym to support both my physical and emotional wellbeing. Exercising helps me step away from the pressures of work and study, allowing me to clear my mind, reduce stress, and focus on improving my fitness. I enjoy going both on my own and with friends—it provides a great balance of social interaction as well as personal time."
-  },
-  {
-    "objectID": "about.html#hobbies-interests",
-    "href": "about.html#hobbies-interests",
-    "title": "Cáit O’Reilly",
-    "section": "Hobbies & Interests",
-    "text": "Hobbies & Interests\nAlongside my academic studies and part-time work, I spend a lot of my time doing things that I love — whether that be walking my dog or baking."
-  },
-  {
-    "objectID": "projects.html#machine-learning",
-    "href": "projects.html#machine-learning",
-    "title": "Projects",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact & References",
     "section": "",
-    "text": "This section covers applied machine learning projects including statistical analysis, data visualisation, and predictive modelling.\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Apr. 2026\n\n\nResearch Academic\n\nPredicting Depression →\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Dec. 2025\n\n\nCode Academic\n\nPython Code →\n\n\n\n\n👤 Cáit O’Reilly  |  📅 Feb. 2026\n\n\nReflection Academic\n\nCritical Reflection →"
+    "text": "You can reach me via:\n\nEmail: caitogrady@gmail.com\nLinkedIn: linkedin.com/in/cait-oreilly-ogrady\nGitHub: github.com/cait-oreilly\n\nOr fill out the contact form below:\n\n\nName: \n\n\nEmail: \n\n\nMessage:\n\n\n\nSend Message"
   },
   {
-    "objectID": "projects.html#new-enterprise-development",
-    "href": "projects.html#new-enterprise-development",
-    "title": "Projects",
-    "section": "New Enterprise Development",
-    "text": "New Enterprise Development\nThis module focuses on the process of developing and assessing new business ventures, guiding us from initial idea generation through to market positioning and implementation. A key aspect of the module was creating our own original product concept. Our group developed VIVA, a wearable device designed to be placed on the hamstring. The device is intended to monitor muscle activity and detect early signs of potential strain, triggering vibrations to alert the user before an injury occurs.\n\n\n\n\n\n👤 Group 15  |  📅 Oct. 2025\n\n\nConcept Professional\n\nConcept Paper →\n\n\n\n\n👤 Group 15  |  📅 Dec. 2025\n\n\nAnalysis Professional\n\nFeasibility Report →\n\n\n\n\n👤 Group 15  |  📅 Feb. 2026\n\n\nReport Professional\n\nMarketing Report →\n\n\n\n\n👤 Group 15  |  📅 Feb. 2026\n\n\nVideo Professional\n\nMarketing Video →\n\n\n\n\n👤 Group 15  |  📅 Mar. 2026\n\n\nPitch Professional\n\nPitch Deck →\n\n\n\n\n👤 Group 15  |  📅 Apr. 2026\n\n\nStrategy Professional\n\nBusiness Plan →"
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Contact & References",
+    "section": "",
+    "text": "You can reach me via:\n\nEmail: caitogrady@gmail.com\nLinkedIn: linkedin.com/in/cait-oreilly-ogrady\nGitHub: github.com/cait-oreilly\n\nOr fill out the contact form below:\n\n\nName: \n\n\nEmail: \n\n\nMessage:\n\n\n\nSend Message"
+  },
+  {
+    "objectID": "contact.html#references",
+    "href": "contact.html#references",
+    "title": "Contact & References",
+    "section": "References",
+    "text": "References\n\n\n\n\n\n\nNoteNote\n\n\n\nReferences are available upon request."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to My E-Portfolio",
+    "section": "",
+    "text": "Myself and the other interns on our last day of our PwC internship\n\n\n\n\n\n\n\nBusiness Studies Student • DCU\nWelcome to my e-portfolio! I’m a final year Business Studies student at DCU, specialising in Data Analytics.\nExplore my work using the navigation bar below.\nAbout Me    Projects    Certificates    CV    Contact"
+  },
+  {
+    "objectID": "index.html#hi-im-cáit",
+    "href": "index.html#hi-im-cáit",
+    "title": "Welcome to My E-Portfolio",
+    "section": "",
+    "text": "Business Studies Student • DCU\nWelcome to my e-portfolio! I’m a final year Business Studies student at DCU, specialising in Data Analytics.\nExplore my work using the navigation bar below.\nAbout Me    Projects    Certificates    CV    Contact"
   },
   {
     "objectID": "python-chunks.html",
@@ -313,61 +229,5 @@
     "title": "Predicting Student Depression Using Machine Learning",
     "section": "Summary",
     "text": "Summary\nAll four models achieved ROC-AUC ≈ 0.92, with Logistic Regression performing better than the ensemble methods. This suggests predictive relationships are primarily linear and additive.\nThe three dominant predictors identified consistently across correlation, SHAP, and feature importance analyses were:\n\nSuicidal ideation (~0.195 mean |SHAP|)\nAcademic pressure (~0.127 mean |SHAP|)\nFinancial stress (~0.093 mean |SHAP|)\n\nInteraction analysis showed depression prevalence rising from ~7% to 95% at maximum combined stress levels, supporting dual-stressor intervention strategies.\n\n📄 Read the Full Report → Back to Projects"
-  },
-  {
-    "objectID": "critical-reflection.html",
-    "href": "critical-reflection.html",
-    "title": "Critical Reflection",
-    "section": "",
-    "text": "Entering this module, my experience with web development and publishing tools was minimal. I had some exposure to Python, but tools like Quarto, HTML, CSS, and SCSS were either completely new to me or only vaguely familiar. I also had no real understanding of how to integrate these technologies into a cohesive workflow to build and publish a website, particularly using Visual Studio Code and GitHub. What I did bring, however, was a willingness to experiment and a persistence in figuring things out independently, even when the process felt unclear.\nOver the course of the project, I developed a much more practical understanding of how different technologies interact. Learning Quarto was a turning point, as it required me to think not just about writing code, but about structuring content, rendering outputs, and managing configurations. Combining this with HTML for structure and CSS/SCSS for styling made me realise that building a website is not a linear task, but an iterative process of adjustment and refinement. Small changes in styling often had unexpected consequences, which forced me to slow down and become more precise in how I approached debugging.\nWorking within VS Code and managing files across multiple languages also pushed me to become more organised. At times, I found myself navigating between Python scripts, Quarto documents, and styling files without a clear system, which led to confusion and inefficiency. This experience highlighted the importance of maintaining a clean and logical project structure. Over time, I began to think more deliberately about file organisation and naming conventions, which improved both my workflow and my ability to troubleshoot issues.\nOne of the more challenging aspects was understanding how to deploy the website through GitHub. While I was able to follow the steps required to publish the site, I did not initially grasp the underlying mechanics of version control and deployment. My commits, particularly early on, lacked clarity and purpose. This reflected a broader issue: I was focused on getting the website to work, rather than documenting the process in a meaningful way. Through this, I realised that version control is not just a technical requirement but a form of communication, both with others and with my future self.\nThe integration of Python into the website added another layer of complexity. Rather than using Python in isolation, I had to think about how it contributed to the overall presentation and functionality of the site. This shifted my perspective from coding as a standalone task to coding as part of a broader system. It also reinforced the importance of writing clean, readable code, as poorly structured scripts made integration significantly more difficult.\nBuilding and publishing my own website was ultimately the most valuable outcome of this experience. It transformed abstract technical skills into something tangible and visible. Having a live site hosted on GitHub made the learning process feel more purposeful, as the final product could be shared and evaluated beyond the classroom. It also gave me a clearer sense of how these skills translate into real-world applications, particularly in contexts where digital presence and technical communication are important.\nLooking ahead, I recognise that my understanding is still developing. While I can now build and deploy a basic website, I am not yet fully confident in my ability to customise it extensively or optimise it for different use cases. However, this experience has given me a foundation to build on. More importantly, it has changed how I approach learning technical skills: I am more comfortable working through uncertainty, more aware of the importance of structure and documentation, and more conscious of the need to balance detail with progress.\nOverall, this project was not just about learning new tools, but about learning how to bring them together into a coherent workflow. The ability to integrate, adapt, and continuously refine feels like the most valuable skill I have taken from the experience, and one that will remain relevant as technologies continue to evolve.\nBack to Projects"
-  },
-  {
-    "objectID": "critical-reflection.html#sales-dashboard-analysis-using-power-bi",
-    "href": "critical-reflection.html#sales-dashboard-analysis-using-power-bi",
-    "title": "Project 2",
-    "section": "",
-    "text": "This project involved the analysis and visualisation of a dataset using Power BI. The dataset was loaded, cleaned, and explored to develop an interactive dashboard. A range of visualisations were created to examine key variables, relationships, and distributions.\nThe analysis identified meaningful patterns and trends, which were used to develop evidence-based recommendations. Results were compiled into a written report including an executive summary and supporting visuals, alongside a presentation incorporating the Power BI dashboard.\n\n\n\n\nPower BI\nMicrosoft Word\nMicrosoft PowerPoint\n\n\n\n\nAn interactive dashboard was developed that clearly communicated key insights, trends, and patterns across the dataset variables.\n\n\n\nThis project developed my ability to create professional data visualisations and communicate analytical findings clearly to a business audience.\nBack to Projects"
-  },
-  {
-    "objectID": "contact.html#references",
-    "href": "contact.html#references",
-    "title": "Contact & References",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "contact.html#get-in-touch",
-    "href": "contact.html#get-in-touch",
-    "title": "Contact & References",
-    "section": "",
-    "text": "You can reach me via:\n\nEmail: caitogrady@gmail.com\nLinkedIn: linkedin.com/in/cait-oreilly-ogrady\nGitHub: github.com/cait-oreilly\n\nOr fill out the contact form below:\n\n\nName: \n\n\nEmail: \n\n\nMessage:\n\n\n\nSend Message"
-  },
-  {
-    "objectID": "contact.html#references-1",
-    "href": "contact.html#references-1",
-    "title": "Contact & References",
-    "section": "References",
-    "text": "References\n\n\n\n\n\n\nNoteNote\n\n\n\nReferences are available upon request."
-  },
-  {
-    "objectID": "achievements.html#footnotes",
-    "href": "achievements.html#footnotes",
-    "title": "Certificates",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nDublin City University, Collins Avenue, Dublin 9.↩︎"
-  },
-  {
-    "objectID": "achievements.html#this-was-completed-during-my-time-at-dcu.1",
-    "href": "achievements.html#this-was-completed-during-my-time-at-dcu.1",
-    "title": "Certificates",
-    "section": "This was completed during my time at DCU.1",
-    "text": "This was completed during my time at DCU.1"
-  },
-  {
-    "objectID": "achievements.html#skills",
-    "href": "achievements.html#skills",
-    "title": "Cáit O'Reilly",
-    "section": "Skills",
-    "text": "Skills\n\n\n\n\nSkill\n\n\nLevel\n\n\n\n\n\n\nPython\n\n\nIntermediate\n\n\n\n\nSQL\n\n\nIntermediate\n\n\n\n\nExcel\n\n\nAdvanced\n\n\n\n\nTableau\n\n\nBeginner\n\n\n\n\n\n1. Dublin City University, Collins Avenue, Dublin 9."
   }
 ]
