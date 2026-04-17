@@ -108,19 +108,18 @@ This module focuses on the process of developing and assessing new business vent
 [Professional]{.badge .bg-secondary}
 :::
 
-[Marketing Report →](video-project.qmd){.btn .btn-accent .btn-sm}
-:::(projects_files/marketing-strategy.pdf){.btn .btn-accent .btn-sm target="_blank"}
+[Marketing Report →](projects_files/marketing-strategy.pdf){.btn .btn-accent .btn-sm target="_blank"}
 :::
 
 ::: {.card .ned-card style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;"}
-![](Images/diagram-leg.png)
+![](Images/filming-pic.png)
 
 ::: {style="font-size:0.8rem; color:#4A6080; margin: 6px 0;"}
 👤 Group 15 &nbsp;|&nbsp; 📅 Feb. 2026
 :::
 
 ::: {style="display:center; flex-wrap:wrap; gap:5px; margin-bottom:10px; text-align:center;"}
-[Report]{.badge .bg-primary}
+[Video]{.badge .bg-primary}
 [Professional]{.badge .bg-secondary}
 :::
 
