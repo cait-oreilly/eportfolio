@@ -5,7 +5,7 @@ title: "Welcome to My E-Portfolio"
 :::: {.columns}
 
 ::: {.column width="45%"}
-![Me with other interns at PwC](Images/pwc_img.jpg){style="width:100%; border-radius:10px; border:4px solid #3D7A72;"}
+![Myself and the other interns on our last day of our PwC internship](Images/pwc_img.jpg){style="width:100%; border-radius:10px; border:4px solid #3D7A72;"}
 :::
 
 ::: {.column width="5%"}
