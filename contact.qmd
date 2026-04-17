@@ -1,6 +1,7 @@
 ---
 title: "Contact & References"
-toc: true 
+toc: true
+format: html
 ---
 
 ## Get in Touch
@@ -14,23 +15,18 @@ You can reach me via:
 Or fill out the contact form below:
 
 <form action="https://formspree.io/f/xwvrlwwj" method="POST" style="max-width:500px;">
-
 <p><strong>Name:</strong><br>
 <input type="text" name="name" required style="width:100%; padding:8px; border:1px solid #3D7A72; border-radius:6px; font-size:16px;"></p>
-
 <p><strong>Email:</strong><br>
 <input type="email" name="email" required style="width:100%; padding:8px; border:1px solid #3D7A72; border-radius:6px; font-size:16px;"></p>
-
 <p><strong>Message:</strong><br>
 <textarea name="message" rows="5" required style="width:100%; padding:8px; border:1px solid #3D7A72; border-radius:6px; font-size:16px;"></textarea></p>
-
 <button type="submit" style="padding:10px 24px; background-color:#3D7A72; color:#fff; border:none; border-radius:6px; font-size:16px; cursor:pointer;">Send Message</button>
-
 </form>
 
 ## References
 
 ::: {.callout-note}
 References are available upon request.
-:::
 
+:::
