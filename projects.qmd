@@ -1,8 +1,15 @@
 ---
 title: "Projects"
 toc: true
+listing:
+  contents: projects.yml
+  type: grid
+  grid-columns: 3
+  image-height: 160px
+  sort: "date desc"
+  categories: false
+  fields: [image, title, description, author, date, categories]
 ---
-
 ## Machine Learning
 
 This section covers applied machine learning projects including statistical analysis, data visualisation, and predictive modelling.

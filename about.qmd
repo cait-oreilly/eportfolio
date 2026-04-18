@@ -21,26 +21,33 @@ toc: true
 
 ::::
 
-## Background
+### Background
 
 I first developed an interest in Business Analytics through my long-standing passion for problem solving, mathematics, and working with computers. These interests naturally aligned when I began studying Business at Dublin City University (DCU), where I am specialising in Data Analytics. From early in my degree, I was drawn to the analytical side of business, enjoying the challenge of using data to understand patterns, improve decision-making, and solve real-world problems.
 
 During first year, my exposure to Business Analytics tools such as Excel, Jamovi, and Tableau further strengthened my interest in the field. The hands-on and practical nature of analytics modules stood out to me, allowing me to move beyond theory and actively work with data. These experiences confirmed my desire to pursue analytics as a career path and motivated me to continue developing my technical and analytical skill set.
 
-## PwC Placement
+### PwC Placement
 
 In my third year, I completed an 11-month placement at PwC as a Risk Assurance Internal Auditor. This role provided valuable exposure to a professional services environment and allowed me to apply analytical thinking in a real-world business context. Throughout my placement, I worked with data to assess risk, evaluate controls, and support internal audit engagements, gaining a strong understanding of governance, risk, and assurance processes. The experience strengthened my attention to detail, problem-solving abilities, and professional communication skills.
 
-## Final Year at DCU
+### Final Year at DCU
 
 Now in my final year at DCU, I continue to build on my analytical foundation through my specialisation in Data Analytics, working with SQL, Python, CSS and HTML. I am particularly motivated by the opportunity to combine business knowledge with data-driven insights and technology. With a strong academic background, practical industry experience, and a genuine passion for analytics, I am eager to pursue a career where I can continue learning and delivering value through data.
 
+### My Goals
+
+- [x] Completed PwC placement
+- [x] Built machine learning classification model
+- [x] Developed VIVA product concept
+- [x] Published e-portfolio on GitHub Pages
+- [ ] Graduate from DCU
 
 ## Hobbies & Interests
 
 Alongside my academic studies and part-time work, I spend a lot of my time doing things that I love — whether that be walking my dog or baking.
 
-## Baking
+### Baking
 
 One of my favourite things to do is bake! Whenever I have free time, I bake for my friends and family. I've been commissioned to make birthday cakes for friends, and this is something I would love to do more of.
 
@@ -48,8 +55,7 @@ One of my favourite things to do is bake! Whenever I have free time, I bake for 
 ![](Images/21_cake.JPG){style="width:100%; height:auto; object-fit:cover; border-radius:6px;"}
 :::
 
-
-## Me and my dog
+### Me and my dog
 
 I spend every morning walking my dog, Rafa. It is the highlight of my day! At 12 years old, he still gets just as excited for his walks in the park as he did when he was a puppy!
 Scroll through the carousel below for some photos!
@@ -90,5 +96,3 @@ function updateCarousel() {
 }
 </script>
 ```
-
-::::

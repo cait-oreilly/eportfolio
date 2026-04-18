@@ -24,6 +24,19 @@ All models achieved strong performance (ROC-AUC ≈ 0.92), with LR matching or s
 > **Lecturer:** Dr. Michael Farayola  
 > **Word Count:** 2,744
 
+The classification pipeline follows these steps:
+
+```{mermaid}
+%%| echo: false
+%%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#4E9E94', 'primaryTextColor': '#E8E8E4', 'primaryBorderColor': '#7AAF9F', 'lineColor': '#7AAF9F', 'background': '#353A38'}}}%%
+flowchart LR
+  A[Raw Data] --> B[Preprocessing]
+  B --> C[Train/Test Split]
+  C --> D[Model Training]
+  D --> E[Evaluation]
+  E --> F[Results]
+```
+
 ---
 
 ## 1. Imports
@@ -192,6 +205,10 @@ print("Test size: ", X_raw_test.shape)
 ## 3. Model Training
 
 ### Logistic Regression
+
+The logistic regression model predicts the probability of depression as:
+
+$$P(y=1) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x_1 + \cdots + \beta_n x_n)}}$$
 
 ```{python}
 #| code-fold: true

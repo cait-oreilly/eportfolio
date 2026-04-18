@@ -30,14 +30,17 @@ website:
         href: https://github.com/cait-oreilly
   page-footer:
     left: "Copyright 2026, Cáit O'Reilly"
+    center: "Built with [Quarto](https://quarto.org)"
     right:
       - icon: github
         href: https://github.com/cait-oreilly
       - icon: linkedin
         href: https://www.linkedin.com/in/cait-oreilly-ogrady
-        
+
 format:
   html:
+    mermaid:
+      theme: dark
     theme:
       light:
         - lux

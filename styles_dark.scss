@@ -114,3 +114,31 @@ h1, h2, h3, h4, h5, h6,
   background-color: $dark-stone !important;
   color: $off-white !important;
 }
+
+// Fix mermaid diagram in dark mode
+.mermaid svg {
+  background-color: $dark-stone !important;
+}
+
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node polygon {
+  fill: $muted-teal !important;
+  stroke: $sage-mist !important;
+}
+
+.mermaid .nodeLabel,
+.mermaid .label {
+  color: $off-white !important;
+  fill: $off-white !important;
+}
+
+.mermaid .edgePath .path {
+  stroke: $sage-mist !important;
+}
+
+// Fix python code output text in dark mode
+.cell-output pre {
+  color: $off-white !important;
+  background-color: $dark-stone !important;
+}

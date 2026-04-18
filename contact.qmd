@@ -8,9 +8,11 @@ format: html
 
 You can reach me via:
 
-- **Email:** caitogrady@gmail.com
-- **LinkedIn:** [linkedin.com/in/cait-oreilly-ogrady](https://www.linkedin.com/in/cait-oreilly-ogrady){target="_blank"}
-- **GitHub:** [github.com/cait-oreilly](https://github.com/cait-oreilly){target="_blank"}
+{{< fa brands github >}} [GitHub](https://github.com/cait-oreilly)
+
+{{< fa brands linkedin >}} [LinkedIn](https://www.linkedin.com/in/cait-oreilly-ogrady)
+
+{{< fa envelope >}} caitogrady@gmail.com
 
 Or fill out the contact form below:
 
