@@ -2,7 +2,7 @@
 title: "Cáit O'Reilly"
 about:
   template: trestles
-  image: Images/index-pic.png
+  image: /eportfolio/Images/index-pic.png
   image-shape: rounded
   links:
     - icon: github
