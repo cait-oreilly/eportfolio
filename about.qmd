@@ -11,7 +11,11 @@ toc: true
 
 *Final Year Business Studies Student at DCU*
 
-**[GitHub](https://github.com/cait-oreilly){target="_blank"} &nbsp;&nbsp; [LinkedIn](https://www.linkedin.com/in/cait-oreilly-ogrady){target="_blank"}**
+::: {style="margin-top:15px;"}
+[{{< fa brands github >}} GitHub](https://github.com/cait-oreilly){.btn .btn-outline-secondary .btn-sm target="_blank"} &nbsp;
+[{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/cait-oreilly-ogrady){.btn .btn-outline-secondary .btn-sm target="_blank"} &nbsp;
+[{{< fa envelope >}} Email](mailto:caitogrady@gmail.com){.btn .btn-outline-secondary .btn-sm}
+:::
 
 :::
 
@@ -26,6 +30,7 @@ Myself and fellow interns on our last day at PwC.
 :::
 
 ::::
+
 ### Background
 
 I first developed an interest in Business Analytics through my long-standing passion for problem solving, mathematics, and working with computers. These interests naturally aligned when I began studying Business at Dublin City University (DCU), where I am specialising in Data Analytics. From early in my degree, I was drawn to the analytical side of business, enjoying the challenge of using data to understand patterns, improve decision-making, and solve real-world problems.
