@@ -489,7 +489,7 @@ flowchart LR
 </section>
 <section id="imports" class="level2">
 <h2 class="anchored" data-anchor-id="imports">1. Imports</h2>
-<div id="9672a0a9" class="cell" data-execution_count="1">
+<div id="37fb2e32" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Show imports</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
@@ -573,7 +573,7 @@ flowchart LR
 </section>
 <section id="dataset-and-data-preparation" class="level2">
 <h2 class="anchored" data-anchor-id="dataset-and-data-preparation">2. Dataset and Data Preparation</h2>
-<div id="57e0cdad" class="cell" data-execution_count="2">
+<div id="4a6bac9d" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Show data preparation code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ── Load dataset ──────────────────────────────────────────────────</span></span>
@@ -777,7 +777,7 @@ Name: proportion, dtype: float64</code></pre>
 </div>
 </div>
 </div>
-<div id="86287849" class="cell" data-execution_count="3">
+<div id="9a108cc9" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Show encoding and cleaning code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>df_clean <span class="op">=</span> df.copy()</span>
@@ -818,7 +818,7 @@ Name: proportion, dtype: float64</code></pre>
 Remaining nulls: 0</code></pre>
 </div>
 </div>
-<div id="0244760b" class="cell" data-execution_count="4">
+<div id="49b5e27e" class="cell" data-execution_count="4">
 <details class="code-fold">
 <summary>Show train-test split code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>core_features <span class="op">=</span> [</span>
@@ -853,7 +853,7 @@ Test size:  (5574, 11)</code></pre>
 <h3 class="anchored" data-anchor-id="logistic-regression">Logistic Regression</h3>
 <p>The logistic regression model predicts the probability of depression as:</p>
 <p><span class="math display">\[P(y=1) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x_1 + \cdots + \beta_n x_n)}}\]</span></p>
-<div id="d5f2eba4" class="cell" data-execution_count="5">
+<div id="6db95bfe" class="cell" data-execution_count="5">
 <details class="code-fold">
 <summary>Show Logistic Regression code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>lr_pipe <span class="op">=</span> Pipeline([</span>
@@ -886,7 +886,7 @@ ROC-AUC: 0.9247</code></pre>
 </section>
 <section id="random-forest" class="level3">
 <h3 class="anchored" data-anchor-id="random-forest">Random Forest</h3>
-<div id="7116f668" class="cell" data-execution_count="6">
+<div id="5aea159e" class="cell" data-execution_count="6">
 <details class="code-fold">
 <summary>Show Random Forest code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>rf_plain <span class="op">=</span> RandomForestClassifier(</span>
@@ -919,7 +919,7 @@ ROC-AUC: 0.9209</code></pre>
 </section>
 <section id="gradient-boosting" class="level3">
 <h3 class="anchored" data-anchor-id="gradient-boosting">Gradient Boosting</h3>
-<div id="215ca5fe" class="cell" data-execution_count="7">
+<div id="4944b1a9" class="cell" data-execution_count="7">
 <details class="code-fold">
 <summary>Show Gradient Boosting code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>gb_plain <span class="op">=</span> GradientBoostingClassifier(</span>
@@ -952,7 +952,7 @@ ROC-AUC: 0.9231</code></pre>
 </section>
 <section id="voting-ensemble" class="level3">
 <h3 class="anchored" data-anchor-id="voting-ensemble">Voting Ensemble</h3>
-<div id="00f0835f" class="cell" data-execution_count="8">
+<div id="bd2970b1" class="cell" data-execution_count="8">
 <details class="code-fold">
 <summary>Show Voting Ensemble code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>voting_clf <span class="op">=</span> VotingClassifier(</span>
@@ -1001,52 +1001,52 @@ ROC-AUC: 0.9246</code></pre>
 <h2 class="anchored" data-anchor-id="evaluation-results">4. Evaluation Results</h2>
 <section id="model-performance-summary" class="level3">
 <h3 class="anchored" data-anchor-id="model-performance-summary">Model Performance Summary</h3>
-<div id="1a4306cb" class="cell" data-execution_count="9">
+<div id="f4173670" class="cell" data-execution_count="9">
 <div class="cell-output cell-output-display" data-execution_count="9">
 <style type="text/css">
-#T_af53c_row0_col0, #T_af53c_row0_col3, #T_af53c_row0_col4 {
+#T_983e6_row0_col0, #T_983e6_row0_col3, #T_983e6_row0_col4 {
   background-color: #08306b;
   color: #f1f1f1;
 }
-#T_af53c_row1_col0, #T_af53c_row1_col3, #T_af53c_row1_col4 {
+#T_983e6_row1_col0, #T_983e6_row1_col3, #T_983e6_row1_col4 {
   background-color: #f7fbff;
   color: #000000;
 }
-#T_af53c_row2_col0 {
+#T_983e6_row2_col0 {
   background-color: #4493c7;
   color: #f1f1f1;
 }
-#T_af53c_row2_col3 {
+#T_983e6_row2_col3 {
   background-color: #4997c9;
   color: #f1f1f1;
 }
-#T_af53c_row2_col4 {
+#T_983e6_row2_col4 {
   background-color: #519ccc;
   color: #f1f1f1;
 }
-#T_af53c_row3_col0 {
+#T_983e6_row3_col0 {
   background-color: #1e6db2;
   color: #f1f1f1;
 }
-#T_af53c_row3_col3 {
+#T_983e6_row3_col3 {
   background-color: #1b69af;
   color: #f1f1f1;
 }
-#T_af53c_row3_col4 {
+#T_983e6_row3_col4 {
   background-color: #083674;
   color: #f1f1f1;
 }
 </style>
 
-<table id="T_af53c" class="caption-top table table-sm table-striped small">
+<table id="T_983e6" class="caption-top table table-sm table-striped small">
 <thead>
 <tr class="header">
 <th class="blank level0" data-quarto-table-cell-role="th">&nbsp;</th>
-<th id="T_af53c_level0_col0" class="col_heading level0 col0" data-quarto-table-cell-role="th">Accuracy</th>
-<th id="T_af53c_level0_col1" class="col_heading level0 col1" data-quarto-table-cell-role="th">Precision</th>
-<th id="T_af53c_level0_col2" class="col_heading level0 col2" data-quarto-table-cell-role="th">Recall</th>
-<th id="T_af53c_level0_col3" class="col_heading level0 col3" data-quarto-table-cell-role="th">F1-Score</th>
-<th id="T_af53c_level0_col4" class="col_heading level0 col4" data-quarto-table-cell-role="th">ROC-AUC</th>
+<th id="T_983e6_level0_col0" class="col_heading level0 col0" data-quarto-table-cell-role="th">Accuracy</th>
+<th id="T_983e6_level0_col1" class="col_heading level0 col1" data-quarto-table-cell-role="th">Precision</th>
+<th id="T_983e6_level0_col2" class="col_heading level0 col2" data-quarto-table-cell-role="th">Recall</th>
+<th id="T_983e6_level0_col3" class="col_heading level0 col3" data-quarto-table-cell-role="th">F1-Score</th>
+<th id="T_983e6_level0_col4" class="col_heading level0 col4" data-quarto-table-cell-role="th">ROC-AUC</th>
 </tr>
 <tr class="even">
 <th class="index_name level0" data-quarto-table-cell-role="th">Model</th>
@@ -1059,36 +1059,36 @@ ROC-AUC: 0.9246</code></pre>
 </thead>
 <tbody>
 <tr class="odd">
-<th id="T_af53c_level0_row0" class="row_heading level0 row0" data-quarto-table-cell-role="th">Logistic Regression</th>
-<td id="T_af53c_row0_col0" class="data row0 col0">0.8563</td>
-<td id="T_af53c_row0_col1" class="data row0 col1">0.8658</td>
-<td id="T_af53c_row0_col2" class="data row0 col2">0.8931</td>
-<td id="T_af53c_row0_col3" class="data row0 col3">0.8792</td>
-<td id="T_af53c_row0_col4" class="data row0 col4">0.9247</td>
+<th id="T_983e6_level0_row0" class="row_heading level0 row0" data-quarto-table-cell-role="th">Logistic Regression</th>
+<td id="T_983e6_row0_col0" class="data row0 col0">0.8563</td>
+<td id="T_983e6_row0_col1" class="data row0 col1">0.8658</td>
+<td id="T_983e6_row0_col2" class="data row0 col2">0.8931</td>
+<td id="T_983e6_row0_col3" class="data row0 col3">0.8792</td>
+<td id="T_983e6_row0_col4" class="data row0 col4">0.9247</td>
 </tr>
 <tr class="even">
-<th id="T_af53c_level0_row1" class="row_heading level0 row1" data-quarto-table-cell-role="th">Random Forest</th>
-<td id="T_af53c_row1_col0" class="data row1 col0">0.8479</td>
-<td id="T_af53c_row1_col1" class="data row1 col1">0.8574</td>
-<td id="T_af53c_row1_col2" class="data row1 col2">0.8879</td>
-<td id="T_af53c_row1_col3" class="data row1 col3">0.8724</td>
-<td id="T_af53c_row1_col4" class="data row1 col4">0.9209</td>
+<th id="T_983e6_level0_row1" class="row_heading level0 row1" data-quarto-table-cell-role="th">Random Forest</th>
+<td id="T_983e6_row1_col0" class="data row1 col0">0.8479</td>
+<td id="T_983e6_row1_col1" class="data row1 col1">0.8574</td>
+<td id="T_983e6_row1_col2" class="data row1 col2">0.8879</td>
+<td id="T_983e6_row1_col3" class="data row1 col3">0.8724</td>
+<td id="T_983e6_row1_col4" class="data row1 col4">0.9209</td>
 </tr>
 <tr class="odd">
-<th id="T_af53c_level0_row2" class="row_heading level0 row2" data-quarto-table-cell-role="th">Gradient Boosting</th>
-<td id="T_af53c_row2_col0" class="data row2 col0">0.8531</td>
-<td id="T_af53c_row2_col1" class="data row2 col1">0.8631</td>
-<td id="T_af53c_row2_col2" class="data row2 col2">0.8903</td>
-<td id="T_af53c_row2_col3" class="data row2 col3">0.8765</td>
-<td id="T_af53c_row2_col4" class="data row2 col4">0.9231</td>
+<th id="T_983e6_level0_row2" class="row_heading level0 row2" data-quarto-table-cell-role="th">Gradient Boosting</th>
+<td id="T_983e6_row2_col0" class="data row2 col0">0.8531</td>
+<td id="T_983e6_row2_col1" class="data row2 col1">0.8631</td>
+<td id="T_983e6_row2_col2" class="data row2 col2">0.8903</td>
+<td id="T_983e6_row2_col3" class="data row2 col3">0.8765</td>
+<td id="T_983e6_row2_col4" class="data row2 col4">0.9231</td>
 </tr>
 <tr class="even">
-<th id="T_af53c_level0_row3" class="row_heading level0 row3" data-quarto-table-cell-role="th">Voting Ensemble</th>
-<td id="T_af53c_row3_col0" class="data row3 col0">0.8543</td>
-<td id="T_af53c_row3_col1" class="data row3 col1">0.8634</td>
-<td id="T_af53c_row3_col2" class="data row3 col2">0.8925</td>
-<td id="T_af53c_row3_col3" class="data row3 col3">0.8777</td>
-<td id="T_af53c_row3_col4" class="data row3 col4">0.9246</td>
+<th id="T_983e6_level0_row3" class="row_heading level0 row3" data-quarto-table-cell-role="th">Voting Ensemble</th>
+<td id="T_983e6_row3_col0" class="data row3 col0">0.8543</td>
+<td id="T_983e6_row3_col1" class="data row3 col1">0.8634</td>
+<td id="T_983e6_row3_col2" class="data row3 col2">0.8925</td>
+<td id="T_983e6_row3_col3" class="data row3 col3">0.8777</td>
+<td id="T_983e6_row3_col4" class="data row3 col4">0.9246</td>
 </tr>
 </tbody>
 </table>
@@ -1097,7 +1097,7 @@ ROC-AUC: 0.9246</code></pre>
 </section>
 <section id="roc-curves" class="level3">
 <h3 class="anchored" data-anchor-id="roc-curves">ROC Curves</h3>
-<div id="46f60dd5" class="cell" data-execution_count="10">
+<div id="a2d4e498" class="cell" data-execution_count="10">
 <div class="cell-output cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -1110,7 +1110,7 @@ ROC-AUC: 0.9246</code></pre>
 </section>
 <section id="confusion-matrices" class="level3">
 <h3 class="anchored" data-anchor-id="confusion-matrices">Confusion Matrices</h3>
-<div id="434b5e3e" class="cell" data-execution_count="11">
+<div id="7c4eb1f1" class="cell" data-execution_count="11">
 <div class="cell-output cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -1125,7 +1125,7 @@ ROC-AUC: 0.9246</code></pre>
 </section>
 <section id="cross-validation" class="level2">
 <h2 class="anchored" data-anchor-id="cross-validation">5. Cross-Validation</h2>
-<div id="7d1a775b" class="cell" data-execution_count="12">
+<div id="71ce8e46" class="cell" data-execution_count="12">
 <details class="code-fold">
 <summary>Show cross-validation code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>cv <span class="op">=</span> StratifiedKFold(n_splits<span class="op">=</span><span class="dv">5</span>, shuffle<span class="op">=</span><span class="va">True</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
@@ -1161,7 +1161,7 @@ Gradient Boosting          Mean AUC: 0.9208 ±0.0032  Min: 0.9147  Max: 0.9234
 Voting Ensemble            Mean AUC: 0.9214 ±0.0031  Min: 0.9155  Max: 0.9239</code></pre>
 </div>
 </div>
-<div id="4adfa29c" class="cell" data-execution_count="13">
+<div id="6c061d23" class="cell" data-execution_count="13">
 <div class="cell-output cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -1177,7 +1177,7 @@ Voting Ensemble            Mean AUC: 0.9214 ±0.0031  Min: 0.9155  Max: 0.9239</
 <h2 class="anchored" data-anchor-id="feature-analysis-and-interpretability">6. Feature Analysis and Interpretability</h2>
 <section id="correlation-heatmap" class="level3">
 <h3 class="anchored" data-anchor-id="correlation-heatmap">Correlation Heatmap</h3>
-<div id="2747b5be" class="cell" data-execution_count="14">
+<div id="5f3ee1bd" class="cell" data-execution_count="14">
 <div class="cell-output cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -1190,7 +1190,7 @@ Voting Ensemble            Mean AUC: 0.9214 ±0.0031  Min: 0.9155  Max: 0.9239</
 </section>
 <section id="random-forest-feature-importance" class="level3">
 <h3 class="anchored" data-anchor-id="random-forest-feature-importance">Random Forest Feature Importance</h3>
-<div id="af8e1c86" class="cell" data-execution_count="15">
+<div id="d2c4ec71" class="cell" data-execution_count="15">
 <div class="cell-output cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -1203,7 +1203,7 @@ Voting Ensemble            Mean AUC: 0.9214 ±0.0031  Min: 0.9155  Max: 0.9239</
 </section>
 <section id="feature-importance-boxplots" class="level3">
 <h3 class="anchored" data-anchor-id="feature-importance-boxplots">Feature Importance Boxplots</h3>
-<div id="981c09c9" class="cell" data-execution_count="16">
+<div id="7f065fd6" class="cell" data-execution_count="16">
 <div class="cell-output cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -1218,7 +1218,7 @@ Voting Ensemble            Mean AUC: 0.9214 ±0.0031  Min: 0.9155  Max: 0.9239</
 </section>
 <section id="interaction-effects" class="level2">
 <h2 class="anchored" data-anchor-id="interaction-effects">7. Interaction Effects</h2>
-<div id="739a81f8" class="cell" data-execution_count="17">
+<div id="119ef515" class="cell" data-execution_count="17">
 <div class="cell-output cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -1232,7 +1232,7 @@ Voting Ensemble            Mean AUC: 0.9214 ±0.0031  Min: 0.9155  Max: 0.9239</
 </section>
 <section id="learning-curves" class="level2">
 <h2 class="anchored" data-anchor-id="learning-curves">8. Learning Curves</h2>
-<div id="735df807" class="cell" data-execution_count="18">
+<div id="4ba18957" class="cell" data-execution_count="18">
 <details class="code-fold">
 <summary>Show learning curve code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>lc_models <span class="op">=</span> {</span>
@@ -1292,7 +1292,7 @@ Voting Ensemble            Mean AUC: 0.9214 ±0.0031  Min: 0.9155  Max: 0.9239</
 </section>
 <section id="calibration-curves" class="level2">
 <h2 class="anchored" data-anchor-id="calibration-curves">9. Calibration Curves</h2>
-<div id="23e1b81d" class="cell" data-execution_count="19">
+<div id="171e9971" class="cell" data-execution_count="19">
 <div class="cell-output cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -1306,7 +1306,7 @@ Voting Ensemble            Mean AUC: 0.9214 ±0.0031  Min: 0.9155  Max: 0.9239</
 </section>
 <section id="cgpa-regression" class="level2">
 <h2 class="anchored" data-anchor-id="cgpa-regression">10. CGPA Regression</h2>
-<div id="8e13d5ae" class="cell" data-execution_count="20">
+<div id="6fe25e88" class="cell" data-execution_count="20">
 <details class="code-fold">
 <summary>Show CGPA regression code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>cgpa_features <span class="op">=</span> [</span>

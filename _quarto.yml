@@ -4,6 +4,7 @@ project:
   resources:
     - Images/
     - Images/favicon.png
+    - Images/index-pic.png
 
 website:
   title: "Cáit O'Reilly"
