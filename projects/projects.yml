@@ -1,0 +1,71 @@
+- title: "Predicting Student Depression Using Machine Learning"
+  description: "Comparing ensemble methods and interpretable linear models across 27,901 university students to predict depression and identify key risk factors."
+  author: "Cáit O'Reilly"
+  date: "2026-04-17"
+  image: "Images/depression-pic.png"
+  categories: [Machine Learning, Python, Research]
+  path: "projects_files/Predicting-Student-Depression-Using-Machine-Learning.pdf"
+
+- title: "Machine Learning Python Code"
+  description: "Executable Python code for classification models comparing Naïve Bayes, KNN, Decision Tree and Random Forest."
+  author: "Cáit O'Reilly"
+  date: "2025-12-01"
+  image: "Images/interaction_heatmap.png"
+  categories: [Machine Learning, Python, Code]
+  path: "python-chunks.qmd"
+
+- title: "Critical Reflection"
+  description: "Reflections on skills and tools developed throughout the Data Analytics module including Quarto, Python, and GitHub."
+  author: "Cáit O'Reilly"
+  date: "2026-02-01"
+  image: "Images/quota_sampling.jpg"
+  categories: [Reflection, Academic]
+  path: "critical-reflection.qmd"
+
+- title: "VIVA Concept Paper"
+  description: "Initial concept paper for VIVA, a wearable hamstring strain detection device."
+  author: "Group 15"
+  date: "2025-10-01"
+  image: "Images/viva-logo.png"
+  categories: [Concept, Professional]
+  path: "projects_files/concept-paper.pdf"
+
+- title: "VIVA Feasibility Report"
+  description: "Feasibility analysis evaluating the market potential, technical viability, and financial projections for VIVA."
+  author: "Group 15"
+  date: "2025-12-01"
+  image: "Images/viva-band.png"
+  categories: [Analysis, Professional]
+  path: "projects_files/feasability-analysis.pdf"
+
+- title: "VIVA Marketing Report"
+  description: "Marketing strategy report outlining the target market, positioning, and promotional plan for VIVA."
+  author: "Group 15"
+  date: "2026-02-01"
+  image: "Images/diagram-leg.png"
+  categories: [Report, Professional]
+  path: "projects_files/marketing-strategy.pdf"
+
+- title: "VIVA Marketing Video"
+  description: "A promotional marketing video created for VIVA showcasing the product concept and target audience."
+  author: "Group 15"
+  date: "2026-02-01"
+  image: "Images/filming-pic.png"
+  categories: [Video, Professional]
+  path: "video-project.qmd"
+
+- title: "VIVA Pitch Deck"
+  description: "Pitch deck presented at the Dragons Den style competition outlining the business case for VIVA."
+  author: "Group 15"
+  date: "2026-03-01"
+  image: "Images/pitch-pic.png"
+  categories: [Pitch, Professional]
+  path: "projects_files/dragons-den.pdf"
+
+- title: "VIVA Business Plan"
+  description: "Comprehensive business plan covering strategy, financials, operations, and growth projections for VIVA."
+  author: "Group 15"
+  date: "2026-04-01"
+  image: "Images/run-club.png"
+  categories: [Strategy, Professional]
+  path: "projects_files/business-plan.pdf"

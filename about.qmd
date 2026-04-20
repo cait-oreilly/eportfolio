@@ -16,11 +16,16 @@ toc: true
 :::
 
 ::: {.column width="30%"}
-![](Images/IMG_1407.jpg){style="width:100%; border-radius:10px; border:4px solid #3D7A72;"}
+
+::: {#fig-pwc}
+![](Images/pwc_img.jpg){style="width:100%; border-radius:10px;"}
+
+Myself and fellow interns on our last day at PwC.
+:::
+
 :::
 
 ::::
-
 ### Background
 
 I first developed an interest in Business Analytics through my long-standing passion for problem solving, mathematics, and working with computers. These interests naturally aligned when I began studying Business at Dublin City University (DCU), where I am specialising in Data Analytics. From early in my degree, I was drawn to the analytical side of business, enjoying the challenge of using data to understand patterns, improve decision-making, and solve real-world problems.

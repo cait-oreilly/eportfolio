@@ -1,28 +1,29 @@
 ---
-title: "Welcome to My E-Portfolio"
+title: "Cáit O'Reilly"
+about:
+  template: trestles
+  image: Images/index-pic.png
+  image-shape: rounded
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/cait-oreilly
+      target: _blank
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/cait-oreilly-ogrady
+      target: _blank
+    - icon: envelope
+      text: Email
+      href: mailto:caitogrady@gmail.com
 ---
 
-:::: {.columns}
-
-::: {.column width="45%"}
-![Myself and the other interns on our last day of our PwC internship](Images/pwc_img.jpg){style="width:100%; border-radius:10px; border:4px solid #3D7A72;"}
-:::
-
-::: {.column width="5%"}
-:::
-
-::: {.column width="50%"}
-
-## Hi, I'm Cáit {.unnumbered}
+## My E-Portfolio
 
 **Business Studies Student • DCU**
 
 Welcome to my e-portfolio! I'm a final year Business Studies student at DCU, specialising in Data Analytics.
 
-Explore my work using the navigation bar below.
+Explore my work using the navigation bar above.
 
 **[About Me](about.qmd) &nbsp;&nbsp; [Projects](projects.qmd) &nbsp;&nbsp; [Certificates](achievements.qmd) &nbsp;&nbsp; [CV](projects_files/CV.pdf) &nbsp;&nbsp; [Contact](contact.qmd)**
-
-:::
-
-::::

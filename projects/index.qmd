@@ -1,0 +1,10 @@
+---
+title: "Projects"
+listing:
+  contents: projects.yml
+  type: grid
+  grid-columns: 3
+  image-height: 160px
+  sort: "date desc"
+  fields: [image, title, description, author, date, categories]
+---
