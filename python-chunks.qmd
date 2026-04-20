@@ -735,6 +735,7 @@ The three dominant predictors identified consistently across correlation, SHAP, 
 
 Interaction analysis showed depression prevalence rising from ~7% to **95%** at maximum combined stress levels, supporting dual-stressor intervention strategies.
 
->[Read the Full Report →](projects_files/Predicting-Student-Depression-Using-Machine-Learning.pdf){target="_blank"}
+[Read the Full Report →](projects_files/depression.pdf){target="_blank"}
 
->[Back to Projects](projects.html)
+[Back to Projects](projects.qmd)
+

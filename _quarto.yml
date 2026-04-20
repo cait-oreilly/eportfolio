@@ -18,7 +18,7 @@ website:
       - text: "About Me"
         href: about.qmd
       - text: "Projects"
-        href: projects/index.qmd
+        href: projects.qmd
       - text: "Certificates"
         href: achievements.qmd
       - text: "CV"
