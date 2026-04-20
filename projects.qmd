@@ -21,7 +21,7 @@ This section covers applied machine learning projects including statistical anal
 [Academic]{.badge .bg-secondary}
 :::
 
-[Predicting Depression →](projects_files/Predicting-Student-Depression-Using-Machine-Learning.pdf){.btn .btn-accent .btn-sm target="_blank"}
+[Predicting Depression →](projects_files/depression.pdf){.btn .btn-accent .btn-sm target="_blank"}
 :::
 
 ::: {.card style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;"}
@@ -93,7 +93,7 @@ This module focuses on the process of developing and assessing new business vent
 [Professional]{.badge .bg-secondary}
 :::
 
-[Feasibility Report →](projects_files/feasability-analysis.pdf){.btn .btn-accent .btn-sm target="_blank"}
+[Feasibility Report →](projects_files/feasibility-analysis.pdf){.btn .btn-accent .btn-sm target="_blank"}
 :::
 
 ::: {.card .ned-card style="padding:15px; border-radius:10px; box-shadow:0 1.5px 6px var(--accent); text-align:center;"}
