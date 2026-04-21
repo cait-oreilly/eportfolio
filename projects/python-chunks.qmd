@@ -3,7 +3,7 @@ title: "Predicting Student Depression Using Machine Learning"
 description: "Comparing ensemble methods and interpretable linear models across a dataset of 27,901 university students to predict depression and identify key risk factors."
 author: "Cáit O'Reilly O'Grady"
 date: "2026-04-17"
-image: "Images/quota_sampling.jpg"
+image: "../Images/quota_sampling.jpg"
 categories: [Machine Learning, Python, Classification, Mental Health]
 format:
   html:
@@ -128,7 +128,7 @@ print("Libraries loaded ✓")
 #| code-summary: "Show data preparation code"
 
 # ── Load dataset ──────────────────────────────────────────────────
-df = pd.read_csv('projects_files/student-depression-dataset.csv')
+df = pd.read_csv("../projects_files/student-depression-dataset.csv")
 
 print("Shape:", df.shape)
 print("\nColumn Types:\n", df.dtypes)
@@ -735,7 +735,6 @@ The three dominant predictors identified consistently across correlation, SHAP, 
 
 Interaction analysis showed depression prevalence rising from ~7% to **95%** at maximum combined stress levels, supporting dual-stressor intervention strategies.
 
-[Read the Full Report →](projects_files/depression.pdf){target="_blank"}
+[Read the Full Report →](../projects_files/depression.pdf){target="_blank"}
 
 [Back to Projects](projects.qmd)
-

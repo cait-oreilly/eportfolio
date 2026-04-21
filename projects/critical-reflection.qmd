@@ -8,7 +8,7 @@ title: "Critical Reflection"
 :::
 
 ::: {.column width="50%"}
-![](Images/github-pic.png){style="width:100%; border-radius:10px; border:4px solid #3D7A72;"}
+![](../Images/github-pic.png){style="width:100%; border-radius:10px; border:4px solid #3D7A72;"}
 :::
 
 ::: {.column width="25%"}

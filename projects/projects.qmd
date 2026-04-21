@@ -1,0 +1,34 @@
+---
+title: "Projects"
+toc: true
+listing:
+  - id: ml-projects
+    type: grid
+    contents: ml-projects.yml
+    sort: "date asc"
+    grid-columns: 3
+    fields: [image, title, description, author, categories, date]
+   
+
+  - id: ned-projects
+    type: grid
+    contents: ned-projects.yml
+    sort: "date asc"
+    grid-columns: 3
+    fields: [image, title, description, author, categories, date]
+    
+---
+
+## Machine Learning
+
+This section covers applied machine learning projects including statistical analysis, data visualisation, and predictive modelling.
+
+::: {#ml-projects}
+:::
+
+## New Enterprise Development
+
+This module focuses on the process of developing and assessing new business ventures, guiding us from initial idea generation through to market positioning and implementation. Our group developed [VIVA]{style="font-weight:500; color:#185FA5;"}, a wearable device designed to be placed on the hamstring, monitoring muscle activity and detecting early signs of potential strain.
+
+::: {#ned-projects}
+:::

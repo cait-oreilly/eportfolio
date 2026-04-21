@@ -1,0 +1,47 @@
+- title: "Concept Paper"
+  description: "Initial concept paper for VIVA, a wearable hamstring strain detection device."
+  author: "Group 15"
+  date: 2025-10-13
+  image: ../Images/viva-logo.png
+  categories: [Concept, Professional]
+  path: ../projects_files/concept-paper.pdf
+ 
+- title: "Feasibility Report"
+  description: "Feasibility analysis assessing the market viability and technical requirements of VIVA."
+  author: "Group 15"
+  date: 2025-12-05
+  image: ../Images/viva-band.png
+  categories: [Analysis, Professional]
+  path: ../projects_files/feasibility-analysis.pdf
+ 
+- title: "Marketing Report"
+  description: "Marketing strategy and positioning report for the VIVA wearable device."
+  author: "Group 15"
+  date: 2026-02-16
+  image: ../Images/diagram-leg.png
+  categories: [Report, Professional]
+  path: ../projects_files/marketing-strategy.pdf
+ 
+- title: "Marketing Video"
+  description: "Promotional video concept and production for the VIVA product launch campaign."
+  author: "Group 15"
+  date: 2026-02-16
+  image: ../Images/filming-pic.png
+  categories: [Video, Professional]
+  path: video-project.qmd
+ 
+- title: "Pitch Deck"
+  description: "Dragon's Den-style pitch deck presenting VIVA to a panel of investors."
+  author: "Group 15"
+  date: 2026-03-31
+  image: ../Images/pitch-pic.png
+  categories: [Pitch, Professional]
+  path: ../projects_files/dragons-den.pdf
+ 
+- title: "Business Plan"
+  description: "Full business plan outlining VIVA's strategy, financials, and growth roadmap."
+  author: "Group 15"
+  date: 2026-04-17
+  image: ../Images/run-club.png
+  categories: [Strategy, Professional]
+  path: ../projects_files/business-plan.pdf

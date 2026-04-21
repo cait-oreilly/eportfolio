@@ -1,0 +1,23 @@
+- title: "Predicting Depression"
+  description: "Statistical analysis and predictive modelling using machine learning classification techniques."
+  author: "Cáit O'Reilly"
+  date: 2026-04-20
+  image: ../Images/depression-pic.png
+  categories: [Research, Academic]
+  path: ../projects_files/depression.pdf
+ 
+- title: "Python Code"
+  description: "Data visualisation and machine learning code including interaction heatmaps and model evaluation."
+  author: "Cáit O'Reilly"
+  date: 2026-04-20
+  image: ../Images/interaction_heatmap.png
+  categories: [Code, Academic]
+  path: python-chunks.qmd
+ 
+- title: "Critical Reflection"
+  description: "A critical reflection on the BAA1028 Module and what I have learned"
+  author: "Cáit O'Reilly"
+  date: 2026-04-25
+  image: ../Images/quota_sampling.jpg
+  categories: [Reflection, Academic]
+  path: critical-reflection.qmd
