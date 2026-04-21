@@ -28,7 +28,7 @@
   date: 2026-02-16
   image: ../Images/filming-pic.png
   categories: [Video, Professional]
-  path: video-project.qmd
+  path: list/video-project.qmd
  
 - title: "Pitch Deck"
   description: "Dragon's Den-style pitch deck presenting VIVA to a panel of investors."

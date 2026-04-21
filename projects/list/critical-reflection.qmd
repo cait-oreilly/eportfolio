@@ -8,7 +8,7 @@ title: "Critical Reflection"
 :::
 
 ::: {.column width="50%"}
-![](../Images/github-pic.png){style="width:100%; border-radius:10px; border:4px solid #3D7A72;"}
+![](../../Images/github-pic.png){style="width:100%; border-radius:10px; border:4px solid #3D7A72;"}
 :::
 
 ::: {.column width="25%"}
@@ -33,4 +33,4 @@ Looking ahead, I recognise that my understanding is still developing. While I ca
 Overall, this project was not just about learning new tools, but about learning how to bring them together into a coherent workflow. The ability to integrate, adapt, and continuously refine feels like the most valuable skill I have taken from the experience, and one that will remain relevant as technologies continue to evolve.
 
 
-[Back to Projects](projects.qmd)
+[Back to Projects](../index.qmd)

@@ -12,7 +12,7 @@
   date: 2026-04-17
   image: ../Images/interaction_heatmap.png
   categories: [Code, Academic]
-  path: python-chunks.qmd
+  path: list/python-chunks.qmd
  
 - title: "Critical Reflection"
   description: "A critical reflection on the BAA1028 Module and what I have learned"
@@ -20,4 +20,4 @@
   date: 2026-04-25
   image: ../Images/quota_sampling.jpg
   categories: [Reflection, Academic]
-  path: critical-reflection.qmd
+  path: list/critical-reflection.qmd

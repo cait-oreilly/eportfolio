@@ -6,5 +6,13 @@
       "/projects/critical-reflection.html",
       "/projects/video-project.html"
     ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/list/python-chunks.html",
+      "/projects/list/critical-reflection.html",
+      "/projects/list/video-project.html"
+    ]
   }
 ]

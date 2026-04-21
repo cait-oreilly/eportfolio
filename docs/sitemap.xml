@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cait-oreilly.github.io/eportfolio/projects/video-project.html</loc>
-    <lastmod>2026-04-21T15:43:54.080Z</lastmod>
+    <lastmod>2026-04-21T16:18:36.751Z</lastmod>
   </url>
   <url>
     <loc>https://cait-oreilly.github.io/eportfolio/projects/projects.html</loc>
@@ -26,10 +26,26 @@
   </url>
   <url>
     <loc>https://cait-oreilly.github.io/eportfolio/projects/critical-reflection.html</loc>
-    <lastmod>2026-04-21T15:48:13.572Z</lastmod>
+    <lastmod>2026-04-21T16:18:35.388Z</lastmod>
   </url>
   <url>
     <loc>https://cait-oreilly.github.io/eportfolio/projects/python-chunks.html</loc>
     <lastmod>2026-04-21T15:57:58.349Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cait-oreilly.github.io/eportfolio/projects/list/video-project.html</loc>
+    <lastmod>2026-04-21T16:18:36.751Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cait-oreilly.github.io/eportfolio/projects/list/critical-reflection.html</loc>
+    <lastmod>2026-04-21T16:23:15.650Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cait-oreilly.github.io/eportfolio/projects/index.html</loc>
+    <lastmod>2026-04-21T16:00:13.594Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cait-oreilly.github.io/eportfolio/projects/list/python-chunks.html</loc>
+    <lastmod>2026-04-21T16:23:16.982Z</lastmod>
   </url>
 </urlset>
