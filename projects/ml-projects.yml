@@ -1,7 +1,7 @@
 - title: "Predicting Depression"
   description: "Statistical analysis and predictive modelling using machine learning classification techniques."
   author: "Cáit O'Reilly"
-  date: 2026-04-20
+  date: 2026-04-17
   image: ../Images/depression-pic.png
   categories: [Research, Academic]
   path: ../projects_files/depression.pdf
@@ -9,7 +9,7 @@
 - title: "Python Code"
   description: "Data visualisation and machine learning code including interaction heatmaps and model evaluation."
   author: "Cáit O'Reilly"
-  date: 2026-04-20
+  date: 2026-04-17
   image: ../Images/interaction_heatmap.png
   categories: [Code, Academic]
   path: python-chunks.qmd
