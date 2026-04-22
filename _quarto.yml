@@ -15,18 +15,18 @@ website:
     search: true
     left:
       - text: "Home"
-        href: index.qmd
+        href: /index.qmd
       - text: "About Me"
-        href: about.qmd
+        href: /about.qmd
       - text: "Projects"
-        href: projects/index.qmd
+        href: /projects/index.qmd
       - text: "Certificates"
-        href: achievements.qmd
+        href: /achievements.qmd
       - text: "CV"
-        href: projects_files/CV.pdf
+        href: /projects_files/CV.pdf
         target: _blank
       - text: "Contact"
-        href: contact.qmd
+        href: /contact.qmd
       - icon: github
         href: https://github.com/cait-oreilly
   page-footer:
