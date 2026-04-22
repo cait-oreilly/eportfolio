@@ -20,7 +20,7 @@ website:
         href: about.qmd
       - text: "Projects"
         href: projects/index.qmd
-      - text: "Certificates"
+      - text: "Skills"
         href: achievements.qmd
       - text: "CV"
         href: projects_files/CV.pdf

@@ -1,7 +1,9 @@
 ---
-title: "Certificates"
+title: "Skills"
 toc: true
 ---
+The certificates and skills below were developed during my time at DCU.[^1]
+
 ## Kubicle Certificates
 
 **Total Learning Hours: 57.5**
@@ -108,6 +110,18 @@ function applyFilters() {
 applyFilters();
 </script>
 
-This was completed during my time at DCU.[^1]
+## Tools & Technologies
+
+| Skill | Proficiency | Experience |
+|-------|------------|------------|
+| Python | Intermediate | Data analysis, machine learning, visualisation |
+| SQL | Intermediate | Database querying, data extraction |
+| Tableau | Intermediate | Dashboard design, data visualisation |
+| Excel | Advanced | Pivot tables, formulas, financial functions |
+| Power BI | Beginner | Dashboard creation, visualisation |
+| Quarto | Intermediate | Website development, publishing |
+| HTML & CSS | Beginner | Web styling, structure |
+| Git & GitHub | Beginner | Version control, GitHub Pages |
+
 
 [^1]: Dublin City University, Collins Avenue, Dublin 9.
