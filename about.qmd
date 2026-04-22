@@ -47,15 +47,17 @@ Now in my final year at DCU, I continue to build on my analytical foundation thr
 
 ### My Goals
 
-- [x] Completed PwC placement
-- [x] Built machine learning classification model
-- [x] Developed VIVA product concept
-- [x] Published e-portfolio on GitHub Pages
+- [x] Complete PwC placement
+- [x] Build machine learning classification model
+- [x] Develop VIVA product concept
+- [x] Publish e-portfolio on GitHub Pages
 - [ ] Graduate from DCU
+- [ ] Secure a graduate role in the data analytics field
+- [ ] Develop into an experienced data analytics professional
 
 ## Hobbies & Interests
 
-Alongside my academic studies and part-time work, I spend a lot of my time doing things that I love — whether that be walking my dog or baking.
+Alongside my academic studies and part-time work, I spend a lot of my time doing things that I love, whether that be walking my dog or baking.
 
 ### Baking
 
