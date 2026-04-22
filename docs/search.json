@@ -18,14 +18,14 @@
     "href": "index.html",
     "title": "Cáit O’Reilly",
     "section": "",
-    "text": "Business Studies Student • DCU\nWelcome to my e-portfolio! I’m a final year Business Studies student at DCU, specialising in Data Analytics.\nExplore my work using the navigation bar above.\nAbout Me    Projects    Skills    CV    Contact"
+    "text": "Business Studies Student • DCU\nWelcome to my e-portfolio! I’m a final year Business Studies student at DCU, specialising in Data Analytics.\nExplore my work using the navigation bar.\nAbout Me    Projects    Skills    CV    Contact"
   },
   {
     "objectID": "index.html#my-e-portfolio",
     "href": "index.html#my-e-portfolio",
     "title": "Cáit O’Reilly",
     "section": "",
-    "text": "Business Studies Student • DCU\nWelcome to my e-portfolio! I’m a final year Business Studies student at DCU, specialising in Data Analytics.\nExplore my work using the navigation bar above.\nAbout Me    Projects    Skills    CV    Contact"
+    "text": "Business Studies Student • DCU\nWelcome to my e-portfolio! I’m a final year Business Studies student at DCU, specialising in Data Analytics.\nExplore my work using the navigation bar.\nAbout Me    Projects    Skills    CV    Contact"
   },
   {
     "objectID": "achievements.html",
@@ -151,7 +151,7 @@
     "href": "projects/list/python-chunks.html#evaluation-results",
     "title": "Predicting Student Depression Using Machine Learning",
     "section": "4. Evaluation Results",
-    "text": "4. Evaluation Results\n\nModel Performance Summary\n\n\n\n\n\n\n\n \nAccuracy\nPrecision\nRecall\nF1-Score\nROC-AUC\n\n\nModel\n \n \n \n \n \n\n\n\n\nLogistic Regression\n0.8563\n0.8658\n0.8931\n0.8792\n0.9247\n\n\nRandom Forest\n0.8479\n0.8574\n0.8879\n0.8724\n0.9209\n\n\nGradient Boosting\n0.8531\n0.8631\n0.8903\n0.8765\n0.9231\n\n\nVoting Ensemble\n0.8543\n0.8634\n0.8925\n0.8777\n0.9246\n\n\n\n\n\n\n\nROC Curves\n\n\n\n\n\nROC Curves for all four models on the test set\n\n\n\n\n\n\nConfusion Matrices\n\n\n\n\n\nConfusion matrices for all four models on the test set"
+    "text": "4. Evaluation Results\n\nModel Performance Summary\n\n\n\n\n\n\n\n \nAccuracy\nPrecision\nRecall\nF1-Score\nROC-AUC\n\n\nModel\n \n \n \n \n \n\n\n\n\nLogistic Regression\n0.8563\n0.8658\n0.8931\n0.8792\n0.9247\n\n\nRandom Forest\n0.8479\n0.8574\n0.8879\n0.8724\n0.9209\n\n\nGradient Boosting\n0.8531\n0.8631\n0.8903\n0.8765\n0.9231\n\n\nVoting Ensemble\n0.8543\n0.8634\n0.8925\n0.8777\n0.9246\n\n\n\n\n\n\n\nROC Curves\n\n\nShow Plotly interactive chart\nimport plotly.graph_objects as go\nfrom sklearn.metrics import roc_curve, roc_auc_score\n\nfig = go.Figure()\n\nmodel_probs = [\n    ('Logistic Regression', lr_probs),\n    ('Random Forest',       rf_probs),\n    ('Gradient Boosting',   gb_probs),\n    ('Voting Ensemble',     vc_probs),\n]\n\nfor name, probs in model_probs:\n    fpr, tpr, _ = roc_curve(y_raw_test, probs)\n    auc = roc_auc_score(y_raw_test, probs)\n    fig.add_trace(go.Scatter(\n        x=fpr, y=tpr,\n        mode='lines',\n        name=f'{name} (AUC = {auc:.3f})'\n    ))\n\nfig.add_trace(go.Scatter(\n    x=[0, 1], y=[0, 1],\n    mode='lines',\n    line=dict(dash='dash', color='gray'),\n    name='Random Classifier'\n))\n\nfig.update_layout(\n    title='Interactive ROC Curves — All Models',\n    xaxis_title='False Positive Rate',\n    yaxis_title='True Positive Rate',\n    legend=dict(x=0.5, y=0.1)\n)\n\nfig.show()\n\n\n                            \n                                            \nInteractive ROC curves. Hover to see exact values\n\n\n\n\nConfusion Matrices\n\n\n\n\n\nConfusion matrices for all four models on the test set"
   },
   {
     "objectID": "projects/list/python-chunks.html#cross-validation",
@@ -165,7 +165,7 @@
     "href": "projects/list/python-chunks.html#feature-analysis-and-interpretability",
     "title": "Predicting Student Depression Using Machine Learning",
     "section": "6. Feature Analysis and Interpretability",
-    "text": "6. Feature Analysis and Interpretability\n\nCorrelation Heatmap\n\n\n\n\n\nCorrelation matrix — core features vs depression status\n\n\n\n\n\n\nRandom Forest Feature Importance\n\n\n\n\n\nRandom Forest feature importances (mean decrease in impurity)\n\n\n\n\n\n\nFeature Importance Boxplots\n\n\n\n\n\nKey feature distributions by depression status"
+    "text": "6. Feature Analysis and Interpretability\n\nCorrelation Heatmap\n\n\n\n\n\nCorrelation matrix — core features vs depression status\n\n\n\n\n\n\nRandom Forest Feature Importance\n\n\nShow Plotly feature importance code\nimport plotly.graph_objects as go\n\nimportances_sorted = pd.Series(\n    rf_plain.feature_importances_, index=core_features\n).sort_values(ascending=True)\n\nfig = go.Figure(go.Bar(\n    x=importances_sorted.values,\n    y=importances_sorted.index,\n    orientation='h',\n    marker=dict(\n        color=importances_sorted.values,\n        colorscale='Teal',\n        showscale=False\n    )\n))\n\nfig.update_layout(\n    title='Random Forest — Feature Importances (Interactive)',\n    xaxis_title='Mean Decrease in Impurity',\n    yaxis_title='Feature',\n    height=400\n)\n\nfig.show()\n\n\n                            \n                                            \nInteractive feature importances — hover to see exact values\n\n\n\n\nFeature Importance Boxplots\n\n\n\n\n\nKey feature distributions by depression status"
   },
   {
     "objectID": "projects/list/python-chunks.html#interaction-effects",

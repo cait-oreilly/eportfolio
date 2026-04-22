@@ -327,12 +327,14 @@ summary_df.style.format("{:.4f}").background_gradient(
 ### ROC Curves
 
 ```{python}
-#| echo: false
-#| fig-cap: "ROC Curves for all four models on the test set"
+#| code-fold: true
+#| code-summary: "Show Plotly interactive chart"
+#| fig-cap: "Interactive ROC curves. Hover to see exact values"
 
-fig, ax = plt.subplots(figsize=(7, 5))
-fig.patch.set_facecolor(PALETTE['surface'])
-ax.set_facecolor(PALETTE['surface'])
+import plotly.graph_objects as go
+from sklearn.metrics import roc_curve, roc_auc_score
+
+fig = go.Figure()
 
 model_probs = [
     ('Logistic Regression', lr_probs),
@@ -341,19 +343,30 @@ model_probs = [
     ('Voting Ensemble',     vc_probs),
 ]
 
-for (name, probs), color in zip(model_probs, MODEL_COLORS):
+for name, probs in model_probs:
     fpr, tpr, _ = roc_curve(y_raw_test, probs)
     auc = roc_auc_score(y_raw_test, probs)
-    ax.plot(fpr, tpr, color=color, lw=1.8, label=f'{name} (AUC = {auc:.3f})')
+    fig.add_trace(go.Scatter(
+        x=fpr, y=tpr,
+        mode='lines',
+        name=f'{name} (AUC = {auc:.3f})'
+    ))
 
-ax.plot([0, 1], [0, 1], 'k--', lw=1, label='Random Classifier')
-ax.set_xlabel('False Positive Rate')
-ax.set_ylabel('True Positive Rate')
-ax.set_title('ROC Curves — All Models', fontweight='bold')
-ax.legend(loc='lower right', frameon=False)
-ax.grid(True, alpha=0.4)
-plt.tight_layout()
-plt.show()
+fig.add_trace(go.Scatter(
+    x=[0, 1], y=[0, 1],
+    mode='lines',
+    line=dict(dash='dash', color='gray'),
+    name='Random Classifier'
+))
+
+fig.update_layout(
+    title='Interactive ROC Curves — All Models',
+    xaxis_title='False Positive Rate',
+    yaxis_title='True Positive Rate',
+    legend=dict(x=0.5, y=0.1)
+)
+
+fig.show()
 ```
 
 ### Confusion Matrices
@@ -482,30 +495,35 @@ plt.show()
 ### Random Forest Feature Importance
 
 ```{python}
-#| echo: false
-#| fig-cap: "Random Forest feature importances (mean decrease in impurity)"
+#| code-fold: true
+#| code-summary: "Show Plotly feature importance code"
+#| fig-cap: "Interactive feature importances — hover to see exact values"
 
-importances = pd.Series(
+import plotly.graph_objects as go
+
+importances_sorted = pd.Series(
     rf_plain.feature_importances_, index=core_features
-).sort_values()
+).sort_values(ascending=True)
 
-fig, ax = plt.subplots(figsize=(8, 5))
-fig.patch.set_facecolor(PALETTE['surface'])
-ax.set_facecolor(PALETTE['surface'])
+fig = go.Figure(go.Bar(
+    x=importances_sorted.values,
+    y=importances_sorted.index,
+    orientation='h',
+    marker=dict(
+        color=importances_sorted.values,
+        colorscale='Teal',
+        showscale=False
+    )
+))
 
-colors = [
-    PALETTE['primary_dark'] if v > 0.10
-    else PALETTE['primary'] if v > 0.05
-    else PALETTE['accent']
-    for v in importances.values
-]
-importances.plot(kind='barh', ax=ax, color=colors)
-ax.set_xlabel('Mean Decrease in Impurity')
-ax.set_title('Random Forest — Feature Importances',
-             fontweight='bold', color=PALETTE['text'])
-ax.grid(True, axis='x', alpha=0.4)
-plt.tight_layout()
-plt.show()
+fig.update_layout(
+    title='Random Forest — Feature Importances (Interactive)',
+    xaxis_title='Mean Decrease in Impurity',
+    yaxis_title='Feature',
+    height=400
+)
+
+fig.show()
 ```
 
 ### Feature Importance Boxplots
