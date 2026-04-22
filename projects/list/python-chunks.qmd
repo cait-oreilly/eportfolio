@@ -360,7 +360,7 @@ fig.add_trace(go.Scatter(
 ))
 
 fig.update_layout(
-    title='Interactive ROC Curves — All Models',
+    title='Interactive ROC Curves - All Models',
     xaxis_title='False Positive Rate',
     yaxis_title='True Positive Rate',
     legend=dict(x=0.5, y=0.1)
@@ -376,7 +376,7 @@ fig.show()
 #| fig-cap: "Confusion matrices for all four models on the test set"
 
 fig, axes = plt.subplots(2, 2, figsize=(9, 7))
-fig.suptitle('Confusion Matrices — All Models',
+fig.suptitle('Confusion Matrices - All Models',
              fontsize=12, fontweight='bold', color=PALETTE['text'])
 fig.patch.set_facecolor(PALETTE['surface'])
 
@@ -468,7 +468,7 @@ plt.show()
 
 ```{python}
 #| echo: false
-#| fig-cap: "Correlation matrix — core features vs depression status"
+#| fig-cap: "Correlation matrix - core features vs depression status"
 
 corr_df = df_clean[core_features + ['Depression']].copy()
 corr    = corr_df.corr()
@@ -484,7 +484,7 @@ sns.heatmap(
     center=0, linewidths=0.5,
     linecolor=PALETTE['border']
 )
-ax.set_title('Correlation Matrix — Core Features',
+ax.set_title('Correlation Matrix - Core Features',
              fontweight='bold', color=PALETTE['text'], pad=12)
 plt.xticks(rotation=45, ha='right', fontsize=8)
 plt.yticks(fontsize=8)
@@ -497,7 +497,7 @@ plt.show()
 ```{python}
 #| code-fold: true
 #| code-summary: "Show Plotly feature importance code"
-#| fig-cap: "Interactive feature importances — hover to see exact values"
+#| fig-cap: "Interactive feature importances. Hover to see exact values"
 
 import plotly.graph_objects as go
 
@@ -517,7 +517,7 @@ fig = go.Figure(go.Bar(
 ))
 
 fig.update_layout(
-    title='Random Forest — Feature Importances (Interactive)',
+    title='Random Forest - Feature Importances (Interactive)',
     xaxis_title='Mean Decrease in Impurity',
     yaxis_title='Feature',
     height=400
@@ -605,7 +605,7 @@ plt.show()
 ```{python}
 #| code-fold: true
 #| code-summary: "Show learning curve code"
-#| fig-cap: "Learning curves — bias-variance analysis for LR, RF, and GB"
+#| fig-cap: "Learning curves - bias-variance analysis for LR, RF, and GB"
 
 lc_models = {
     'Logistic Regression': lr_pipe,
@@ -614,7 +614,7 @@ lc_models = {
 }
 
 fig, axes = plt.subplots(1, 3, figsize=(13, 4))
-fig.suptitle('Learning Curves — Bias-Variance Analysis',
+fig.suptitle('Learning Curves - Bias-Variance Analysis',
              fontweight='bold', color=PALETTE['text'])
 fig.patch.set_facecolor(PALETTE['surface'])
 
@@ -658,7 +658,7 @@ plt.show()
 
 ```{python}
 #| echo: false
-#| fig-cap: "Calibration curves — are predicted probabilities reliable?"
+#| fig-cap: "Calibration curves - are predicted probabilities reliable?"
 
 fig, ax = plt.subplots(figsize=(7, 5))
 fig.patch.set_facecolor(PALETTE['surface'])
@@ -679,7 +679,7 @@ for probs, name, color in zip(all_probs, names, MODEL_COLORS):
 
 ax.set_xlabel('Mean Predicted Probability')
 ax.set_ylabel('Fraction of Positives')
-ax.set_title('Calibration Curves — Are Predicted Probabilities Reliable?',
+ax.set_title('Calibration Curves - Are Predicted Probabilities Reliable?',
              fontweight='bold', color=PALETTE['text'])
 ax.legend(frameon=False, fontsize=9)
 ax.grid(True, alpha=0.4)
@@ -731,7 +731,7 @@ colors = [
 ]
 coef_s.plot(kind='barh', ax=ax, color=colors)
 ax.axvline(0, color=PALETTE['muted'], linewidth=0.8)
-ax.set_title('Linear Regression Coefficients — Predicting CGPA',
+ax.set_title('Linear Regression Coefficients - Predicting CGPA',
              fontweight='bold', color=PALETTE['text'])
 ax.set_xlabel('Standardised Coefficient')
 ax.grid(True, axis='x', alpha=0.4)
