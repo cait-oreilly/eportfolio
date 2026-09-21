@@ -25,7 +25,7 @@ website:
       - text: "Skills"
         href: achievements.qmd
       - text: "CV"
-        href: projects_files/CV.Cait.pdf
+        href: projects_files/cv-cait.pdf
         target: _blank
       - text: "Contact"
         href: contact.qmd
