@@ -41,7 +41,4 @@ This module focuses on the process of developing and assessing new business vent
 :::
 
 ## Personal Projects 
-This section covers applied machine learning projects including statistical analysis, data visualisation, and predictive modelling.
-
-::: {#personal-projects}
-:::
+This section covers some personal projects I carried out in my free time.
