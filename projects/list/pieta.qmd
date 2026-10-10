@@ -10,7 +10,7 @@ It was a huge success. My customers were able to enjoy their variety of sweet tr
 ```{=html}
   <div style="position:relative; max-width:400px; margin:auto; border-radius:10px; overflow:hidden; box-shadow:0 4px 10px rgba(0,0,0,0.15);">
   <div id="dogCarousel" style="display:flex; transition:transform 0.4s ease;">
-    <img src="../../Images/3cin.PNG" style="min-width:100%; height:600px; object-fit:cover;">
+    <img src="../../Images/3cin.png" style="min-width:100%; height:600px; object-fit:cover;">
     <img src="../../Images/cin-iced.JPEG" style="min-width:100%; height:600px; object-fit:cover;">
     <img src="../../Images/foc.JPEG" style="min-width:100%; height:600px; object-fit:cover;">
     <img src="../../Images/lemon.JPEG" style="min-width:100%; height:600px; object-fit:cover;">
