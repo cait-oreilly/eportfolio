@@ -17,7 +17,7 @@ listing:
     grid-columns: 3
     fields: [image, title, description, author, categories, date]
 
- - id: personal-projects
+  - id: personal-projects
     type: grid
     contents: personal-projects.yml
     sort: "date asc"
@@ -40,9 +40,8 @@ This module focuses on the process of developing and assessing new business vent
 ::: {#ned-projects}
 :::
 
-## Machine Learning
-
+## Personal Projects 
 This section covers applied machine learning projects including statistical analysis, data visualisation, and predictive modelling.
 
-::: {#ml-projects}
+::: {#personal-projects}
 :::
