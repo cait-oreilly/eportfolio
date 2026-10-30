@@ -2,7 +2,7 @@
 title: "Skills"
 toc: true
 ---
-The certificates and skills below were developed during my time at DCU.[^1]
+The certificates and skills below were developed during my time at DCU.
 
 ## Kubicle Certificates
 
@@ -124,4 +124,3 @@ applyFilters();
 | Git & GitHub | Beginner | Version control, GitHub Pages |
 
 
-[^1]: Dublin City University, Collins Avenue, Dublin 9.
