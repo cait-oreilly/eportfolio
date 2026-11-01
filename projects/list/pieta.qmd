@@ -2,6 +2,41 @@
 title: "Fundraiser in aid of Pieta"
 toc: true
 ---
+
+```{=html}
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+  .insta-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: #E1306C;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    transition: transform 0.2s;
+  }
+  .insta-link i {
+    font-size: 2rem;
+  }
+  .insta-link:hover {
+    transform: scale(1.05);
+  }
+</style>
+
+<a class="insta-link"
+   href="https://www.instagram.com/bakedby.cait/"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Follow bakedby.cait on Instagram">
+  <i class="fa-brands fa-instagram"></i>
+  <span>@bakedby.cait</span>
+</a>
+```
+
 To raise money for Pieta, I independently organised and ran a month-long bake sale throughout October, donating **70% of the profits** to the charity.
 
 Although September is recognised as Suicide Awareness Month, I believe suicide prevention and mental health awareness are issues that deserve attention all year round. This inspired me to run the fundraiser throughout October and encourage continued conversation and support.
@@ -59,6 +94,7 @@ I tracked my orders, stock, costing, and profits using a master excel file. Belo
 ```{=html}
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ5fpVAdH40NugeLsV5ylhcWSrDw1kiQizGg7xIKahqOqKx82WaMHubIurej78JKAW5vcT3WXqG61Of/pubhtml?widget=true&amp;headers=false" style="width:100%; height:600px; border:0;"></iframe>
 ```
+
 [Back to Projects](../index.qmd)
 
 
